@@ -1,0 +1,1000 @@
+{
+    "_id": "123456",
+    "username": "",
+    "coin": 0,
+    "dot": 1145,
+    "lastMadeCardId": null,
+    "getProducts": [
+        {
+            "id": 0,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "item",
+                    "assetId": "event.startEvent"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 10000,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 15
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Skyscape.Plum.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                0
+            ]
+        },
+        {
+            "id": 10001,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 20
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.OnAndOn.ETIA.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10000
+            ]
+        },
+        {
+            "id": 10002,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 10
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Polygons.Riya.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10001
+            ]
+        },
+        {
+            "id": 10003,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 15
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Abgrund.ElousFZ.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10002
+            ]
+        },
+        {
+            "id": 10004,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 20
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.JourneyToTheRainbows.Ardolf.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10003
+            ]
+        },
+        {
+            "id": 10005,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 20
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.MidnightFlux.ProjectG.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10004
+            ]
+        },
+        {
+            "id": 10006,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 20
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.NOONEYESMAN.MYUKKE.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10005
+            ]
+        },
+        {
+            "id": 10007,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 15
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ClockParadox.WyvernP.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10006
+            ]
+        },
+        {
+            "id": 10008,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 25
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.FRIEND.DAAN.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10007
+            ]
+        },
+        {
+            "id": 10009,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 25
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Shattered.ARForest.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10008
+            ]
+        },
+        {
+            "id": 10010,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 35
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.SwingSweetTweeDance.Uske.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10009
+            ]
+        },
+        {
+            "id": 10011,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 35
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Vrtuaresort.seatrus.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10010
+            ]
+        },
+        {
+            "id": 10012,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 35
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Dice20.Daily.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10011
+            ]
+        },
+        {
+            "id": 10013,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 30
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.macrowav.dandeless.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10012
+            ]
+        },
+        {
+            "id": 10014,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 35
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.TheNextArcady.SEPHID.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10013
+            ]
+        },
+        {
+            "id": 10015,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 50
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.SakuraFubuki.Street.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10014
+            ]
+        },
+        {
+            "id": 10016,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 50
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Tempest.Plum.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10015
+            ]
+        },
+        {
+            "id": 10017,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 45
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.AuthenticGamever.Rukadesunowheretogo.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10016
+            ]
+        },
+        {
+            "id": 10018,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 77
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.MilK.morimoriatsushi.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10017
+            ]
+        },
+        {
+            "id": 10019,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 65
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ILLEGALLEGACY.seatrus.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10018
+            ]
+        },
+        {
+            "id": 20000,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Bamboo.rissyuu.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20001,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.RIP.eicateve.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20002,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Empire.416.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20003,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.DropDown.Cosmograph.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20004,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Contact.NeutralMoonMK.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20005,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.CANDYLAND.Seo.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20006,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ArcadeViruZ.AspidCat.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20007,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.LINKLINS.Halv.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20008,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.LEONIDS.SaMZIngTitanChaos.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20009,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.FORTALiCE.ZxNX.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20010,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.TurningPOINT.Junk.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20011,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ReversedZenith.Synzak.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20012,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ParadialResonator.RekuMochizuki.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 20013,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 200
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.RestrictedAccess.Knighthood.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": [
+                10019
+            ]
+        },
+        {
+            "id": 30000,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.TheLastPage.ARForest.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        }
+    ],
+    "getOwnProducts": [
+        {
+            "goodId": 0,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10000,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10001,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10002,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10003,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10004,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10005,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10006,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10007,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10008,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10009,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10010,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10011,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10012,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10013,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10014,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10015,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10016,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10017,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10018,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 10019,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20000,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20001,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20002,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20003,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20004,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20005,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20006,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20007,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20008,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20009,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20010,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20011,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20012,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 20013,
+            "purchaseCount": 1
+        },
+        {
+            "goodId": 30000,
+            "purchaseCount": 1
+        }
+    ],
+    "getItems": [
+        {
+            "amount": 1,
+            "itemAssetId": "event.startEvent"
+        }
+    ],
+    "myBest": [ ],
+    "unlockedLevels": [
+        "track.PastelLines.RekuMochizuki.0",
+        "track.Gleam.Uske.0",
+        "track.PowerAttack.EBIMAYO.0"
+    ],
+    "appearLevels": [
+        "track.PastelLines.RekuMochizuki.0",
+        "track.Gleam.Uske.0",
+        "track.PowerAttack.EBIMAYO.0",
+        "track.Skyscape.Plum.0",
+        "track.OnAndOn.ETIA.0",
+        "track.Polygons.Riya.0",
+        "track.Abgrund.ElousFZ.0",
+        "track.JourneyToTheRainbows.Ardolf.0",
+        "track.MidnightFlux.ProjectG.0",
+        "track.NOONEYESMAN.MYUKKE.0",
+        "track.ClockParadox.WyvernP.0",
+        "track.FRIEND.DAAN.0",
+        "track.Shattered.ARForest.0",
+        "track.SwingSweetTweeDance.Uske.0",
+        "track.Vrtuaresort.seatrus.0",
+        "track.Dice20.Daily.0",
+        "track.macrowav.dandeless.0",
+        "track.TheNextArcady.SEPHID.0",
+        "track.SakuraFubuki.Street.0",
+        "track.Tempest.Plum.0",
+        "track.AuthenticGamever.Rukadesunowheretogo.0",
+        "track.MilK.morimoriatsushi.0",
+        "track.ILLEGALLEGACY.seatrus.0",
+        "track.Bamboo.rissyuu.0",
+        "track.RIP.eicateve.0",
+        "track.Empire.416.0",
+        "track.DropDown.Cosmograph.0",
+        "track.Contact.NeutralMoonMK.0",
+        "track.CANDYLAND.Seo.0",
+        "track.ArcadeViruZ.AspidCat.0",
+        "track.LINKLINS.Halv.0",
+        "track.LEONIDS.SaMZIngTitanChaos.0",
+        "track.FORTALiCE.ZxNX.0",
+        "track.TurningPOINT.Junk.0",
+        "track.ReversedZenith.Synzak.0",
+        "track.ParadialResonator.RekuMochizuki.0",
+        "track.RestrictedAccess.Knighthood.0",
+        "track.TheLastPage.ARForest.0",
+        "track.AbsolutionPulse.nm.0",
+        "track.ColorfulFlavor.Cansol.0",
+        "track.RuleTheWorld.VauBoy.0",
+        "track.SuperUniverseKnighthoodRemix.Knighthood.0",
+        "track.Enneaquest.SEPHID.0"
+    ]
+}
