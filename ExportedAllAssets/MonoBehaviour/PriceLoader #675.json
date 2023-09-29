@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 90
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 7
+  },
+  "m_Name": "",
+  "productIds": [
+    {
+      "platform": 1,
+      "channel": 2,
+      "productId": "67.coin.99.android"
+    },
+    {
+      "platform": 2,
+      "channel": 2,
+      "productId": "67.coin.99.ios"
+    },
+    {
+      "platform": 0,
+      "channel": 1,
+      "productId": "RIZLINECOIN1"
+    }
+  ]
+}

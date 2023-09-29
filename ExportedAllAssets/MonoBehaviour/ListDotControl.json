@@ -1,0 +1,71 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 105
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 46
+  },
+  "m_Name": "",
+  "controller": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "addressableImageLoader": {
+    "m_FileID": 0,
+    "m_PathID": 188
+  },
+  "level": {
+    "id": "",
+    "levelInfo": {
+      "id": "",
+      "musicId": "",
+      "illustrationId": "",
+      "chartIds": [],
+      "appearType": 0,
+      "discName": ""
+    },
+    "musicInfo": {
+      "id": "",
+      "musicName": "",
+      "artist": "",
+      "previewStartTime": 0.0,
+      "previewOverTime": 0.0,
+      "themeBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "themeUiColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    },
+    "illustrationInfo": {
+      "id": "",
+      "artist": ""
+    },
+    "chartInfos": [],
+    "appearType": 0
+  },
+  "price": 0,
+  "unlocked": 0,
+  "goodId": 0,
+  "unlockAnim": {
+    "m_FileID": 0,
+    "m_PathID": 189
+  },
+  "toUnlockedState": {
+    "m_FileID": 0,
+    "m_PathID": 187
+  },
+  "unlockedCover": {
+    "m_FileID": 0,
+    "m_PathID": 106
+  }
+}

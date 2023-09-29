@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 59
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 15
+  },
+  "m_Name": "",
+  "circleDirection": -1,
+  "listDirection": 1,
+  "appearAngle": 70.0,
+  "cursorActiveRange": 0.7,
+  "radius": 1260.66,
+  "distance": 19.65,
+  "minCursorValue": -1.0,
+  "maxCursorValue": 8.0,
+  "stayRotation": 1
+}

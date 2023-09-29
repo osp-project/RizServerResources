@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4524126615256384434
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 4921664367192299482
+  },
+  "m_Name": "",
+  "stateControl": {
+    "m_FileID": 0,
+    "m_PathID": 8691920140105858126
+  },
+  "sceneId": "event.juggernautEvent.main",
+  "cutoutPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 3913902692694989914
+  },
+  "canvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": -4532891525545214898
+  }
+}

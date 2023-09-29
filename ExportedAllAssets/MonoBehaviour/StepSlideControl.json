@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 59
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 18
+  },
+  "m_Name": "",
+  "minValue": 0,
+  "maxValue": 7,
+  "nowPosition": 0.0,
+  "step": 1.4,
+  "lerpSpeed": 0.25,
+  "reverseResult": 1,
+  "slideSensitive": 40.0,
+  "update": {
+    "m_PersistentCalls": {
+      "m_Calls": [
+        {
+          "m_Target": {
+            "m_FileID": 0,
+            "m_PathID": 390
+          },
+          "m_TargetAssemblyTypeName": "CircleScroll, Assembly-CSharp",
+          "m_MethodName": "SetCursor",
+          "m_Mode": 0,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0.0,
+            "m_StringArgument": "",
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        },
+        {
+          "m_Target": {
+            "m_FileID": 0,
+            "m_PathID": 388
+          },
+          "m_TargetAssemblyTypeName": "StarterUnlockControl, Assembly-CSharp",
+          "m_MethodName": "OnSlide",
+          "m_Mode": 0,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0.0,
+            "m_StringArgument": "",
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    }
+  }
+}

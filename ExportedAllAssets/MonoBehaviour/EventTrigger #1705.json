@@ -1,0 +1,226 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 37
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 31
+  },
+  "m_Name": "",
+  "playOnStart": 0,
+  "playOnEnable": 0,
+  "playOnDisable": 0,
+  "refuseInvokeBeforeEventsFinished": 0,
+  "refuseInvokeWhileTouchBlocked": 0,
+  "triggers": [
+    {
+      "events": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 259
+              },
+              "m_TargetAssemblyTypeName": "BlockTouchService, Assembly-CSharp",
+              "m_MethodName": "BlockTouch",
+              "m_Mode": 4,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 1.5,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 211
+              },
+              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
+              "m_MethodName": "Over",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 218
+              },
+              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
+              "m_MethodName": "Over",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 249
+              },
+              "m_TargetAssemblyTypeName": "TweenOneShootControl, Assembly-CSharp",
+              "m_MethodName": "Stop",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 200
+              },
+              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
+              "m_MethodName": "Play",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 318
+              },
+              "m_TargetAssemblyTypeName": "AddressableAudioSource, Assembly-CSharp",
+              "m_MethodName": "Play",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 256
+              },
+              "m_TargetAssemblyTypeName": "CASceneManager, CodeAtoms",
+              "m_MethodName": "Send",
+              "m_Mode": 5,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "recordScene",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 256
+              },
+              "m_TargetAssemblyTypeName": "CASceneManager, CodeAtoms",
+              "m_MethodName": "Send",
+              "m_Mode": 5,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "loadSceneAsync.Explore",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      },
+      "offset": 0.0
+    },
+    {
+      "events": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 256
+              },
+              "m_TargetAssemblyTypeName": "CASceneManager, CodeAtoms",
+              "m_MethodName": "Send",
+              "m_Mode": 5,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "unloadCurrentScene",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      },
+      "offset": 1.5
+    }
+  ]
+}

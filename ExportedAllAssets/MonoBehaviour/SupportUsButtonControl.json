@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7987173533055753630
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 3203459405704956709
+  },
+  "m_Name": "",
+  "stateControl": {
+    "m_FileID": 0,
+    "m_PathID": 7753336029991312798
+  },
+  "sceneId": "event.supportUsEvent.main",
+  "cutoutPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 3913902692694989914
+  },
+  "canvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": 6817855870347222430
+  },
+  "imageLoader": {
+    "m_FileID": 0,
+    "m_PathID": -8333650325756404322
+  }
+}

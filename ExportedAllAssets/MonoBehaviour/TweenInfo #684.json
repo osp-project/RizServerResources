@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 93
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 23
+  },
+  "m_Name": "",
+  "targetComponent": {
+    "m_FileID": 0,
+    "m_PathID": 413
+  },
+  "duration": 1.0,
+  "delay": 0.0,
+  "easeType": 11,
+  "curve": {
+    "m_Curve": [],
+    "m_PreInfinity": 2,
+    "m_PostInfinity": 2,
+    "m_RotationOrder": 4
+  },
+  "tweenType": 5,
+  "useOnStart": 0,
+  "useOnComplete": 0,
+  "target": 0.5,
+  "target2": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "target3": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "targetColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "onStart": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "onComplete": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "onTween": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "nowTime": 0.0,
+  "startValue": 0.0,
+  "startColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "startValue2": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "startValue3": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "autoPlay": 0,
+  "isOver": 1,
+  "caMessage": ""
+}

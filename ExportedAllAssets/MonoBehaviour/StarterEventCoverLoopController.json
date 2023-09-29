@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 39
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 31
+  },
+  "m_Name": "",
+  "songPrefab": {
+    "m_FileID": 1,
+    "m_PathID": 186
+  },
+  "tracks1": {
+    "m_FileID": 0,
+    "m_PathID": 247
+  },
+  "tracks2": {
+    "m_FileID": 0,
+    "m_PathID": 231
+  },
+  "gap": 285.0,
+  "speed": 50.0
+}

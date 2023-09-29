@@ -1,0 +1,104 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4546140294489662912
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3628079548422528528
+  },
+  "m_Name": "",
+  "spriteFiles": [
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 6,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 0,
+          "m_PathID": 7815164211787656864
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 40,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 0,
+          "m_PathID": 7815164211787656864
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 0,
+        "platform": 0
+      },
+      "value": {
+        "language": 41,
+        "isRollbackImage": 1,
+        "isRollbackImageCondition": {
+          "channel": 2,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 0,
+          "m_PathID": -7231369905527254075
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 10,
+        "isRollbackImage": 1,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 0,
+          "m_PathID": 9106165918046842630
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 22,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 0,
+          "m_PathID": 7117179926189859953
+        }
+      }
+    }
+  ]
+}

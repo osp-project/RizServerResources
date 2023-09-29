@@ -1,0 +1,155 @@
+# zh-Hans
+
+=
+
+system.stayTuned=敬请期待
+system.updateFailedTitle=更新失败
+system.updateFailedText=更新失败，请检查网络连接
+system.checkForUpdatesFailed=检查更新失败
+system.loading=加载中...
+system.quitGameTitle=退出游戏
+system.quitGameText=确定退出游戏吗？
+system.sendingRequest=通信中
+system.error=错误
+system.networkError=网络连接异常，即将返回标题界面
+system.networkErrorRetry=无法连接到服务器，是否重试？
+system.uploadFailed=成绩上传失败，是否重试？
+system.serverMaintenanceTitle=提示
+system.serverMaintenanceText=服务器维护中
+system.cannotConnectToGooglePlay=无法连接到 Google Play，是否重试？
+system.cannotConnectToAppStore=无法连接到 App Store，是否重试？
+system.regionNotAvailable=Rizline 尚未在你所在的地区提供服务，敬请期待！
+system.internalError=内部错误，请尝试重新安装游戏
+system.versionTooLowTitle=提示
+system.versionTooLow=游戏版本过低，请更新游戏
+system.gameResourceExpiredTitle=提示
+system.gameResourceExpiredText=游戏资源已更新，即将返回标题界面
+
+account.login=登录
+account.regist=注册
+account.username=用户名
+account.password=密码
+account.repeatPassword=重复密码
+account.deviceConflictTitle=设备冲突
+account.deviceConflictText=该账号已在其他设备登录，即将返回登录页
+account.loginFailed=登录失败
+account.registFailed=注册失败
+account.missingUsername=请输入用户名
+account.missingPassword=请输入密码
+account.passwordNotMatch=两次输入的密码不一致
+account.autoLoginFailedTitle=自动登录失败
+account.autoLoginFailedText=自动登录失败，请重新登录
+account.confirmLogoutTitle=退出登录
+account.confirmLogoutText=确定退出登录吗？
+account.inputUserNameTitle=输入账号名称
+account.inputUserNameHint=账号名称包含10位以内的大小写字母和数字。{NL}账号名称创建后不可再次更改。
+account.inputUserName=账号名称
+account.inputUserNameInvalid=账号名称不符合要求
+account.accountSettings=账号设置
+account.loggedInUsernameText=已登录账号：{0}
+account.accountCenter=管理
+account.copyId=复制 ID
+
+resource.gettingRequiredFiles=获取必要文件...
+resource.downloadFailedTitle=下载失败
+resource.downloadFailedNetwork=下载失败，请检查网络连接
+resource.downloadFailedInternal=下载失败，内部错误，请尝试重新安装游戏
+resource.confirmDownloadTitle=下载资源
+resource.confirmDownloadText=需要下载{0:F2}MB的资源，是否继续？
+resource.downloading=下载中...{0:F2}%
+
+settings.chartSpeed=谱面流速
+settings.hitFXVolume=打击音音量
+settings.judgeOffset=判定偏移
+settings.judgeOffsetHint=*Late 较多时增大，Early 较多时减小
+settings.advancedOffsetConfig=偏移详细设置
+settings.tutorial=观看教学
+
+player.noRank=暂无
+player.bio=初来乍到的新手
+
+gameStart.title=触摸以开始
+mainMenu.play=开始
+mainMenu.multiplayer=联机
+mainMenu.shop=商店
+mainMenu.explore=探索
+mainMenu.collections=收藏
+levelSelect.score=分数 :
+levelSelect.length=时长 :
+levelSelect.notEnough=余额不足
+levelSelect.judgementDistribution=判定分布
+levelSelect.mod.limitedTime=限时！
+levelSelect.mod.freeText1=免
+levelSelect.mod.freeText2=体验
+levelSelect.mod.mirror=将关卡左右翻转
+levelSelect.mod.noFail=计量条耗尽时不会Fail
+levelSelect.mod.noBad=点击过早时不会触发Bad
+levelSelect.mod.unranked=不计入成绩，达成率倍数
+levelLoading.songTitlePrompt=接下来
+levelLoading.illustratorPrompt=插画设计 : {0}
+levelLoading.levelDesignerPrompt=关卡设计 : {0}
+level.pauseHint=向下滑动以暂停
+level.pause=暂停
+level.exit=退出
+record.score=分数:
+record.hit=命中
+record.combo=连击
+
+Information doesn't match the rule=用户名或密码不符合要求
+用户名或密码错误=用户名或密码错误
+新用户名含有敏感词汇=新用户名含有敏感词汇
+User already exist!=该用户名已被使用
+账号已在其他设备上登录=账号已在其他设备上登录
+
+goods.unlockGameContentTitle=感谢试玩！
+goods.unlockGameContentDescription=前往探索页{NL}体验 Rizline 的全部内容！{NL}享受多达 30 首乐曲以及{NL}即将出现的限时活动！
+goods.unlockGameContentPrice=解锁
+
+events.eventTypeResident=常驻活动
+events.starterEvent.name=一起，开始旅途吧！
+events.starterEvent.description=和角色们一起探索 Rizline！{NL}包含数十首歌曲，<b>曲目阵容长期更新！
+events.starterEvent.buy=解锁
+events.starterEvent.buyCoin=购买
+events.starterEvent.notUnlock=待解锁
+events.starterEvent.unlocked=已解锁
+events.supportUsEvent.name=帮助我们的开发
+events.supportUsEvent.remainingTitle=距下一首更新还有
+events.supportUsEvent.remaining={0}<size=32>份</size>
+events.supportUsEvent.reachedTitle=3000份 已达成！
+events.supportUsEvent.updateTime=下一首更新 : {0}
+events.supportUsEvent.description=目前我们团队的经济状况十分困难。如果无法提高收入，可能会难以支持游戏持续更新。如果您喜欢我们的游戏，可以购买这首单曲。全球购买每达到3000份，我们会在其后的第一个周五在此处更新一首新的曲目。感谢各位玩家的支持！
+events.supportUsEvent.giveDots=解锁额外赠送
+events.juggernautEvent.buyHint=可前往 Disc EX 购买
+events.juggernautEvent.clickToClose=点击空白处关闭
+
+purchase.successTitle=提示
+purchase.successText=支付成功
+purchase.failedTitle=提示
+purchase.failedText=支付失败
+purchase.helpTitle=帮助
+purchase.helpText=付费货币“Coin”可用于购买付费内容。{NL}“Coin”与你的账号绑定，长期有效。
+purchase.moneyNotEnoughTitle=提示
+purchase.moneyNotEnoughText=余额不足
+purchase.externalLinkTitle=提示
+purchase.externalLinkText=即将跳转至外部链接，是否继续？{NL}<size=24><color=#666>*购买的 Coin 可能不会立即到账，请您耐心等待</color></size>
+purchase.unlock=解锁
+purchase.unlocked=已解锁
+purchase.buyDotsTitle=兑换 Dot
+purchase.buyDotsText=要使用 1 个 coin 兑换 500 个 dot 吗？
+purchase.jumpToBuy=前往购买
+
+collections.achievement=成就
+collections.achievement.emptyHintTitle=无成就
+collections.achievement.emptyHintText=持续游玩即可获得成就！
+collections.achievement.achievedTitle=达成成就
+collections.achievement.achieveTime=达成于 {0}
+collections.illustration=插画
+collections.illustration.emptyHintTitle=无插画
+collections.illustration.emptyHintText=持续游玩即可获得插画！
+collections.illustration.dropItemHint=获得了新的插画！
+collections.layout=版式
+collections.layout.emptyHintTitle=无版式
+collections.layout.emptyHintText=持续游玩即可获得版式！
+collections.layout.dropItemHint=获得了新的版式！
+collections.layoutHint=版式及相关功能将在近期推出{NL}敬请期待！
+collections.touchToContinue=点击屏幕继续

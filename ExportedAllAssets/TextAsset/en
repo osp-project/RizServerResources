@@ -1,0 +1,155 @@
+# en
+
+=
+
+system.stayTuned=Coming soon
+system.updateFailedTitle=Update Failed
+system.updateFailedText=Update failed, please check your Internet connection
+system.checkForUpdatesFailed=Failed to check for updates
+system.loading=Loading...
+system.quitGameTitle=Exit
+system.quitGameText=Are you sure you want to exit?
+system.sendingRequest=Connecting
+system.error=Error
+system.networkError=Network error, returning to title
+system.networkErrorRetry=Cannot connect to server. Try again?
+system.uploadFailed=Score upload failed. Try again?
+system.serverMaintenanceTitle=Notice
+system.serverMaintenanceText=Server is under maintenance
+system.cannotConnectToGooglePlay=Cannot connect to Google Play. Try again?
+system.cannotConnectToAppStore=Cannot connect to App Store. Try again?
+system.regionNotAvailable=Rizline is not available in your region at this moment. Please stay tuned!
+system.internalError=Internal error. Please try to re-install the game
+system.versionTooLowTitle=Update Notice
+system.versionTooLow=New version found! Please update the base game.
+system.gameResourceExpiredTitle=Update Notice
+system.gameResourceExpiredText=Game content update detected, returning to title screen
+
+account.login=Login
+account.regist=Register
+account.username=Username
+account.password=Password
+account.repeatPassword=Confirm password
+account.deviceConflictTitle=Device Conflict
+account.deviceConflictText=This account has been logged in on another device. Returning to title.
+account.loginFailed=Login failed
+account.registFailed=Registration failed
+account.missingUsername=Please enter your username
+account.missingPassword=Please enter your password
+account.passwordNotMatch=Two passwords do not match
+account.autoLoginFailedTitle=Auto-login failed
+account.autoLoginFailedText=Auto-login failed, please login again
+account.confirmLogoutTitle=Logout
+account.confirmLogoutText=Are you sure to logout?
+account.inputUserNameTitle=What's your name?
+account.inputUserNameHint=Account username must be 10 characters or less, and can only contain letters and numbers. {NL}Once created, the username cannot be changed.
+account.inputUserName=Username
+account.inputUserNameInvalid=This username cannot be used. Please follow the requirements.
+account.accountSettings=Account settings
+account.loggedInUsernameText=Logged in to {0}
+account.accountCenter=Manage
+account.copyId=Copy ID
+
+resource.gettingRequiredFiles=Getting necessary files...
+resource.downloadFailedTitle=Download failed
+resource.downloadFailedNetwork=Download failed, please check your network connection
+resource.downloadFailedInternal=Download failed, internal error, please try reinstalling the game
+resource.confirmDownloadTitle=Download resources
+resource.confirmDownloadText=Download {0:F2} MB of resources, continue?
+resource.downloading=Downloading...{0:F2}%
+
+settings.chartSpeed=Note speed
+settings.hitFXVolume=Hit sound volume
+settings.judgeOffset=Offset
+settings.judgeOffsetHint=*Increase when there are more Late judgement than Early judgement
+settings.advancedOffsetConfig=Advanced offset settings
+settings.tutorial=Watch tutorial
+
+player.noRank=None
+player.bio=Newcomer
+
+gameStart.title=Touch to start
+mainMenu.play=Start
+mainMenu.multiplayer=Online
+mainMenu.shop=Shop
+mainMenu.explore=Explore
+mainMenu.collections=Collections
+levelSelect.score=Score:
+levelSelect.length=Length:
+levelSelect.notEnough=Not Enough
+levelSelect.judgementDistribution=Judgement Distribution
+levelSelect.mod.limitedTime=Limited-Time!
+levelSelect.mod.freeText1=No
+levelSelect.mod.freeText2=needed
+levelSelect.mod.mirror=Mirror
+levelSelect.mod.noFail=No fail when gauge depleted
+levelSelect.mod.noBad=No Bad for early hits
+levelSelect.mod.unranked=Unranked. Completion rate
+levelLoading.songTitlePrompt=Next up
+levelLoading.illustratorPrompt=Illustration: {0}
+levelLoading.levelDesignerPrompt=Chart: {0}
+level.pauseHint=Swipe down to pause
+level.pause=Pause
+level.exit=Quit
+record.score=Score:
+record.hit=Hit
+record.combo=Combo
+
+Information doesn't match the rule=This username cannot be used. Please follow the requirements.
+用户名或密码错误=Username or password incorrect
+新用户名含有敏感词汇=New username contains sensitive words
+User already exist!=This username has been used
+账号已在其他设备上登录=Account is already logged in on another device
+
+goods.unlockGameContentTitle=Thank you for{NL}trying out Rizline!
+goods.unlockGameContentDescription=Go to the Explore page{NL}to experience all of Rizline's content!{NL}Enjoy over 30 songs and{NL}upcoming limited-time events!
+goods.unlockGameContentPrice=Unlock
+
+events.eventTypeResident=Permanent Event
+events.starterEvent.name=Let's start the journey together!
+events.starterEvent.description=Explore Rizline with the characters!{NL}Contains dozens of songs, <b>song list is updated regularly!
+events.starterEvent.buy=Unlock
+events.starterEvent.buyCoin=Buy
+events.starterEvent.notUnlock=Locked
+events.starterEvent.unlocked=Unlocked
+events.supportUsEvent.name=Support Us!
+events.supportUsEvent.remainingTitle=Till next update
+events.supportUsEvent.remaining={0}<size=32>purchases</size>
+events.supportUsEvent.reachedTitle=3000 purchases reached!
+events.supportUsEvent.updateTime=Next update : {0}
+events.supportUsEvent.description=Currently, our team is facing financial difficulties. It may be difficult for us to continue providing updates to the game if this situation keeps up. If you like the game and wish to support us, you can do so by purchasing this single. If it reaches 3,000 sales worldwide, we will release a new single here on the first following Friday. Thank you for the continuous support!
+events.supportUsEvent.giveDots=Receive upon unlock
+events.juggernautEvent.buyHint=Available at Disc EX
+events.juggernautEvent.clickToClose=Tap to close
+
+purchase.successTitle=Notifications
+purchase.successText=Payment successful
+purchase.failedTitle=Notifications
+purchase.failedText=Payment failed
+purchase.helpTitle=Help
+purchase.helpText=“Coin” is a paid currency that can be used to purchase content.{NL}“Coin” is bound to your account and will not expire.
+purchase.moneyNotEnoughTitle=Notice
+purchase.moneyNotEnoughText=Insufficient balance
+purchase.externalLinkTitle=Notice
+purchase.externalLinkText=You will be redirected to an external link. Continue?{NL}<size=24><color=#666>*Coin may not be credited immediately, please wait patiently</color></size>
+purchase.unlock=Unlock
+purchase.unlocked=Unlocked
+purchase.buyDotsTitle=Exchange for Dots
+purchase.buyDotsText=Exchange 1 coin for 500 Dots?
+purchase.jumpToBuy=View
+
+collections.achievement=Badges
+collections.achievement.emptyHintTitle=No badge yet
+collections.achievement.emptyHintText=Play on to earn badges!
+collections.achievement.achievedTitle=Badge acquired
+collections.achievement.achieveTime=Acquired on {0}
+collections.illustration=Arts
+collections.illustration.emptyHintTitle=No Art yet
+collections.illustration.emptyHintText=Play on to earn Arts!
+collections.illustration.dropItemHint=New Art!
+collections.layout=Layouts
+collections.layout.emptyHintTitle=No layout yet
+collections.layout.emptyHintText=Play on to earn layouts!
+collections.layout.dropItemHint=New layout!
+collections.layoutHint=Layouts and related features{NL}coming soon!
+collections.touchToContinue=Tap to continue

@@ -1,0 +1,104 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 16
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 35
+  },
+  "m_Name": "",
+  "spriteFiles": [
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 6,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 1,
+          "m_PathID": 136
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 40,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 1,
+          "m_PathID": 136
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 0,
+        "platform": 0
+      },
+      "value": {
+        "language": 41,
+        "isRollbackImage": 1,
+        "isRollbackImageCondition": {
+          "channel": 2,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 1,
+          "m_PathID": 135
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 10,
+        "isRollbackImage": 1,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 1,
+          "m_PathID": 134
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 0
+      },
+      "value": {
+        "language": 22,
+        "isRollbackImage": 0,
+        "isRollbackImageCondition": {
+          "channel": 0,
+          "platform": 0
+        },
+        "image": {
+          "m_FileID": 1,
+          "m_PathID": 139
+        }
+      }
+    }
+  ]
+}

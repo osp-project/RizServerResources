@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 102
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 25
+  },
+  "m_Name": "",
+  "expandAnim": {
+    "m_FileID": 0,
+    "m_PathID": 433
+  },
+  "collapseAnim": {
+    "m_FileID": 0,
+    "m_PathID": 440
+  },
+  "expandButton": {
+    "m_FileID": 0,
+    "m_PathID": 451
+  },
+  "helpButton": {
+    "m_FileID": 0,
+    "m_PathID": 439
+  },
+  "purchaseCanvasGroup": {
+    "m_FileID": 0,
+    "m_PathID": 290
+  }
+}

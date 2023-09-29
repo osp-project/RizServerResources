@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 2824951522952014053
+  },
+  "m_Name": "ExploreEvents",
+  "events": [
+    {
+      "id": "starterEvent",
+      "condition": {
+        "enabled": 0,
+        "anyConditionOf": []
+      }
+    },
+    {
+      "id": "juggernautEvent",
+      "condition": {
+        "enabled": 1,
+        "anyConditionOf": [
+          {
+            "allConditionOf": [
+              {
+                "value": {
+                  "sourceType": 6,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 0
+              }
+            ],
+            "revertResult": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "supportUsEvent",
+      "condition": {
+        "enabled": 1,
+        "anyConditionOf": [
+          {
+            "allConditionOf": [
+              {
+                "value": {
+                  "sourceType": 6,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 0
+              }
+            ],
+            "revertResult": 0
+          }
+        ]
+      }
+    }
+  ]
+}

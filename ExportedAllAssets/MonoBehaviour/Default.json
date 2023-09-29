@@ -1,0 +1,2279 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2772323478762812507
+  },
+  "m_Name": "Default",
+  "levels": [
+    {
+      "id": "PastelLines.RekuMochizuki.0",
+      "musicId": "PastelLines.RekuMochizuki.0",
+      "illustrationId": "illustration.PastelLines.RekuMochizuki.0",
+      "chartIds": [
+        "chart.PastelLines.RekuMochizuki.0.EZ",
+        "chart.PastelLines.RekuMochizuki.0.HD",
+        "chart.PastelLines.RekuMochizuki.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Gleam.Uske.0",
+      "musicId": "Gleam.Uske.0",
+      "illustrationId": "illustration.Gleam.Uske.0",
+      "chartIds": [
+        "chart.Gleam.Uske.0.EZ",
+        "chart.Gleam.Uske.0.HD",
+        "chart.Gleam.Uske.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "PowerAttack.EBIMAYO.0",
+      "musicId": "PowerAttack.EBIMAYO.0",
+      "illustrationId": "illustration.PowerAttack.EBIMAYO.0",
+      "chartIds": [
+        "chart.PowerAttack.EBIMAYO.0.EZ",
+        "chart.PowerAttack.EBIMAYO.0.HD",
+        "chart.PowerAttack.EBIMAYO.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Skyscape.Plum.0",
+      "musicId": "Skyscape.Plum.0",
+      "illustrationId": "illustration.Skyscape.Plum.0",
+      "chartIds": [
+        "chart.Skyscape.Plum.0.EZ",
+        "chart.Skyscape.Plum.0.HD",
+        "chart.Skyscape.Plum.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "OnAndOn.ETIA.0",
+      "musicId": "OnAndOn.ETIA.0",
+      "illustrationId": "illustration.OnAndOn.ETIA.0",
+      "chartIds": [
+        "chart.OnAndOn.ETIA.0.EZ",
+        "chart.OnAndOn.ETIA.0.HD",
+        "chart.OnAndOn.ETIA.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Polygons.Riya.0",
+      "musicId": "Polygons.Riya.0",
+      "illustrationId": "illustration.Polygons.Riya.0",
+      "chartIds": [
+        "chart.Polygons.Riya.0.EZ",
+        "chart.Polygons.Riya.0.HD",
+        "chart.Polygons.Riya.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Abgrund.ElousFZ.0",
+      "musicId": "Abgrund.ElousFZ.0",
+      "illustrationId": "illustration.Abgrund.ElousFZ.0",
+      "chartIds": [
+        "chart.Abgrund.ElousFZ.0.EZ",
+        "chart.Abgrund.ElousFZ.0.HD",
+        "chart.Abgrund.ElousFZ.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "JourneyToTheRainbows.Ardolf.0",
+      "musicId": "JourneyToTheRainbows.Ardolf.0",
+      "illustrationId": "illustration.JourneyToTheRainbows.Ardolf.0",
+      "chartIds": [
+        "chart.JourneyToTheRainbows.Ardolf.0.EZ",
+        "chart.JourneyToTheRainbows.Ardolf.0.HD",
+        "chart.JourneyToTheRainbows.Ardolf.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "MidnightFlux.ProjectG.0",
+      "musicId": "MidnightFlux.ProjectG.0",
+      "illustrationId": "illustration.MidnightFlux.ProjectG.0",
+      "chartIds": [
+        "chart.MidnightFlux.ProjectG.0.EZ",
+        "chart.MidnightFlux.ProjectG.0.HD",
+        "chart.MidnightFlux.ProjectG.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "NOONEYESMAN.MYUKKE.0",
+      "musicId": "NOONEYESMAN.MYUKKE.0",
+      "illustrationId": "illustration.NOONEYESMAN.MYUKKE.0",
+      "chartIds": [
+        "chart.NOONEYESMAN.MYUKKE.0.EZ",
+        "chart.NOONEYESMAN.MYUKKE.0.HD",
+        "chart.NOONEYESMAN.MYUKKE.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "ClockParadox.WyvernP.0",
+      "musicId": "ClockParadox.WyvernP.0",
+      "illustrationId": "illustration.ClockParadox.WyvernP.0",
+      "chartIds": [
+        "chart.ClockParadox.WyvernP.0.EZ",
+        "chart.ClockParadox.WyvernP.0.HD",
+        "chart.ClockParadox.WyvernP.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "FRIEND.DAAN.0",
+      "musicId": "FRIEND.DAAN.0",
+      "illustrationId": "illustration.FRIEND.DAAN.0",
+      "chartIds": [
+        "chart.FRIEND.DAAN.0.EZ",
+        "chart.FRIEND.DAAN.0.HD",
+        "chart.FRIEND.DAAN.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Shattered.ARForest.0",
+      "musicId": "Shattered.ARForest.0",
+      "illustrationId": "illustration.Shattered.ARForest.0",
+      "chartIds": [
+        "chart.Shattered.ARForest.0.EZ",
+        "chart.Shattered.ARForest.0.HD",
+        "chart.Shattered.ARForest.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "SwingSweetTweeDance.Uske.0",
+      "musicId": "SwingSweetTweeDance.Uske.0",
+      "illustrationId": "illustration.SwingSweetTweeDance.Uske.0",
+      "chartIds": [
+        "chart.SwingSweetTweeDance.Uske.0.EZ",
+        "chart.SwingSweetTweeDance.Uske.0.HD",
+        "chart.SwingSweetTweeDance.Uske.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Vrtuaresort.seatrus.0",
+      "musicId": "Vrtuaresort.seatrus.0",
+      "illustrationId": "illustration.Vrtuaresort.seatrus.0",
+      "chartIds": [
+        "chart.Vrtuaresort.seatrus.0.EZ",
+        "chart.Vrtuaresort.seatrus.0.HD",
+        "chart.Vrtuaresort.seatrus.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Dice20.Daily.0",
+      "musicId": "Dice20.Daily.0",
+      "illustrationId": "illustration.Dice20.Daily.0",
+      "chartIds": [
+        "chart.Dice20.Daily.0.EZ",
+        "chart.Dice20.Daily.0.HD",
+        "chart.Dice20.Daily.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "macrowav.dandeless.0",
+      "musicId": "macrowav.dandeless.0",
+      "illustrationId": "illustration.macrowav.dandeless.0",
+      "chartIds": [
+        "chart.macrowav.dandeless.0.EZ",
+        "chart.macrowav.dandeless.0.HD",
+        "chart.macrowav.dandeless.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "TheNextArcady.SEPHID.0",
+      "musicId": "TheNextArcady.SEPHID.0",
+      "illustrationId": "illustration.TheNextArcady.SEPHID.0",
+      "chartIds": [
+        "chart.TheNextArcady.SEPHID.0.EZ",
+        "chart.TheNextArcady.SEPHID.0.HD",
+        "chart.TheNextArcady.SEPHID.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "SakuraFubuki.Street.0",
+      "musicId": "SakuraFubuki.Street.0",
+      "illustrationId": "illustration.SakuraFubuki.Street.0",
+      "chartIds": [
+        "chart.SakuraFubuki.Street.0.EZ",
+        "chart.SakuraFubuki.Street.0.HD",
+        "chart.SakuraFubuki.Street.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Tempest.Plum.0",
+      "musicId": "Tempest.Plum.0",
+      "illustrationId": "illustration.Tempest.Plum.0",
+      "chartIds": [
+        "chart.Tempest.Plum.0.EZ",
+        "chart.Tempest.Plum.0.HD",
+        "chart.Tempest.Plum.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "AuthenticGamever.Rukadesunowheretogo.0",
+      "musicId": "AuthenticGamever.Rukadesunowheretogo.0",
+      "illustrationId": "illustration.AuthenticGamever.Rukadesunowheretogo.0",
+      "chartIds": [
+        "chart.AuthenticGamever.Rukadesunowheretogo.0.EZ",
+        "chart.AuthenticGamever.Rukadesunowheretogo.0.HD",
+        "chart.AuthenticGamever.Rukadesunowheretogo.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "MilK.morimoriatsushi.0",
+      "musicId": "MilK.morimoriatsushi.0",
+      "illustrationId": "illustration.MilK.morimoriatsushi.0",
+      "chartIds": [
+        "chart.MilK.morimoriatsushi.0.EZ",
+        "chart.MilK.morimoriatsushi.0.HD",
+        "chart.MilK.morimoriatsushi.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "ILLEGALLEGACY.seatrus.0",
+      "musicId": "ILLEGALLEGACY.seatrus.0",
+      "illustrationId": "illustration.ILLEGALLEGACY.seatrus.0",
+      "chartIds": [
+        "chart.ILLEGALLEGACY.seatrus.0.EZ",
+        "chart.ILLEGALLEGACY.seatrus.0.HD",
+        "chart.ILLEGALLEGACY.seatrus.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Bamboo.rissyuu.0",
+      "musicId": "Bamboo.rissyuu.0",
+      "illustrationId": "illustration.Bamboo.rissyuu.0",
+      "chartIds": [
+        "chart.Bamboo.rissyuu.0.EZ",
+        "chart.Bamboo.rissyuu.0.HD",
+        "chart.Bamboo.rissyuu.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "RIP.eicateve.0",
+      "musicId": "RIP.eicateve.0",
+      "illustrationId": "illustration.RIP.eicateve.0",
+      "chartIds": [
+        "chart.RIP.eicateve.0.EZ",
+        "chart.RIP.eicateve.0.HD",
+        "chart.RIP.eicateve.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Empire.416.0",
+      "musicId": "Empire.416.0",
+      "illustrationId": "illustration.Empire.416.0",
+      "chartIds": [
+        "chart.Empire.416.0.EZ",
+        "chart.Empire.416.0.HD",
+        "chart.Empire.416.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "DropDown.Cosmograph.0",
+      "musicId": "DropDown.Cosmograph.0",
+      "illustrationId": "illustration.DropDown.Cosmograph.0",
+      "chartIds": [
+        "chart.DropDown.Cosmograph.0.EZ",
+        "chart.DropDown.Cosmograph.0.HD",
+        "chart.DropDown.Cosmograph.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Contact.NeutralMoonMK.0",
+      "musicId": "Contact.NeutralMoonMK.0",
+      "illustrationId": "illustration.Contact.NeutralMoonMK.0",
+      "chartIds": [
+        "chart.Contact.NeutralMoonMK.0.EZ",
+        "chart.Contact.NeutralMoonMK.0.HD",
+        "chart.Contact.NeutralMoonMK.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "CANDYLAND.Seo.0",
+      "musicId": "CANDYLAND.Seo.0",
+      "illustrationId": "illustration.CANDYLAND.Seo.0",
+      "chartIds": [
+        "chart.CANDYLAND.Seo.0.EZ",
+        "chart.CANDYLAND.Seo.0.HD",
+        "chart.CANDYLAND.Seo.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "ArcadeViruZ.AspidCat.0",
+      "musicId": "ArcadeViruZ.AspidCat.0",
+      "illustrationId": "illustration.ArcadeViruZ.AspidCat.0",
+      "chartIds": [
+        "chart.ArcadeViruZ.AspidCat.0.EZ",
+        "chart.ArcadeViruZ.AspidCat.0.HD",
+        "chart.ArcadeViruZ.AspidCat.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "LINKLINS.Halv.0",
+      "musicId": "LINKLINS.Halv.0",
+      "illustrationId": "illustration.LINKLINS.Halv.0",
+      "chartIds": [
+        "chart.LINKLINS.Halv.0.EZ",
+        "chart.LINKLINS.Halv.0.HD",
+        "chart.LINKLINS.Halv.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "LEONIDS.SaMZIngTitanChaos.0",
+      "musicId": "LEONIDS.SaMZIngTitanChaos.0",
+      "illustrationId": "illustration.LEONIDS.SaMZIngTitanChaos.0",
+      "chartIds": [
+        "chart.LEONIDS.SaMZIngTitanChaos.0.EZ",
+        "chart.LEONIDS.SaMZIngTitanChaos.0.HD",
+        "chart.LEONIDS.SaMZIngTitanChaos.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "FORTALiCE.ZxNX.0",
+      "musicId": "FORTALiCE.ZxNX.0",
+      "illustrationId": "illustration.FORTALiCE.ZxNX.0",
+      "chartIds": [
+        "chart.FORTALiCE.ZxNX.0.EZ",
+        "chart.FORTALiCE.ZxNX.0.HD",
+        "chart.FORTALiCE.ZxNX.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "TurningPOINT.Junk.0",
+      "musicId": "TurningPOINT.Junk.0",
+      "illustrationId": "illustration.TurningPOINT.Junk.0",
+      "chartIds": [
+        "chart.TurningPOINT.Junk.0.EZ",
+        "chart.TurningPOINT.Junk.0.HD",
+        "chart.TurningPOINT.Junk.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "ReversedZenith.Synzak.0",
+      "musicId": "ReversedZenith.Synzak.0",
+      "illustrationId": "illustration.ReversedZenith.Synzak.0",
+      "chartIds": [
+        "chart.ReversedZenith.Synzak.0.EZ",
+        "chart.ReversedZenith.Synzak.0.HD",
+        "chart.ReversedZenith.Synzak.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "ParadialResonator.RekuMochizuki.0",
+      "musicId": "ParadialResonator.RekuMochizuki.0",
+      "illustrationId": "illustration.ParadialResonator.RekuMochizuki.0",
+      "chartIds": [
+        "chart.ParadialResonator.RekuMochizuki.0.EZ",
+        "chart.ParadialResonator.RekuMochizuki.0.HD",
+        "chart.ParadialResonator.RekuMochizuki.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "RestrictedAccess.Knighthood.0",
+      "musicId": "RestrictedAccess.Knighthood.0",
+      "illustrationId": "illustration.RestrictedAccess.Knighthood.0",
+      "chartIds": [
+        "chart.RestrictedAccess.Knighthood.0.EZ",
+        "chart.RestrictedAccess.Knighthood.0.HD",
+        "chart.RestrictedAccess.Knighthood.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "TheLastPage.ARForest.0",
+      "musicId": "TheLastPage.ARForest.0",
+      "illustrationId": "illustration.TheLastPage.ARForest.0",
+      "chartIds": [
+        "chart.TheLastPage.ARForest.0.EZ",
+        "chart.TheLastPage.ARForest.0.HD",
+        "chart.TheLastPage.ARForest.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "SuperUniverseKnighthoodRemix.Knighthood.0",
+      "musicId": "SuperUniverseKnighthoodRemix.Knighthood.0",
+      "illustrationId": "illustration.SuperUniverseKnighthoodRemix.Knighthood.0",
+      "chartIds": [
+        "chart.SuperUniverseKnighthoodRemix.Knighthood.0.EZ",
+        "chart.SuperUniverseKnighthoodRemix.Knighthood.0.HD",
+        "chart.SuperUniverseKnighthoodRemix.Knighthood.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "LavenderLeaffeatLexi.VauBoy.0",
+      "musicId": "LavenderLeaffeatLexi.VauBoy.0",
+      "illustrationId": "illustration.LavenderLeaffeatLexi.VauBoy.0",
+      "chartIds": [
+        "chart.LavenderLeaffeatLexi.VauBoy.0.EZ",
+        "chart.LavenderLeaffeatLexi.VauBoy.0.HD",
+        "chart.LavenderLeaffeatLexi.VauBoy.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Enneaquest.SEPHID.0",
+      "musicId": "Enneaquest.SEPHID.0",
+      "illustrationId": "illustration.Enneaquest.SEPHID.0",
+      "chartIds": [
+        "chart.Enneaquest.SEPHID.0.EZ",
+        "chart.Enneaquest.SEPHID.0.HD",
+        "chart.Enneaquest.SEPHID.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "Abiogenesis.Juggernaut.0",
+      "musicId": "Abiogenesis.Juggernaut.0",
+      "illustrationId": "illustration.Abiogenesis.Juggernaut.0",
+      "chartIds": [
+        "chart.Abiogenesis.Juggernaut.0.EZ",
+        "chart.Abiogenesis.Juggernaut.0.HD",
+        "chart.Abiogenesis.Juggernaut.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    }
+  ],
+  "musics": [
+    {
+      "id": "PastelLines.RekuMochizuki.0",
+      "musicName": "Pastel Lines",
+      "artist": "Reku Mochizuki",
+      "previewStartTime": 51.8,
+      "previewOverTime": 71.8,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5764706,
+        "g": 0.8784314,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Gleam.Uske.0",
+      "musicName": "Gleam feat. ふわまろ",
+      "artist": "U-ske",
+      "previewStartTime": 50.384,
+      "previewOverTime": 70.384,
+      "themeBackgroundColor": {
+        "r": 0.721568644,
+        "g": 0.7411765,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.972549,
+        "g": 0.423529416,
+        "b": 0.5176471,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "PowerAttack.EBIMAYO.0",
+      "musicName": "Power Attack",
+      "artist": "EBIMAYO",
+      "previewStartTime": 87.0,
+      "previewOverTime": 107.0,
+      "themeBackgroundColor": {
+        "r": 0.9254902,
+        "g": 0.7058824,
+        "b": 0.5058824,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 1.0,
+        "g": 0.5294118,
+        "b": 0.211764708,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Skyscape.Plum.0",
+      "musicName": "Skyscape",
+      "artist": "Plum",
+      "previewStartTime": 72.984,
+      "previewOverTime": 92.984,
+      "themeBackgroundColor": {
+        "r": 0.9372549,
+        "g": 0.9529412,
+        "b": 0.9607843,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5647059,
+        "g": 0.6745098,
+        "b": 0.9411765,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "OnAndOn.ETIA.0",
+      "musicName": "On And On!!",
+      "artist": "ETIA.",
+      "previewStartTime": 90.764,
+      "previewOverTime": 110.764,
+      "themeBackgroundColor": {
+        "r": 0.9882353,
+        "g": 0.905882359,
+        "b": 0.831372559,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8980392,
+        "g": 0.431372553,
+        "b": 0.172549024,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Polygons.Riya.0",
+      "musicName": "Polygons",
+      "artist": "Riya",
+      "previewStartTime": 74.692,
+      "previewOverTime": 94.692,
+      "themeBackgroundColor": {
+        "r": 0.6862745,
+        "g": 0.870588243,
+        "b": 0.9019608,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.1882353,
+        "g": 0.7137255,
+        "b": 0.9490196,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Abgrund.ElousFZ.0",
+      "musicName": "Abgrund",
+      "artist": "ElousΛ.-FZ",
+      "previewStartTime": 82.333,
+      "previewOverTime": 102.333,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.6117647,
+        "g": 0.831372559,
+        "b": 0.8901961,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "JourneyToTheRainbows.Ardolf.0",
+      "musicName": "Journey To The Rainbows",
+      "artist": "Ardolf",
+      "previewStartTime": 23.0,
+      "previewOverTime": 43.0,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.9490196,
+        "g": 0.772549033,
+        "b": 0.239215687,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "MidnightFlux.ProjectG.0",
+      "musicName": "Midnight Flux",
+      "artist": "Project G",
+      "previewStartTime": 45.265,
+      "previewOverTime": 65.265,
+      "themeBackgroundColor": {
+        "r": 0.7490196,
+        "g": 0.7411765,
+        "b": 0.6901961,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5568628,
+        "g": 0.5568628,
+        "b": 0.5568628,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "NOONEYESMAN.MYUKKE.0",
+      "musicName": "NO ONE YES MAN",
+      "artist": "MYUKKE.",
+      "previewStartTime": 28.647,
+      "previewOverTime": 48.647,
+      "themeBackgroundColor": {
+        "r": 0.5254902,
+        "g": 0.5372549,
+        "b": 0.7490196,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8666667,
+        "g": 0.6117647,
+        "b": 0.768627465,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "ClockParadox.WyvernP.0",
+      "musicName": "Clock Paradox",
+      "artist": "WyvernP",
+      "previewStartTime": 112.14,
+      "previewOverTime": 132.14,
+      "themeBackgroundColor": {
+        "r": 0.8156863,
+        "g": 0.807843149,
+        "b": 0.8627451,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.384313732,
+        "g": 0.321568638,
+        "b": 0.8,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "FRIEND.DAAN.0",
+      "musicName": "F℟IEND",
+      "artist": "D_AAN",
+      "previewStartTime": 69.8,
+      "previewOverTime": 89.8,
+      "themeBackgroundColor": {
+        "r": 0.8156863,
+        "g": 0.847058833,
+        "b": 0.894117653,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.619607866,
+        "g": 0.733333349,
+        "b": 0.8509804,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Shattered.ARForest.0",
+      "musicName": "Shattered",
+      "artist": "ARForest",
+      "previewStartTime": 110.085,
+      "previewOverTime": 130.085,
+      "themeBackgroundColor": {
+        "r": 0.78039217,
+        "g": 0.8,
+        "b": 0.721568644,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.3372549,
+        "g": 0.1882353,
+        "b": 0.156862751,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "SwingSweetTweeDance.Uske.0",
+      "musicName": "Swing Sweet Twee Dance feat. ななきなな",
+      "artist": "U-ske",
+      "previewStartTime": 42.034,
+      "previewOverTime": 62.034,
+      "themeBackgroundColor": {
+        "r": 0.9490196,
+        "g": 0.894117653,
+        "b": 0.847058833,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.905882359,
+        "g": 0.490196079,
+        "b": 0.5137255,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Vrtuaresort.seatrus.0",
+      "musicName": "V!rtuaresort",
+      "artist": "seatrus",
+      "previewStartTime": 89.0,
+      "previewOverTime": 109.0,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.223529413,
+        "g": 0.7882353,
+        "b": 0.8980392,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Dice20.Daily.0",
+      "musicName": "Dice 20",
+      "artist": "Daily",
+      "previewStartTime": 84.894,
+      "previewOverTime": 104.894,
+      "themeBackgroundColor": {
+        "r": 0.945098042,
+        "g": 0.9647059,
+        "b": 0.945098042,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.6901961,
+        "g": 0.772549033,
+        "b": 0.698039234,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "macrowav.dandeless.0",
+      "musicName": "macro.wav",
+      "artist": "dandeless",
+      "previewStartTime": 50.627,
+      "previewOverTime": 70.627,
+      "themeBackgroundColor": {
+        "r": 0.807843149,
+        "g": 0.796078444,
+        "b": 0.807843149,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.180392161,
+        "g": 0.23137255,
+        "b": 0.34117648,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "TheNextArcady.SEPHID.0",
+      "musicName": "The Next Arcady",
+      "artist": "SEPHID",
+      "previewStartTime": 77.461,
+      "previewOverTime": 97.461,
+      "themeBackgroundColor": {
+        "r": 0.9764706,
+        "g": 1.0,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8,
+        "g": 1.0,
+        "b": 0.4,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "SakuraFubuki.Street.0",
+      "musicName": "Sakura Fubuki",
+      "artist": "Street",
+      "previewStartTime": 68.942,
+      "previewOverTime": 88.942,
+      "themeBackgroundColor": {
+        "r": 0.980392158,
+        "g": 0.933333337,
+        "b": 0.9490196,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.9019608,
+        "g": 0.627451,
+        "b": 0.7647059,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Tempest.Plum.0",
+      "musicName": "Tempest",
+      "artist": "Plum",
+      "previewStartTime": 27.285,
+      "previewOverTime": 47.285,
+      "themeBackgroundColor": {
+        "r": 0.807843149,
+        "g": 0.8352941,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.298039228,
+        "g": 0.360784322,
+        "b": 0.5529412,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "AuthenticGamever.Rukadesunowheretogo.0",
+      "musicName": "Authentic (Game ver.)",
+      "artist": "Rukadesu & nowhere.to_go",
+      "previewStartTime": 100.647,
+      "previewOverTime": 120.647,
+      "themeBackgroundColor": {
+        "r": 0.807843149,
+        "g": 0.819607854,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.7372549,
+        "g": 0.5568628,
+        "b": 0.8,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "MilK.morimoriatsushi.0",
+      "musicName": "MilK",
+      "artist": "モリモリあつし",
+      "previewStartTime": 26.2,
+      "previewOverTime": 46.2,
+      "themeBackgroundColor": {
+        "r": 0.968627453,
+        "g": 0.9529412,
+        "b": 0.956862748,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8156863,
+        "g": 0.870588243,
+        "b": 0.917647064,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "ILLEGALLEGACY.seatrus.0",
+      "musicName": "ILLEGAL LEGACY",
+      "artist": "seatrus",
+      "previewStartTime": 96.333,
+      "previewOverTime": 116.333,
+      "themeBackgroundColor": {
+        "r": 0.8980392,
+        "g": 0.8745098,
+        "b": 0.854901969,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.3372549,
+        "g": 0.345098048,
+        "b": 0.4117647,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Bamboo.rissyuu.0",
+      "musicName": "竹",
+      "artist": "立秋",
+      "previewStartTime": 55.154,
+      "previewOverTime": 75.154,
+      "themeBackgroundColor": {
+        "r": 0.905882359,
+        "g": 0.9254902,
+        "b": 0.9137255,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.211764708,
+        "g": 0.831372559,
+        "b": 0.23137255,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "RIP.eicateve.0",
+      "musicName": "R.I.P.",
+      "artist": "eicateve",
+      "previewStartTime": 120.25,
+      "previewOverTime": 140.25,
+      "themeBackgroundColor": {
+        "r": 0.78039217,
+        "g": 0.75686276,
+        "b": 0.75686276,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.9490196,
+        "g": 0.117647059,
+        "b": 0.117647059,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Empire.416.0",
+      "musicName": "Empire",
+      "artist": "4_16",
+      "previewStartTime": 96.636,
+      "previewOverTime": 116.636,
+      "themeBackgroundColor": {
+        "r": 0.8980392,
+        "g": 0.870588243,
+        "b": 0.854901969,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.6,
+        "g": 0.4745098,
+        "b": 0.419607848,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "DropDown.Cosmograph.0",
+      "musicName": "DropDown",
+      "artist": "Cosmograph",
+      "previewStartTime": 61.5,
+      "previewOverTime": 81.5,
+      "themeBackgroundColor": {
+        "r": 0.5254902,
+        "g": 0.6,
+        "b": 0.7490196,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5882353,
+        "g": 0.3764706,
+        "b": 0.8392157,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Contact.NeutralMoonMK.0",
+      "musicName": "Contact",
+      "artist": "Neutral Moon & MK",
+      "previewStartTime": 54.51,
+      "previewOverTime": 74.51,
+      "themeBackgroundColor": {
+        "r": 0.9372549,
+        "g": 0.894117653,
+        "b": 0.9490196,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8980392,
+        "g": 0.7647059,
+        "b": 0.7882353,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "CANDYLAND.Seo.0",
+      "musicName": "CANDYLAND",
+      "artist": "Seo",
+      "previewStartTime": 46.425,
+      "previewOverTime": 66.425,
+      "themeBackgroundColor": {
+        "r": 0.956862748,
+        "g": 0.9098039,
+        "b": 0.9137255,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.7019608,
+        "g": 0.7372549,
+        "b": 0.8156863,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "ArcadeViruZ.AspidCat.0",
+      "musicName": "Arcade ViruZ",
+      "artist": "Aspid Cat",
+      "previewStartTime": 93.545,
+      "previewOverTime": 113.545,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.9254902,
+        "g": 0.3254902,
+        "b": 0.8156863,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "LINKLINS.Halv.0",
+      "musicName": "LINK x LIN#S",
+      "artist": "Halv",
+      "previewStartTime": 73.545,
+      "previewOverTime": 93.545,
+      "themeBackgroundColor": {
+        "r": 0.9529412,
+        "g": 0.929411769,
+        "b": 0.9254902,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.698039234,
+        "g": 0.6,
+        "b": 0.5647059,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "LEONIDS.SaMZIngTitanChaos.0",
+      "musicName": "LEONIDS",
+      "artist": "SaMZIng / Titan Chaos",
+      "previewStartTime": 83.878,
+      "previewOverTime": 103.878,
+      "themeBackgroundColor": {
+        "r": 0.807843149,
+        "g": 0.843137264,
+        "b": 0.8980392,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.211764708,
+        "g": 0.266666681,
+        "b": 0.407843143,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "FORTALiCE.ZxNX.0",
+      "musicName": "FORTALiCE",
+      "artist": "ZxNX",
+      "previewStartTime": 108.333,
+      "previewOverTime": 128.333,
+      "themeBackgroundColor": {
+        "r": 0.7137255,
+        "g": 0.7254902,
+        "b": 0.7490196,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.572549045,
+        "g": 0.521568656,
+        "b": 0.8,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "TurningPOINT.Junk.0",
+      "musicName": "Turning POINT",
+      "artist": "Junk",
+      "previewStartTime": 86.068,
+      "previewOverTime": 106.068,
+      "themeBackgroundColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.298039228,
+        "g": 0.3647059,
+        "b": 0.5019608,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "ReversedZenith.Synzak.0",
+      "musicName": "Reversed Zenith",
+      "artist": "硝酸生菜",
+      "previewStartTime": 29.769,
+      "previewOverTime": 49.769,
+      "themeBackgroundColor": {
+        "r": 0.807843149,
+        "g": 0.854901969,
+        "b": 0.894117653,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.1254902,
+        "g": 0.1882353,
+        "b": 0.2509804,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "ParadialResonator.RekuMochizuki.0",
+      "musicName": "Paradial Resonator",
+      "artist": "Reku Mochizuki",
+      "previewStartTime": 75.923,
+      "previewOverTime": 95.923,
+      "themeBackgroundColor": {
+        "r": 0.8509804,
+        "g": 0.8392157,
+        "b": 0.831372559,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5647059,
+        "g": 0.533333361,
+        "b": 0.482352942,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "RestrictedAccess.Knighthood.0",
+      "musicName": "Restricted Access",
+      "artist": "Knighthood",
+      "previewStartTime": 42.135,
+      "previewOverTime": 62.135,
+      "themeBackgroundColor": {
+        "r": 0.7176471,
+        "g": 0.7176471,
+        "b": 0.8,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.333333343,
+        "g": 0.368627459,
+        "b": 0.498039216,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "TheLastPage.ARForest.0",
+      "musicName": "The Last Page",
+      "artist": "ARForest",
+      "previewStartTime": 67.307,
+      "previewOverTime": 87.307,
+      "themeBackgroundColor": {
+        "r": 0.882352948,
+        "g": 0.8980392,
+        "b": 0.7647059,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.627451,
+        "g": 0.7019608,
+        "b": 0.68235296,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "SuperUniverseKnighthoodRemix.Knighthood.0",
+      "musicName": "Super Universe (Knighthood Remix)",
+      "artist": "Knighthood",
+      "previewStartTime": 92.062,
+      "previewOverTime": 112.062,
+      "themeBackgroundColor": {
+        "r": 0.7254902,
+        "g": 0.7647059,
+        "b": 0.8509804,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.211764708,
+        "g": 0.2509804,
+        "b": 0.419607848,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "LavenderLeaffeatLexi.VauBoy.0",
+      "musicName": "Lavender Leaf (feat. Lexi)",
+      "artist": "Vau Boy",
+      "previewStartTime": 96.411,
+      "previewOverTime": 116.411,
+      "themeBackgroundColor": {
+        "r": 0.8392157,
+        "g": 0.921568632,
+        "b": 0.968627453,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.8117647,
+        "g": 0.745098054,
+        "b": 0.721568644,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Enneaquest.SEPHID.0",
+      "musicName": "Enneaquest",
+      "artist": "SEPHID",
+      "previewStartTime": 78.135,
+      "previewOverTime": 98.135,
+      "themeBackgroundColor": {
+        "r": 0.9254902,
+        "g": 0.9490196,
+        "b": 0.9098039,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5137255,
+        "g": 0.619607866,
+        "b": 0.443137258,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Abiogenesis.Juggernaut.0",
+      "musicName": "Abiogenesis",
+      "artist": "Juggernaut.",
+      "previewStartTime": 37.842,
+      "previewOverTime": 57.842,
+      "themeBackgroundColor": {
+        "r": 0.596078455,
+        "g": 0.6117647,
+        "b": 0.6392157,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.78039217,
+        "g": 0.8117647,
+        "b": 0.8117647,
+        "a": 1.0
+      }
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "illustration.PastelLines.RekuMochizuki.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Gleam.Uske.0",
+      "artist": "きゃらあい"
+    },
+    {
+      "id": "illustration.PowerAttack.EBIMAYO.0",
+      "artist": "美工刀"
+    },
+    {
+      "id": "illustration.Skyscape.Plum.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.OnAndOn.ETIA.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Polygons.Riya.0",
+      "artist": "拖延"
+    },
+    {
+      "id": "illustration.Abgrund.ElousFZ.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.JourneyToTheRainbows.Ardolf.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.MidnightFlux.ProjectG.0",
+      "artist": "Doodoo"
+    },
+    {
+      "id": "illustration.NOONEYESMAN.MYUKKE.0",
+      "artist": "青鸟"
+    },
+    {
+      "id": "illustration.ClockParadox.WyvernP.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.FRIEND.DAAN.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Shattered.ARForest.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.SwingSweetTweeDance.Uske.0",
+      "artist": "hard"
+    },
+    {
+      "id": "illustration.Vrtuaresort.seatrus.0",
+      "artist": "绀屋"
+    },
+    {
+      "id": "illustration.Dice20.Daily.0",
+      "artist": "美工刀"
+    },
+    {
+      "id": "illustration.macrowav.dandeless.0",
+      "artist": "绀屋"
+    },
+    {
+      "id": "illustration.TheNextArcady.SEPHID.0",
+      "artist": "青鸟"
+    },
+    {
+      "id": "illustration.SakuraFubuki.Street.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Tempest.Plum.0",
+      "artist": "绀屋"
+    },
+    {
+      "id": "illustration.AuthenticGamever.Rukadesunowheretogo.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.MilK.morimoriatsushi.0",
+      "artist": "出前"
+    },
+    {
+      "id": "illustration.ILLEGALLEGACY.seatrus.0",
+      "artist": "美工刀"
+    },
+    {
+      "id": "illustration.Bamboo.rissyuu.0",
+      "artist": "石王マサト"
+    },
+    {
+      "id": "illustration.RIP.eicateve.0",
+      "artist": "hrchem & TOHRU MiTSUHASHi"
+    },
+    {
+      "id": "illustration.Empire.416.0",
+      "artist": "不目寒"
+    },
+    {
+      "id": "illustration.DropDown.Cosmograph.0",
+      "artist": "汉堡"
+    },
+    {
+      "id": "illustration.Contact.NeutralMoonMK.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.CANDYLAND.Seo.0",
+      "artist": "破晓buff-夜刃•Ex"
+    },
+    {
+      "id": "illustration.ArcadeViruZ.AspidCat.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.LINKLINS.Halv.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.LEONIDS.SaMZIngTitanChaos.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.FORTALiCE.ZxNX.0",
+      "artist": "Karen & Vvn"
+    },
+    {
+      "id": "illustration.TurningPOINT.Junk.0",
+      "artist": "鄂季"
+    },
+    {
+      "id": "illustration.ReversedZenith.Synzak.0",
+      "artist": "巷子"
+    },
+    {
+      "id": "illustration.ParadialResonator.RekuMochizuki.0",
+      "artist": "2Al4wU4"
+    },
+    {
+      "id": "illustration.RestrictedAccess.Knighthood.0",
+      "artist": "苦苦"
+    },
+    {
+      "id": "illustration.TheLastPage.ARForest.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.SuperUniverseKnighthoodRemix.Knighthood.0",
+      "artist": "绀屋"
+    },
+    {
+      "id": "illustration.LavenderLeaffeatLexi.VauBoy.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Enneaquest.SEPHID.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Abiogenesis.Juggernaut.0",
+      "artist": "山山奇"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart.PastelLines.RekuMochizuki.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "NerSAN"
+    },
+    {
+      "id": "chart.PastelLines.RekuMochizuki.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.PastelLines.RekuMochizuki.0.IN",
+      "level": "IN",
+      "difficulty": 11.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Gleam.Uske.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "Pro Barbarianerman"
+    },
+    {
+      "id": "chart.Gleam.Uske.0.HD",
+      "level": "HD",
+      "difficulty": 5.0,
+      "designer": "Pcat"
+    },
+    {
+      "id": "chart.Gleam.Uske.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "Proxima"
+    },
+    {
+      "id": "chart.PowerAttack.EBIMAYO.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Power Shine"
+    },
+    {
+      "id": "chart.PowerAttack.EBIMAYO.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "Power cat"
+    },
+    {
+      "id": "chart.PowerAttack.EBIMAYO.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.Skyscape.Plum.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "Skyshine"
+    },
+    {
+      "id": "chart.Skyscape.Plum.0.HD",
+      "level": "HD",
+      "difficulty": 5.0,
+      "designer": "Skystar"
+    },
+    {
+      "id": "chart.Skyscape.Plum.0.IN",
+      "level": "IN",
+      "difficulty": 10.0,
+      "designer": "阿爽"
+    },
+    {
+      "id": "chart.OnAndOn.ETIA.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.OnAndOn.ETIA.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "阿爽"
+    },
+    {
+      "id": "chart.OnAndOn.ETIA.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "NerSAN & 阿爽"
+    },
+    {
+      "id": "chart.Polygons.Riya.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.Polygons.Riya.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "Uvernight"
+    },
+    {
+      "id": "chart.Polygons.Riya.0.IN",
+      "level": "IN",
+      "difficulty": 9.0,
+      "designer": "Barbarianerman & Uvernight"
+    },
+    {
+      "id": "chart.Abgrund.ElousFZ.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Proxi.-MA"
+    },
+    {
+      "id": "chart.Abgrund.ElousFZ.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "Uvernight"
+    },
+    {
+      "id": "chart.Abgrund.ElousFZ.0.IN",
+      "level": "IN",
+      "difficulty": 11.0,
+      "designer": "阿爽"
+    },
+    {
+      "id": "chart.JourneyToTheRainbows.Ardolf.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.JourneyToTheRainbows.Ardolf.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.JourneyToTheRainbows.Ardolf.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.MidnightFlux.ProjectG.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "CN_115"
+    },
+    {
+      "id": "chart.MidnightFlux.ProjectG.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "小鹏"
+    },
+    {
+      "id": "chart.MidnightFlux.ProjectG.0.IN",
+      "level": "IN",
+      "difficulty": 11.5,
+      "designer": "Gausbon"
+    },
+    {
+      "id": "chart.NOONEYESMAN.MYUKKE.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "RIGILKENT"
+    },
+    {
+      "id": "chart.NOONEYESMAN.MYUKKE.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.NOONEYESMAN.MYUKKE.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "Gausbon"
+    },
+    {
+      "id": "chart.ClockParadox.WyvernP.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Rikko"
+    },
+    {
+      "id": "chart.ClockParadox.WyvernP.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "Barbarianerman with Harakuma"
+    },
+    {
+      "id": "chart.ClockParadox.WyvernP.0.IN",
+      "level": "IN",
+      "difficulty": 11.5,
+      "designer": "CN_115 & Gausbon"
+    },
+    {
+      "id": "chart.FRIEND.DAAN.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.FRIEND.DAAN.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.FRIEND.DAAN.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "阿爽"
+    },
+    {
+      "id": "chart.Shattered.ARForest.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.Shattered.ARForest.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.Shattered.ARForest.0.IN",
+      "level": "IN",
+      "difficulty": 11.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.SwingSweetTweeDance.Uske.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.SwingSweetTweeDance.Uske.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "Proxima"
+    },
+    {
+      "id": "chart.SwingSweetTweeDance.Uske.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "Sky Star Twee Dance"
+    },
+    {
+      "id": "chart.Vrtuaresort.seatrus.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.Vrtuaresort.seatrus.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "Snorkel & StupiGGy"
+    },
+    {
+      "id": "chart.Vrtuaresort.seatrus.0.IN",
+      "level": "IN",
+      "difficulty": 13.5,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.Dice20.Daily.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Dice20.Daily.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "Pro 198"
+    },
+    {
+      "id": "chart.Dice20.Daily.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.macrowav.dandeless.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Barbarianerman.txt"
+    },
+    {
+      "id": "chart.macrowav.dandeless.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "dawn.txt"
+    },
+    {
+      "id": "chart.macrowav.dandeless.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "198.txt"
+    },
+    {
+      "id": "chart.TheNextArcady.SEPHID.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Pro Barbarianerman"
+    },
+    {
+      "id": "chart.TheNextArcady.SEPHID.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.TheNextArcady.SEPHID.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.SakuraFubuki.Street.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "Ctymax"
+    },
+    {
+      "id": "chart.SakuraFubuki.Street.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.SakuraFubuki.Street.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Tempest.Plum.0.EZ",
+      "level": "EZ",
+      "difficulty": 6.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.Tempest.Plum.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.Tempest.Plum.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.AuthenticGamever.Rukadesunowheretogo.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.AuthenticGamever.Rukadesunowheretogo.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.AuthenticGamever.Rukadesunowheretogo.0.IN",
+      "level": "IN",
+      "difficulty": 13.5,
+      "designer": "Barbarianerman & 198"
+    },
+    {
+      "id": "chart.MilK.morimoriatsushi.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "StupiGGy"
+    },
+    {
+      "id": "chart.MilK.morimoriatsushi.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "ShinE"
+    },
+    {
+      "id": "chart.MilK.morimoriatsushi.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "StupiGGy"
+    },
+    {
+      "id": "chart.ILLEGALLEGACY.seatrus.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "Rikko"
+    },
+    {
+      "id": "chart.ILLEGALLEGACY.seatrus.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "TangScend"
+    },
+    {
+      "id": "chart.ILLEGALLEGACY.seatrus.0.IN",
+      "level": "IN",
+      "difficulty": 13.5,
+      "designer": "Gausbon & 百九十八"
+    },
+    {
+      "id": "chart.Bamboo.rissyuu.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "晨"
+    },
+    {
+      "id": "chart.Bamboo.rissyuu.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "晨"
+    },
+    {
+      "id": "chart.Bamboo.rissyuu.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "StupiGGy"
+    },
+    {
+      "id": "chart.RIP.eicateve.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.RIP.eicateve.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "good 猫ning"
+    },
+    {
+      "id": "chart.RIP.eicateve.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "good Night, good moRning"
+    },
+    {
+      "id": "chart.Empire.416.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Shin_e"
+    },
+    {
+      "id": "chart.Empire.416.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "Pro_xima"
+    },
+    {
+      "id": "chart.Empire.416.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "百九十八 & Pcat"
+    },
+    {
+      "id": "chart.DropDown.Cosmograph.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.DropDown.Cosmograph.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "Pro Pcat"
+    },
+    {
+      "id": "chart.DropDown.Cosmograph.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "Gausbon feat.汉堡"
+    },
+    {
+      "id": "chart.Contact.NeutralMoonMK.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "NerSAN"
+    },
+    {
+      "id": "chart.Contact.NeutralMoonMK.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "阿爽"
+    },
+    {
+      "id": "chart.Contact.NeutralMoonMK.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "NerSAN"
+    },
+    {
+      "id": "chart.CANDYLAND.Seo.0.EZ",
+      "level": "EZ",
+      "difficulty": 6.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.CANDYLAND.Seo.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "NerSAN"
+    },
+    {
+      "id": "chart.CANDYLAND.Seo.0.IN",
+      "level": "IN",
+      "difficulty": 14.5,
+      "designer": "Gausbon"
+    },
+    {
+      "id": "chart.ArcadeViruZ.AspidCat.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "ShinE"
+    },
+    {
+      "id": "chart.ArcadeViruZ.AspidCat.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "Proxima"
+    },
+    {
+      "id": "chart.ArcadeViruZ.AspidCat.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "NerSAN"
+    },
+    {
+      "id": "chart.LINKLINS.Halv.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "RIGIL x K#NT"
+    },
+    {
+      "id": "chart.LINKLINS.Halv.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "Barbarianerman"
+    },
+    {
+      "id": "chart.LINKLINS.Halv.0.IN",
+      "level": "IN",
+      "difficulty": 11.0,
+      "designer": "NerSAN x Pcat"
+    },
+    {
+      "id": "chart.LEONIDS.SaMZIngTitanChaos.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "✦满天星✦"
+    },
+    {
+      "id": "chart.LEONIDS.SaMZIngTitanChaos.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "✦ShinE✦"
+    },
+    {
+      "id": "chart.LEONIDS.SaMZIngTitanChaos.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "✦百九十八✦"
+    },
+    {
+      "id": "chart.FORTALiCE.ZxNX.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "StupiGGy"
+    },
+    {
+      "id": "chart.FORTALiCE.ZxNX.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.FORTALiCE.ZxNX.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "PROXiMA"
+    },
+    {
+      "id": "chart.TurningPOINT.Junk.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "ProXIMA"
+    },
+    {
+      "id": "chart.TurningPOINT.Junk.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "HaraKUMA"
+    },
+    {
+      "id": "chart.TurningPOINT.Junk.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.ReversedZenith.Synzak.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.ReversedZenith.Synzak.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.ReversedZenith.Synzak.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "ReversedArah"
+    },
+    {
+      "id": "chart.ParadialResonator.RekuMochizuki.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.ParadialResonator.RekuMochizuki.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.ParadialResonator.RekuMochizuki.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "Proton Xollider"
+    },
+    {
+      "id": "chart.RestrictedAccess.Knighthood.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.RestrictedAccess.Knighthood.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.RestrictedAccess.Knighthood.0.IN",
+      "level": "IN",
+      "difficulty": 14.5,
+      "designer": "地爆天星"
+    },
+    {
+      "id": "chart.TheLastPage.ARForest.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "ShinE"
+    },
+    {
+      "id": "chart.TheLastPage.ARForest.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.TheLastPage.ARForest.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "阿爽 & 百九十八"
+    },
+    {
+      "id": "chart.SuperUniverseKnighthoodRemix.Knighthood.0.EZ",
+      "level": "EZ",
+      "difficulty": 6.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.SuperUniverseKnighthoodRemix.Knighthood.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.SuperUniverseKnighthoodRemix.Knighthood.0.IN",
+      "level": "IN",
+      "difficulty": 14.5,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.LavenderLeaffeatLexi.VauBoy.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "Gypsophila"
+    },
+    {
+      "id": "chart.LavenderLeaffeatLexi.VauBoy.0.HD",
+      "level": "HD",
+      "difficulty": 7.0,
+      "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.LavenderLeaffeatLexi.VauBoy.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Enneaquest.SEPHID.0.EZ",
+      "level": "EZ",
+      "difficulty": 4.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.Enneaquest.SEPHID.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.Enneaquest.SEPHID.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.Abiogenesis.Juggernaut.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.Abiogenesis.Juggernaut.0.HD",
+      "level": "HD",
+      "difficulty": 6.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.Abiogenesis.Juggernaut.0.IN",
+      "level": "IN",
+      "difficulty": 12.0,
+      "designer": "HaraKuma"
+    }
+  ],
+  "difficultyColors": [
+    {
+      "difficultyName": "EZ",
+      "color": {
+        "r": 0.34117648,
+        "g": 0.8941177,
+        "b": 0.7686275,
+        "a": 1.0
+      }
+    },
+    {
+      "difficultyName": "HD",
+      "color": {
+        "r": 0.996078432,
+        "g": 0.7294118,
+        "b": 0.380392164,
+        "a": 1.0
+      }
+    },
+    {
+      "difficultyName": "IN",
+      "color": {
+        "r": 0.9960785,
+        "g": 0.5254902,
+        "b": 0.3803922,
+        "a": 1.0
+      }
+    }
+  ],
+  "discNames": [
+    "Disc 1",
+    "Disc EX"
+  ]
+}

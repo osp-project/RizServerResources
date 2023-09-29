@@ -1,0 +1,113 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 49
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 23
+  },
+  "m_Name": "",
+  "events": [
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 5
+      },
+      "value": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 274
+              },
+              "m_TargetAssemblyTypeName": "MoneyBarControl, Assembly-CSharp",
+              "m_MethodName": "ExpandPurchase",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 1,
+        "platform": 1
+      },
+      "value": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 283
+              },
+              "m_TargetAssemblyTypeName": "OpenLinkService, Assembly-CSharp",
+              "m_MethodName": "OpenLink",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "channel": 0,
+        "platform": 0
+      },
+      "value": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 274
+              },
+              "m_TargetAssemblyTypeName": "MoneyBarControl, Assembly-CSharp",
+              "m_MethodName": "ExpandPurchase",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

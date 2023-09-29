@@ -1,0 +1,140 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 5106269220555843909
+  },
+  "m_Name": "Banners",
+  "banners": [
+    {
+      "id": "juggernautBanner",
+      "condition": {
+        "enabled": 1,
+        "anyConditionOf": [
+          {
+            "allConditionOf": [
+              {
+                "value": {
+                  "sourceType": 6,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 0
+              },
+              {
+                "value": {
+                  "sourceType": 3,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": "JuggernautEventSceneOpened_p1_{uid}"
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 1
+              }
+            ],
+            "revertResult": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "supportUsBanner",
+      "condition": {
+        "enabled": 1,
+        "anyConditionOf": [
+          {
+            "allConditionOf": [
+              {
+                "value": {
+                  "sourceType": 6,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 0
+              },
+              {
+                "value": {
+                  "sourceType": 8,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 1
+              },
+              {
+                "value": {
+                  "sourceType": 3,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": "SupportUsEventSceneOpened_{supportUsGoodId}_{uid}"
+                },
+                "type": 0,
+                "value2": {
+                  "sourceType": 0,
+                  "booleanValue": 0,
+                  "numberValue": 0.0,
+                  "stringValue": "",
+                  "productId": 0,
+                  "saveKey": ""
+                },
+                "revertResult": 1
+              }
+            ],
+            "revertResult": 0
+          }
+        ]
+      }
+    }
+  ]
+}
