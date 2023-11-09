@@ -835,6 +835,46 @@
             "preTask": []
         },
         {
+            "id": 20016,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Revenant.Juggernaut.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 20017,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.Antler.Juggernaut.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
             "id": 30000,
             "costs": [
                 {
@@ -888,6 +928,26 @@
                     "amount": 1,
                     "type": "track",
                     "assetId": "track.Enneaquest.SEPHID.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 30003,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.ColorfulFlavor.Cansol.0"
                 },
                 {
                     "amount": 500,
@@ -1732,6 +1792,66 @@
                     "amount": 1,
                     "type": "item",
                     "assetId": "illustration.Abiogenesis.Juggernaut.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 40042,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 300
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "item",
+                    "assetId": "illustration.ColorfulFlavor.Cansol.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 40043,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 300
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "item",
+                    "assetId": "illustration.Revenant.Juggernaut.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
+            "id": 40044,
+            "costs": [
+                {
+                    "type": "dot",
+                    "amount": 300
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "item",
+                    "assetId": "illustration.Antler.Juggernaut.0"
                 }
             ],
             "getLimit": 1,
