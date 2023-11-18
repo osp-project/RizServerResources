@@ -1,0 +1,27 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 48152235254779756
+	string m_Name = "LEONIDS.SaMZIngTitanChaos.0"
+	managedReference implementation
+		SInt64 rid = 1000
+	PPtr<$CriAtomAwbAsset> awb
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ManagedReferencesRegistry references
+		int version = 2
+		vector RefIds
+			Array Array
+			int size = 1
+				[0]
+				ReferencedObject data
+					SInt64 rid = 1000
+					ReferencedManagedType type
+						string class = "CriAddressableAssetImpl"
+						string ns = "CriWare.Assets"
+						string asm = "CriMw.CriWare.Assets.Addressables.Runtime"
+					ReferencedObjectData data

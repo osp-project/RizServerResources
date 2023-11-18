@@ -1,0 +1,1241 @@
+Sprite Base
+	string m_Name = "songs"
+	Rectf m_Rect
+		float x = 0
+		float y = 0
+		float width = 551
+		float height = 120
+	Vector2f m_Offset
+		float x = 0
+		float y = 0
+	Vector4f m_Border
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	float m_PixelsToUnits = 100
+	Vector2f m_Pivot
+		float x = 0.5
+		float y = 0.5
+	unsigned int m_Extrude = 1
+	bool m_IsPolygon = False
+	pair m_RenderDataKey
+		GUID first
+			unsigned int data[0] = 2458587008
+			unsigned int data[1] = 1299769592
+			unsigned int data[2] = 12961948
+			unsigned int data[3] = 3344707010
+		SInt64 second = 21300000
+	vector m_AtlasTags
+		Array Array
+		int size = 0
+	PPtr<SpriteAtlas> m_SpriteAtlas
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	SpriteRenderData m_RD
+		PPtr<Texture2D> texture
+			int m_FileID = 0
+			SInt64 m_PathID = 29
+		PPtr<Texture2D> alphaTexture
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		vector secondaryTextures
+			Array Array
+			int size = 0
+		vector m_SubMeshes
+			Array Array
+			int size = 1
+				[0]
+				SubMesh data
+					unsigned int firstByte = 0
+					unsigned int indexCount = 72
+					int topology = 0
+					unsigned int baseVertex = 0
+					unsigned int firstVertex = 0
+					unsigned int vertexCount = 32
+					AABB localAABB
+						Vector3f m_Center
+							float x = 0
+							float y = 0
+							float z = 0
+						Vector3f m_Extent
+							float x = 0
+							float y = 0
+							float z = 0
+		vector m_IndexBuffer
+			Array Array
+			int size = 144
+				[0]
+				UInt8 data = 31
+				[1]
+				UInt8 data = 0
+				[2]
+				UInt8 data = 30
+				[3]
+				UInt8 data = 0
+				[4]
+				UInt8 data = 29
+				[5]
+				UInt8 data = 0
+				[6]
+				UInt8 data = 28
+				[7]
+				UInt8 data = 0
+				[8]
+				UInt8 data = 29
+				[9]
+				UInt8 data = 0
+				[10]
+				UInt8 data = 30
+				[11]
+				UInt8 data = 0
+				[12]
+				UInt8 data = 25
+				[13]
+				UInt8 data = 0
+				[14]
+				UInt8 data = 29
+				[15]
+				UInt8 data = 0
+				[16]
+				UInt8 data = 28
+				[17]
+				UInt8 data = 0
+				[18]
+				UInt8 data = 27
+				[19]
+				UInt8 data = 0
+				[20]
+				UInt8 data = 25
+				[21]
+				UInt8 data = 0
+				[22]
+				UInt8 data = 28
+				[23]
+				UInt8 data = 0
+				[24]
+				UInt8 data = 24
+				[25]
+				UInt8 data = 0
+				[26]
+				UInt8 data = 25
+				[27]
+				UInt8 data = 0
+				[28]
+				UInt8 data = 27
+				[29]
+				UInt8 data = 0
+				[30]
+				UInt8 data = 26
+				[31]
+				UInt8 data = 0
+				[32]
+				UInt8 data = 25
+				[33]
+				UInt8 data = 0
+				[34]
+				UInt8 data = 24
+				[35]
+				UInt8 data = 0
+				[36]
+				UInt8 data = 23
+				[37]
+				UInt8 data = 0
+				[38]
+				UInt8 data = 22
+				[39]
+				UInt8 data = 0
+				[40]
+				UInt8 data = 20
+				[41]
+				UInt8 data = 0
+				[42]
+				UInt8 data = 21
+				[43]
+				UInt8 data = 0
+				[44]
+				UInt8 data = 20
+				[45]
+				UInt8 data = 0
+				[46]
+				UInt8 data = 22
+				[47]
+				UInt8 data = 0
+				[48]
+				UInt8 data = 19
+				[49]
+				UInt8 data = 0
+				[50]
+				UInt8 data = 20
+				[51]
+				UInt8 data = 0
+				[52]
+				UInt8 data = 21
+				[53]
+				UInt8 data = 0
+				[54]
+				UInt8 data = 18
+				[55]
+				UInt8 data = 0
+				[56]
+				UInt8 data = 20
+				[57]
+				UInt8 data = 0
+				[58]
+				UInt8 data = 19
+				[59]
+				UInt8 data = 0
+				[60]
+				UInt8 data = 15
+				[61]
+				UInt8 data = 0
+				[62]
+				UInt8 data = 18
+				[63]
+				UInt8 data = 0
+				[64]
+				UInt8 data = 19
+				[65]
+				UInt8 data = 0
+				[66]
+				UInt8 data = 16
+				[67]
+				UInt8 data = 0
+				[68]
+				UInt8 data = 18
+				[69]
+				UInt8 data = 0
+				[70]
+				UInt8 data = 15
+				[71]
+				UInt8 data = 0
+				[72]
+				UInt8 data = 17
+				[73]
+				UInt8 data = 0
+				[74]
+				UInt8 data = 16
+				[75]
+				UInt8 data = 0
+				[76]
+				UInt8 data = 15
+				[77]
+				UInt8 data = 0
+				[78]
+				UInt8 data = 14
+				[79]
+				UInt8 data = 0
+				[80]
+				UInt8 data = 13
+				[81]
+				UInt8 data = 0
+				[82]
+				UInt8 data = 12
+				[83]
+				UInt8 data = 0
+				[84]
+				UInt8 data = 11
+				[85]
+				UInt8 data = 0
+				[86]
+				UInt8 data = 12
+				[87]
+				UInt8 data = 0
+				[88]
+				UInt8 data = 13
+				[89]
+				UInt8 data = 0
+				[90]
+				UInt8 data = 9
+				[91]
+				UInt8 data = 0
+				[92]
+				UInt8 data = 12
+				[93]
+				UInt8 data = 0
+				[94]
+				UInt8 data = 11
+				[95]
+				UInt8 data = 0
+				[96]
+				UInt8 data = 8
+				[97]
+				UInt8 data = 0
+				[98]
+				UInt8 data = 9
+				[99]
+				UInt8 data = 0
+				[100]
+				UInt8 data = 11
+				[101]
+				UInt8 data = 0
+				[102]
+				UInt8 data = 10
+				[103]
+				UInt8 data = 0
+				[104]
+				UInt8 data = 9
+				[105]
+				UInt8 data = 0
+				[106]
+				UInt8 data = 8
+				[107]
+				UInt8 data = 0
+				[108]
+				UInt8 data = 7
+				[109]
+				UInt8 data = 0
+				[110]
+				UInt8 data = 6
+				[111]
+				UInt8 data = 0
+				[112]
+				UInt8 data = 4
+				[113]
+				UInt8 data = 0
+				[114]
+				UInt8 data = 5
+				[115]
+				UInt8 data = 0
+				[116]
+				UInt8 data = 4
+				[117]
+				UInt8 data = 0
+				[118]
+				UInt8 data = 6
+				[119]
+				UInt8 data = 0
+				[120]
+				UInt8 data = 3
+				[121]
+				UInt8 data = 0
+				[122]
+				UInt8 data = 4
+				[123]
+				UInt8 data = 0
+				[124]
+				UInt8 data = 5
+				[125]
+				UInt8 data = 0
+				[126]
+				UInt8 data = 1
+				[127]
+				UInt8 data = 0
+				[128]
+				UInt8 data = 4
+				[129]
+				UInt8 data = 0
+				[130]
+				UInt8 data = 3
+				[131]
+				UInt8 data = 0
+				[132]
+				UInt8 data = 0
+				[133]
+				UInt8 data = 0
+				[134]
+				UInt8 data = 1
+				[135]
+				UInt8 data = 0
+				[136]
+				UInt8 data = 3
+				[137]
+				UInt8 data = 0
+				[138]
+				UInt8 data = 2
+				[139]
+				UInt8 data = 0
+				[140]
+				UInt8 data = 1
+				[141]
+				UInt8 data = 0
+				[142]
+				UInt8 data = 0
+				[143]
+				UInt8 data = 0
+		VertexData m_VertexData
+			unsigned int m_VertexCount = 32
+			vector m_Channels
+				Array Array
+				int size = 14
+					[0]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 3
+					[1]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[2]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[3]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[4]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 2
+					[5]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[6]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[7]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[8]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[9]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[10]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[11]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[12]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 8
+						UInt8 format = 0
+						UInt8 dimension = 4
+					[13]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 24
+						UInt8 format = 10
+						UInt8 dimension = 4
+			TypelessData m_DataSize
+			int size = 1664
+		vector m_Bindpose
+			Array Array
+			int size = 0
+		Rectf textureRect
+			float x = 0
+			float y = 0
+			float width = 551
+			float height = 120
+		Vector2f textureRectOffset
+			float x = 0
+			float y = 0
+		Vector2f atlasRectOffset
+			float x = -1
+			float y = -1
+		unsigned int settingsRaw = 64
+		Vector4f uvTransform
+			float x = 100
+			float y = 275.5
+			float z = 100
+			float w = 60
+		float downscaleMultiplier = 1
+	vector m_PhysicsShape
+		Array Array
+		int size = 7
+			[0]
+			vector data
+				Array Array
+				int size = 16
+					[0]
+					Vector2f data
+						float x = -1.625
+						float y = 0.39
+					[1]
+					Vector2f data
+						float x = -1.845
+						float y = 0.55
+					[2]
+					Vector2f data
+						float x = -1.935
+						float y = 0.6
+					[3]
+					Vector2f data
+						float x = -2.405
+						float y = 0.6
+					[4]
+					Vector2f data
+						float x = -2.555
+						float y = 0.48
+					[5]
+					Vector2f data
+						float x = -2.645
+						float y = 0.38
+					[6]
+					Vector2f data
+						float x = -2.705
+						float y = 0.3
+					[7]
+					Vector2f data
+						float x = -2.755
+						float y = 0.22
+					[8]
+					Vector2f data
+						float x = -2.755
+						float y = -0.21
+					[9]
+					Vector2f data
+						float x = -2.665
+						float y = -0.39
+					[10]
+					Vector2f data
+						float x = -2.475
+						float y = -0.55
+					[11]
+					Vector2f data
+						float x = -2.385
+						float y = -0.6
+					[12]
+					Vector2f data
+						float x = -1.895
+						float y = -0.6
+					[13]
+					Vector2f data
+						float x = -1.565
+						float y = -0.55
+					[14]
+					Vector2f data
+						float x = -1.525
+						float y = -0.5
+					[15]
+					Vector2f data
+						float x = -1.525
+						float y = 0.12
+			[1]
+			vector data
+				Array Array
+				int size = 19
+					[0]
+					Vector2f data
+						float x = 0.165
+						float y = -0.09
+					[1]
+					Vector2f data
+						float x = 0.155
+						float y = 0.15
+					[2]
+					Vector2f data
+						float x = 0.125
+						float y = 0.23
+					[3]
+					Vector2f data
+						float x = 0.055
+						float y = 0.39
+					[4]
+					Vector2f data
+						float x = -0.205
+						float y = 0.59
+					[5]
+					Vector2f data
+						float x = -0.255
+						float y = 0.6
+					[6]
+					Vector2f data
+						float x = -0.625
+						float y = 0.6
+					[7]
+					Vector2f data
+						float x = -0.715
+						float y = 0.58
+					[8]
+					Vector2f data
+						float x = -0.835
+						float y = 0.5
+					[9]
+					Vector2f data
+						float x = -0.975
+						float y = 0.37
+					[10]
+					Vector2f data
+						float x = -1.075
+						float y = 0.18
+					[11]
+					Vector2f data
+						float x = -1.075
+						float y = -0.18
+					[12]
+					Vector2f data
+						float x = -1.005
+						float y = -0.33
+					[13]
+					Vector2f data
+						float x = -0.825
+						float y = -0.52
+					[14]
+					Vector2f data
+						float x = -0.675
+						float y = -0.6
+					[15]
+					Vector2f data
+						float x = -0.265
+						float y = -0.6
+					[16]
+					Vector2f data
+						float x = -0.175
+						float y = -0.55
+					[17]
+					Vector2f data
+						float x = 0.095
+						float y = -0.57
+					[18]
+					Vector2f data
+						float x = 0.165
+						float y = -0.51
+			[2]
+			vector data
+				Array Array
+				int size = 21
+					[0]
+					Vector2f data
+						float x = 1.855
+						float y = -0.03
+					[1]
+					Vector2f data
+						float x = 1.845
+						float y = 0.14
+					[2]
+					Vector2f data
+						float x = 1.755
+						float y = 0.35
+					[3]
+					Vector2f data
+						float x = 1.625
+						float y = 0.49
+					[4]
+					Vector2f data
+						float x = 1.445
+						float y = 0.59
+					[5]
+					Vector2f data
+						float x = 1.395
+						float y = 0.6
+					[6]
+					Vector2f data
+						float x = 0.985
+						float y = 0.6
+					[7]
+					Vector2f data
+						float x = 0.745
+						float y = 0.43
+					[8]
+					Vector2f data
+						float x = 0.685
+						float y = 0.31
+					[9]
+					Vector2f data
+						float x = 0.615
+						float y = 0.16
+					[10]
+					Vector2f data
+						float x = 0.605
+						float y = 0.06
+					[11]
+					Vector2f data
+						float x = 0.605
+						float y = -0.11
+					[12]
+					Vector2f data
+						float x = 0.635
+						float y = -0.23
+					[13]
+					Vector2f data
+						float x = 0.735
+						float y = -0.39
+					[14]
+					Vector2f data
+						float x = 0.845
+						float y = -0.49
+					[15]
+					Vector2f data
+						float x = 0.925
+						float y = -0.55
+					[16]
+					Vector2f data
+						float x = 1.005
+						float y = -0.6
+					[17]
+					Vector2f data
+						float x = 1.425
+						float y = -0.6
+					[18]
+					Vector2f data
+						float x = 1.465
+						float y = -0.58
+					[19]
+					Vector2f data
+						float x = 1.785
+						float y = -0.57
+					[20]
+					Vector2f data
+						float x = 1.855
+						float y = -0.51
+			[3]
+			vector data
+				Array Array
+				int size = 44
+					[0]
+					Vector2f data
+						float x = -2.375
+						float y = -0.51
+					[1]
+					Vector2f data
+						float x = -2.395
+						float y = -0.51
+					[2]
+					Vector2f data
+						float x = -2.485
+						float y = -0.45
+					[3]
+					Vector2f data
+						float x = -2.495
+						float y = -0.45
+					[4]
+					Vector2f data
+						float x = -2.525
+						float y = -0.42
+					[5]
+					Vector2f data
+						float x = -2.535
+						float y = -0.42
+					[6]
+					Vector2f data
+						float x = -2.575
+						float y = -0.38
+					[7]
+					Vector2f data
+						float x = -2.575
+						float y = -0.37
+					[8]
+					Vector2f data
+						float x = -1.885
+						float y = 0.48
+					[9]
+					Vector2f data
+						float x = -1.845
+						float y = 0.46
+					[10]
+					Vector2f data
+						float x = -1.805
+						float y = 0.43
+					[11]
+					Vector2f data
+						float x = -1.795
+						float y = 0.43
+					[12]
+					Vector2f data
+						float x = -1.725
+						float y = 0.36
+					[13]
+					Vector2f data
+						float x = -1.725
+						float y = 0.35
+					[14]
+					Vector2f data
+						float x = -1.615
+						float y = 0.11
+					[15]
+					Vector2f data
+						float x = -1.605
+						float y = 0.09999999
+					[16]
+					Vector2f data
+						float x = -1.645
+						float y = -0.23
+					[17]
+					Vector2f data
+						float x = -1.635
+						float y = -0.21
+					[18]
+					Vector2f data
+						float x = -1.615
+						float y = -0.15
+					[19]
+					Vector2f data
+						float x = -1.595
+						float y = 0.01
+					[20]
+					Vector2f data
+						float x = -1.615
+						float y = 0.19
+					[21]
+					Vector2f data
+						float x = -1.695
+						float y = 0.31
+					[22]
+					Vector2f data
+						float x = -1.715
+						float y = 0.35
+					[23]
+					Vector2f data
+						float x = -1.805
+						float y = 0.43
+					[24]
+					Vector2f data
+						float x = -1.815
+						float y = 0.43
+					[25]
+					Vector2f data
+						float x = -1.865
+						float y = 0.48
+					[26]
+					Vector2f data
+						float x = -2.035
+						float y = 0.57
+					[27]
+					Vector2f data
+						float x = -2.325
+						float y = 0.59
+					[28]
+					Vector2f data
+						float x = -2.665
+						float y = 0.32
+					[29]
+					Vector2f data
+						float x = -2.725
+						float y = 0.17
+					[30]
+					Vector2f data
+						float x = -2.735
+						float y = -0.14
+					[31]
+					Vector2f data
+						float x = -2.655
+						float y = -0.27
+					[32]
+					Vector2f data
+						float x = -2.615
+						float y = -0.33
+					[33]
+					Vector2f data
+						float x = -2.525
+						float y = -0.42
+					[34]
+					Vector2f data
+						float x = -2.515
+						float y = -0.42
+					[35]
+					Vector2f data
+						float x = -2.475
+						float y = -0.46
+					[36]
+					Vector2f data
+						float x = -2.425
+						float y = -0.5
+					[37]
+					Vector2f data
+						float x = -2.325
+						float y = -0.55
+					[38]
+					Vector2f data
+						float x = -2.225
+						float y = -0.56
+					[39]
+					Vector2f data
+						float x = -2.015
+						float y = -0.55
+					[40]
+					Vector2f data
+						float x = -2.085
+						float y = -0.55
+					[41]
+					Vector2f data
+						float x = -2.095
+						float y = -0.56
+					[42]
+					Vector2f data
+						float x = -2.215
+						float y = -0.56
+					[43]
+					Vector2f data
+						float x = -2.225
+						float y = -0.55
+			[4]
+			vector data
+				Array Array
+				int size = 47
+					[0]
+					Vector2f data
+						float x = -0.765
+						float y = -0.46
+					[1]
+					Vector2f data
+						float x = -0.805
+						float y = -0.44
+					[2]
+					Vector2f data
+						float x = -0.895
+						float y = -0.36
+					[3]
+					Vector2f data
+						float x = -0.895
+						float y = -0.35
+					[4]
+					Vector2f data
+						float x = -1.005
+						float y = -0.09
+					[5]
+					Vector2f data
+						float x = -1.015
+						float y = -0.08
+					[6]
+					Vector2f data
+						float x = -1.015
+						float y = 0.08
+					[7]
+					Vector2f data
+						float x = -1.005
+						float y = 0.09
+					[8]
+					Vector2f data
+						float x = -0.975
+						float y = 0.2
+					[9]
+					Vector2f data
+						float x = -0.915
+						float y = 0.32
+					[10]
+					Vector2f data
+						float x = -0.915
+						float y = 0.33
+					[11]
+					Vector2f data
+						float x = -0.875
+						float y = 0.37
+					[12]
+					Vector2f data
+						float x = -0.875
+						float y = 0.38
+					[13]
+					Vector2f data
+						float x = -0.235
+						float y = 0.51
+					[14]
+					Vector2f data
+						float x = -0.165
+						float y = 0.47
+					[15]
+					Vector2f data
+						float x = -0.135
+						float y = 0.45
+					[16]
+					Vector2f data
+						float x = -0.125
+						float y = 0.45
+					[17]
+					Vector2f data
+						float x = -0.015
+						float y = 0.34
+					[18]
+					Vector2f data
+						float x = -0.015
+						float y = 0.33
+					[19]
+					Vector2f data
+						float x = 0.085
+						float y = 0.08
+					[20]
+					Vector2f data
+						float x = 0.095
+						float y = 0.07
+					[21]
+					Vector2f data
+						float x = 0.095
+						float y = -0.07
+					[22]
+					Vector2f data
+						float x = 0.085
+						float y = -0.08
+					[23]
+					Vector2f data
+						float x = 0.035
+						float y = -0.26
+					[24]
+					Vector2f data
+						float x = 0.065
+						float y = -0.2
+					[25]
+					Vector2f data
+						float x = 0.085
+						float y = -0.13
+					[26]
+					Vector2f data
+						float x = 0.095
+						float y = -0.08
+					[27]
+					Vector2f data
+						float x = 0.095
+						float y = 0.08
+					[28]
+					Vector2f data
+						float x = 0.075
+						float y = 0.17
+					[29]
+					Vector2f data
+						float x = 0.035
+						float y = 0.27
+					[30]
+					Vector2f data
+						float x = -0.005
+						float y = 0.33
+					[31]
+					Vector2f data
+						float x = -0.135
+						float y = 0.45
+					[32]
+					Vector2f data
+						float x = -0.145
+						float y = 0.45
+					[33]
+					Vector2f data
+						float x = -0.185
+						float y = 0.49
+					[34]
+					Vector2f data
+						float x = -0.215
+						float y = 0.59
+					[35]
+					Vector2f data
+						float x = -0.815
+						float y = 0.57
+					[36]
+					Vector2f data
+						float x = -1.145
+						float y = 0.16
+					[37]
+					Vector2f data
+						float x = -0.935
+						float y = -0.4
+					[38]
+					Vector2f data
+						float x = -0.745
+						float y = -0.5
+					[39]
+					Vector2f data
+						float x = -0.545
+						float y = -0.58
+					[40]
+					Vector2f data
+						float x = -0.365
+						float y = -0.57
+					[41]
+					Vector2f data
+						float x = -0.305
+						float y = -0.55
+					[42]
+					Vector2f data
+						float x = -0.335
+						float y = -0.54
+					[43]
+					Vector2f data
+						float x = -0.395
+						float y = -0.55
+					[44]
+					Vector2f data
+						float x = -0.405
+						float y = -0.56
+					[45]
+					Vector2f data
+						float x = -0.515
+						float y = -0.56
+					[46]
+					Vector2f data
+						float x = -0.525
+						float y = -0.55
+			[5]
+			vector data
+				Array Array
+				int size = 30
+					[0]
+					Vector2f data
+						float x = 0.805
+						float y = -0.32
+					[1]
+					Vector2f data
+						float x = 0.795
+						float y = 0.35
+					[2]
+					Vector2f data
+						float x = 0.795
+						float y = 0.36
+					[3]
+					Vector2f data
+						float x = 0.865
+						float y = 0.43
+					[4]
+					Vector2f data
+						float x = 0.875
+						float y = 0.43
+					[5]
+					Vector2f data
+						float x = 0.915
+						float y = 0.46
+					[6]
+					Vector2f data
+						float x = 1.115
+						float y = 0.54
+					[7]
+					Vector2f data
+						float x = 1.735
+						float y = -0.22
+					[8]
+					Vector2f data
+						float x = 1.745
+						float y = -0.22
+					[9]
+					Vector2f data
+						float x = 1.775
+						float y = -0.13
+					[10]
+					Vector2f data
+						float x = 1.785
+						float y = -0.07
+					[11]
+					Vector2f data
+						float x = 1.805
+						float y = 0.08
+					[12]
+					Vector2f data
+						float x = 1.705
+						float y = 0.35
+					[13]
+					Vector2f data
+						float x = 1.505
+						float y = 0.5
+					[14]
+					Vector2f data
+						float x = 1.385
+						float y = 0.55
+					[15]
+					Vector2f data
+						float x = 1.215
+						float y = 0.56
+					[16]
+					Vector2f data
+						float x = 1.115
+						float y = 0.55
+					[17]
+					Vector2f data
+						float x = 1.045
+						float y = 0.53
+					[18]
+					Vector2f data
+						float x = 0.935
+						float y = 0.48
+					[19]
+					Vector2f data
+						float x = 0.925
+						float y = 0.46
+					[20]
+					Vector2f data
+						float x = 0.915
+						float y = 0.46
+					[21]
+					Vector2f data
+						float x = 0.885
+						float y = 0.43
+					[22]
+					Vector2f data
+						float x = 0.875
+						float y = 0.43
+					[23]
+					Vector2f data
+						float x = 0.785
+						float y = 0.34
+					[24]
+					Vector2f data
+						float x = 0.785
+						float y = 0.33
+					[25]
+					Vector2f data
+						float x = 0.665
+						float y = 0.19
+					[26]
+					Vector2f data
+						float x = 0.645
+						float y = -0.12
+					[27]
+					Vector2f data
+						float x = 0.675
+						float y = -0.43
+					[28]
+					Vector2f data
+						float x = 1.375
+						float y = -0.75
+					[29]
+					Vector2f data
+						float x = 1.405
+						float y = -0.54
+			[6]
+			vector data
+				Array Array
+				int size = 8
+					[0]
+					Vector2f data
+						float x = 2.505
+						float y = 0.18
+					[1]
+					Vector2f data
+						float x = 2.425
+						float y = 0.14
+					[2]
+					Vector2f data
+						float x = 2.425
+						float y = -0.06
+					[3]
+					Vector2f data
+						float x = 2.525
+						float y = -0.16
+					[4]
+					Vector2f data
+						float x = 2.705
+						float y = -0.16
+					[5]
+					Vector2f data
+						float x = 2.755
+						float y = -0.05
+					[6]
+					Vector2f data
+						float x = 2.755
+						float y = 0.17
+					[7]
+					Vector2f data
+						float x = 2.745
+						float y = 0.18
+	vector m_Bones
+		Array Array
+		int size = 0

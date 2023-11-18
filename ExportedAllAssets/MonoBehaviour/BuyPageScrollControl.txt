@@ -1,0 +1,52 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 60
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 40
+	string m_Name = ""
+	BuyPageScrollTarget targets
+		Array Array
+		int size = 5
+			[0]
+			BuyPageScrollTarget data
+				PPtr<$RectTransform> target
+					int m_FileID = 0
+					SInt64 m_PathID = 216
+				float scale = 0.2
+				float offset = -566
+				UInt8 fitScreen = 1
+			[1]
+			BuyPageScrollTarget data
+				PPtr<$RectTransform> target
+					int m_FileID = 0
+					SInt64 m_PathID = 252
+				float scale = 0.45
+				float offset = -770
+				UInt8 fitScreen = 1
+			[2]
+			BuyPageScrollTarget data
+				PPtr<$RectTransform> target
+					int m_FileID = 0
+					SInt64 m_PathID = 214
+				float scale = 0.8
+				float offset = -1069
+				UInt8 fitScreen = 1
+			[3]
+			BuyPageScrollTarget data
+				PPtr<$RectTransform> target
+					int m_FileID = 0
+					SInt64 m_PathID = 233
+				float scale = 1.28
+				float offset = -865
+				UInt8 fitScreen = 1
+			[4]
+			BuyPageScrollTarget data
+				PPtr<$RectTransform> target
+					int m_FileID = 0
+					SInt64 m_PathID = 260
+				float scale = 0.96
+				float offset = -1187.5
+				UInt8 fitScreen = 0

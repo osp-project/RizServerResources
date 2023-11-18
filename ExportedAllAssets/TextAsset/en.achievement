@@ -58,5 +58,5 @@ ach.[achievement_enthusiast].title2=Collector
 ach.[achievement_enthusiast].desc=Collect 10 badges
 ach.[tomaru_n_janee_zo].name=Almost there…
 ach.[tomaru_n_janee_zo].title1=Unyielding
-ach.[tomaru_n_janee_zo].title2=Challanger
-ach.[tomaru_n_janee_zo].desc=Fail a track with at least 105% completion rate
+ach.[tomaru_n_janee_zo].title2=Challenger
+ach.[tomaru_n_janee_zo].desc=Fail with completion rate >105% on a chart above Lv.14

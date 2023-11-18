@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1397092449481278386
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -9154863914925991035
+  },
+  "m_Name": "",
+  "stateAnimationControllers": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8895511361771553714
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2016159799086760882
+    }
+  ],
+  "blockTime": 0.0
+}

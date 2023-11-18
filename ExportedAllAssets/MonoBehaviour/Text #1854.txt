@@ -1,0 +1,45 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4635799558427820923
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8843432510084398651
+	string m_Name = ""
+	PPtr<$Material> m_Material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA m_Color
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_RaycastTarget = 1
+	Vector4f m_RaycastPadding
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	UInt8 m_Maskable = 1
+	CullStateChangedEvent m_OnCullStateChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	FontData m_FontData
+		PPtr<$Font> m_Font
+			int m_FileID = 1
+			SInt64 m_PathID = 723696269728235858
+		int m_FontSize = 120
+		int m_FontStyle = 0
+		UInt8 m_BestFit = 1
+		int m_MinSize = 1
+		int m_MaxSize = 120
+		int m_Alignment = 8
+		UInt8 m_AlignByGeometry = 0
+		UInt8 m_RichText = 1
+		int m_HorizontalOverflow = 0
+		int m_VerticalOverflow = 0
+		float m_LineSpacing = 1
+	string m_Text = ""

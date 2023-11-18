@@ -1,0 +1,88 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 9
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 25
+	string m_Name = ""
+	PPtr<$Component> targetComponent
+		int m_FileID = 0
+		SInt64 m_PathID = 321
+	float duration = 0.5
+	float delay = 0
+	int easeType = 0
+	AnimationCurve curve
+		vector m_Curve
+			Array Array
+			int size = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	int tweenType = 6
+	UInt8 useOnStart = 1
+	UInt8 useOnComplete = 0
+	float target = 1
+	Vector2f target2
+		float x = 0
+		float y = 0
+	Vector3f target3
+		float x = 0
+		float y = 0
+		float z = 0
+	ColorRGBA targetColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	UnityEvent onStart
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 337
+						string m_TargetAssemblyTypeName = "BlockTouchService, Assembly-CSharp"
+						string m_MethodName = "BlockTouch"
+						int m_Mode = 4
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0.5
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+	UnityEvent onComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	UnityEvent`1 onTween
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	float nowTime = 0
+	float startValue = 0
+	ColorRGBA startColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	Vector2f startValue2
+		float x = 0
+		float y = 0
+	Vector3f startValue3
+		float x = 0
+		float y = 0
+		float z = 0
+	UInt8 autoPlay = 1
+	UInt8 isOver = 1
+	string caMessage = ""

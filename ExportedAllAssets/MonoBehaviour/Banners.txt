@@ -1,0 +1,130 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5106269220555843909
+	string m_Name = "Banners"
+	Banner banners
+		Array Array
+		int size = 2
+			[0]
+			Banner data
+				string id = "DSBanner"
+				ConditionGroup condition
+					UInt8 enabled = 1
+					ConditionGroupAll anyConditionOf
+						Array Array
+						int size = 1
+							[0]
+							ConditionGroupAll data
+								Condition allConditionOf
+									Array Array
+									int size = 2
+										[0]
+										Condition data
+											ConditionValue value
+												int sourceType = 6
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											int type = 0
+											ConditionValue value2
+												int sourceType = 0
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											UInt8 revertResult = 0
+										[1]
+										Condition data
+											ConditionValue value
+												int sourceType = 3
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = "DSEventSceneOpened_p0_{uid}"
+											int type = 0
+											ConditionValue value2
+												int sourceType = 0
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											UInt8 revertResult = 1
+								UInt8 revertResult = 0
+			[1]
+			Banner data
+				string id = "supportUsBanner"
+				ConditionGroup condition
+					UInt8 enabled = 1
+					ConditionGroupAll anyConditionOf
+						Array Array
+						int size = 1
+							[0]
+							ConditionGroupAll data
+								Condition allConditionOf
+									Array Array
+									int size = 3
+										[0]
+										Condition data
+											ConditionValue value
+												int sourceType = 6
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											int type = 0
+											ConditionValue value2
+												int sourceType = 0
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											UInt8 revertResult = 0
+										[1]
+										Condition data
+											ConditionValue value
+												int sourceType = 8
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											int type = 0
+											ConditionValue value2
+												int sourceType = 0
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											UInt8 revertResult = 1
+										[2]
+										Condition data
+											ConditionValue value
+												int sourceType = 3
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = "SupportUsEventSceneOpened_{supportUsGoodId}_{uid}"
+											int type = 0
+											ConditionValue value2
+												int sourceType = 0
+												UInt8 booleanValue = 0
+												float numberValue = 0
+												string stringValue = ""
+												int productId = 0
+												string saveKey = ""
+											UInt8 revertResult = 1
+								UInt8 revertResult = 0

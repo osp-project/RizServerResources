@@ -1,0 +1,34 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 71
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 43
+	string m_Name = ""
+	PPtr<$Material> m_Material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA m_Color
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0.1411765
+	UInt8 m_RaycastTarget = 1
+	Vector4f m_RaycastPadding
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	UInt8 m_Maskable = 1
+	CullStateChangedEvent m_OnCullStateChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	float blur = 1
+	float thickness = 22.7
+	int detail = 200
+	float angle = 0
+	float fill = 1

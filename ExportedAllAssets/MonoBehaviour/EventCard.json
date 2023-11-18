@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 8162939039398917696
+    "m_PathID": 9200489562306419264
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -20,7 +20,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 1447102289064785472
+            "m_PathID": -8285685207164352
           },
           "m_TargetAssemblyTypeName": "TweenOneShootControl, Assembly-CSharp",
           "m_MethodName": "Play",
@@ -47,7 +47,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 1447102289064785472
+            "m_PathID": -8285685207164352
           },
           "m_TargetAssemblyTypeName": "TweenOneShootControl, Assembly-CSharp",
           "m_MethodName": "Play",

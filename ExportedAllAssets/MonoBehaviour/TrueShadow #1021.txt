@@ -1,0 +1,33 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 12
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 23
+	string m_Name = ""
+	float size = 390.2
+	float spread = 0
+	float offsetAngle = 90
+	float offsetDistance = 0
+	Vector2f offset
+		float x = 0
+		float y = 0
+	ColorRGBA color
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0.6705883
+	UInt8 inset = 0
+	int blendMode = 0
+	UInt8 useCasterAlpha = 1
+	UInt8 ignoreCasterColor = 0
+	int colorBleedMode = 2
+	UInt8 shadowAsSibling = 0
+	UInt8 cutout = 0
+	UInt8 baked = 0
+	UInt8 modifiedFromInspector = 0
+	vector bakedShadows
+		Array Array
+		int size = 0

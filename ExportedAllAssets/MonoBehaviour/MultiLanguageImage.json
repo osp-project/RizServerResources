@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -4546140294489662912
+    "m_PathID": 17
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3628079548422528528
+    "m_FileID": 1,
+    "m_PathID": 37
   },
   "m_Name": "",
   "spriteFiles": [
@@ -23,8 +23,8 @@
           "platform": 0
         },
         "image": {
-          "m_FileID": 0,
-          "m_PathID": 7815164211787656864
+          "m_FileID": 1,
+          "m_PathID": 112
         }
       }
     },
@@ -41,8 +41,8 @@
           "platform": 0
         },
         "image": {
-          "m_FileID": 0,
-          "m_PathID": 7815164211787656864
+          "m_FileID": 1,
+          "m_PathID": 112
         }
       }
     },
@@ -59,8 +59,8 @@
           "platform": 0
         },
         "image": {
-          "m_FileID": 0,
-          "m_PathID": -7231369905527254075
+          "m_FileID": 1,
+          "m_PathID": 111
         }
       }
     },
@@ -77,8 +77,8 @@
           "platform": 0
         },
         "image": {
-          "m_FileID": 0,
-          "m_PathID": 9106165918046842630
+          "m_FileID": 1,
+          "m_PathID": 110
         }
       }
     },
@@ -95,8 +95,8 @@
           "platform": 0
         },
         "image": {
-          "m_FileID": 0,
-          "m_PathID": 7117179926189859953
+          "m_FileID": 1,
+          "m_PathID": 115
         }
       }
     }

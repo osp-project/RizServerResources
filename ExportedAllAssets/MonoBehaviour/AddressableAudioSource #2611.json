@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 79
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 23
+  },
+  "m_Name": "",
+  "clipKey": "Assets/GameAssets/CRIAsset/rizline_main_button_BackToMainMenu_1.acb",
+  "clipFile": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "startTime": 0.0,
+  "loadOver": 0,
+  "clipLoop": 0,
+  "volume": 1.0,
+  "time": 0.0,
+  "needClipLength": 0,
+  "playOnAwake": 0,
+  "fadeInTime": 0.0,
+  "fadeOutTime": 0.0,
+  "useSyncedTimer": 0,
+  "androidUseLowLatencyVoicePool": 0,
+  "killOnOver": 0,
+  "killTime": 0.0
+}

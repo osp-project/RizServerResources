@@ -1,0 +1,79 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 90
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 46
+	string m_Name = ""
+	UInt8 playOnStart = 0
+	UInt8 playOnEnable = 0
+	UInt8 playOnDisable = 0
+	UInt8 refuseInvokeBeforeEventsFinished = 0
+	UInt8 refuseInvokeWhileTouchBlocked = 0
+	Trigger triggers
+		Array Array
+		int size = 1
+			[0]
+			Trigger data
+				UnityEvent events
+					PersistentCallGroup m_PersistentCalls
+						PersistentCall m_Calls
+							Array Array
+							int size = 3
+								[0]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 167
+									string m_TargetAssemblyTypeName = "TweenInfo, Assembly-CSharp"
+									string m_MethodName = "Play"
+									int m_Mode = 1
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+								[1]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 168
+									string m_TargetAssemblyTypeName = "TweenInfo, Assembly-CSharp"
+									string m_MethodName = "Play"
+									int m_Mode = 1
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+								[2]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 169
+									string m_TargetAssemblyTypeName = "TweenInfo, Assembly-CSharp"
+									string m_MethodName = "Play"
+									int m_Mode = 1
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+				float offset = 0

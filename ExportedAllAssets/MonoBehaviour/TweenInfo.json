@@ -1,50 +1,31 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -9016494635172258467
+    "m_PathID": 58
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3400912871967986507
+    "m_FileID": 1,
+    "m_PathID": 20
   },
   "m_Name": "",
   "targetComponent": {
     "m_FileID": 0,
-    "m_PathID": -5222157011306504867
+    "m_PathID": 361
   },
-  "duration": 0.35,
+  "duration": 0.25,
   "delay": 0.0,
-  "easeType": 15,
+  "easeType": 11,
   "curve": {
-    "m_Curve": [
-      {
-        "time": 0.0,
-        "value": 0.0,
-        "inSlope": 6.51346159,
-        "outSlope": 6.51346159,
-        "weightedMode": 3,
-        "inWeight": 0.0,
-        "outWeight": 0.11287497
-      },
-      {
-        "time": 0.9992676,
-        "value": 1.00125122,
-        "inSlope": 0.00294677,
-        "outSlope": 0.00294677,
-        "weightedMode": 3,
-        "inWeight": 0.8499589,
-        "outWeight": 0.0
-      }
-    ],
+    "m_Curve": [],
     "m_PreInfinity": 2,
     "m_PostInfinity": 2,
     "m_RotationOrder": 4
   },
-  "tweenType": 6,
+  "tweenType": 5,
   "useOnStart": 0,
-  "useOnComplete": 0,
-  "target": 0.0,
+  "useOnComplete": 1,
+  "target": 0.5,
   "target2": {
     "x": 0.0,
     "y": 0.0
@@ -67,7 +48,29 @@
   },
   "onComplete": {
     "m_PersistentCalls": {
-      "m_Calls": []
+      "m_Calls": [
+        {
+          "m_Target": {
+            "m_FileID": 0,
+            "m_PathID": 322
+          },
+          "m_TargetAssemblyTypeName": "UnityEngine.UI.Graphic, UnityEngine.UI",
+          "m_MethodName": "set_raycastTarget",
+          "m_Mode": 6,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0.0,
+            "m_StringArgument": "",
+            "m_BoolArgument": 1
+          },
+          "m_CallState": 2
+        }
+      ]
     }
   },
   "onTween": {

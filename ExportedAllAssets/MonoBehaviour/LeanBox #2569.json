@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 55
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "m_Material": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Color": {
+    "r": 0.7882353,
+    "g": 0.627451,
+    "b": 0.109803922,
+    "a": 0.5019608
+  },
+  "m_RaycastTarget": 1,
+  "m_RaycastPadding": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Maskable": 1,
+  "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "blur": 0.5,
+  "thickness": -1.0,
+  "inflate": 0.0,
+  "detail": 10.0,
+  "detailTL": -1.0,
+  "detailTR": -1.0,
+  "detailBL": -1.0,
+  "detailBR": -1.0,
+  "radius": 22.0,
+  "radiusTL": -1.0,
+  "radiusTR": -1.0,
+  "radiusBL": -1.0,
+  "radiusBR": -1.0
+}

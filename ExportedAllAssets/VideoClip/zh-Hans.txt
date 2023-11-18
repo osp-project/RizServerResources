@@ -1,0 +1,30 @@
+VideoClip Base
+	string m_Name = "zh-Hans"
+	string m_OriginalPath = "Assets/GameAssets/Video/tutorial/zh-Hans.m4v"
+	unsigned int m_ProxyWidth = 1440
+	unsigned int m_ProxyHeight = 1920
+	unsigned int Width = 1440
+	unsigned int Height = 1920
+	unsigned int m_PixelAspecRatioNum = 1
+	unsigned int m_PixelAspecRatioDen = 1
+	double m_FrameRate = 60
+	UInt64 m_FrameCount = 960
+	int m_Format = 0
+	vector m_AudioChannelCount
+		Array Array
+		int size = 0
+	vector m_AudioSampleRate
+		Array Array
+		int size = 0
+	vector m_AudioLanguage
+		Array Array
+		int size = 0
+	vector m_VideoShaders
+		Array Array
+		int size = 0
+	StreamedResource m_ExternalResources
+		string m_Source = "archive:/CAB-ae55151e6c938d96f50514f03bfb2b2e/CAB-ae55151e6c938d96f50514f03bfb2b2e.resource"
+		FileSize m_Offset = 0
+		UInt64 m_Size = 12983429
+	bool m_HasSplitAlpha = False
+	bool m_sRGB = True

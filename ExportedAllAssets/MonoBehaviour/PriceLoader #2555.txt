@@ -1,0 +1,27 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 70
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 7
+	string m_Name = ""
+	ProductId productIds
+		Array Array
+		int size = 3
+			[0]
+			ProductId data
+				int platform = 1
+				int channel = 2
+				string productId = "67.coin.499.android"
+			[1]
+			ProductId data
+				int platform = 2
+				int channel = 2
+				string productId = "67.coin.499.ios"
+			[2]
+			ProductId data
+				int platform = 0
+				int channel = 1
+				string productId = "RIZLINECOIN5"

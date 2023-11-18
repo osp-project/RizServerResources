@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 171
+    "m_PathID": 14
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 31
+    "m_FileID": 1,
+    "m_PathID": 46
   },
   "m_Name": "",
   "playOnStart": 0,
@@ -22,9 +22,51 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 322
+                "m_PathID": 2
               },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
+              "m_TargetAssemblyTypeName": "UnityEngine.GameObject, UnityEngine",
+              "m_MethodName": "SetActive",
+              "m_Mode": 6,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 30
+              },
+              "m_TargetAssemblyTypeName": "UnityEngine.GameObject, UnityEngine",
+              "m_MethodName": "SetActive",
+              "m_Mode": 6,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            },
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 352
+              },
+              "m_TargetAssemblyTypeName": "TweenOneShootControl, Assembly-CSharp",
               "m_MethodName": "Play",
               "m_Mode": 1,
               "m_Arguments": {
@@ -43,18 +85,18 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 320
+                "m_PathID": 376
               },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
-              "m_MethodName": "Play",
-              "m_Mode": 1,
+              "m_TargetAssemblyTypeName": "TweenStateControl, Assembly-CSharp",
+              "m_MethodName": "SetState",
+              "m_Mode": 3,
               "m_Arguments": {
                 "m_ObjectArgument": {
                   "m_FileID": 0,
                   "m_PathID": 0
                 },
                 "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
-                "m_IntArgument": 0,
+                "m_IntArgument": 1,
                 "m_FloatArgument": 0.0,
                 "m_StringArgument": "",
                 "m_BoolArgument": 0
@@ -64,73 +106,10 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 321
+                "m_PathID": 423
               },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
-              "m_MethodName": "Play",
-              "m_Mode": 1,
-              "m_Arguments": {
-                "m_ObjectArgument": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
-                "m_IntArgument": 0,
-                "m_FloatArgument": 0.0,
-                "m_StringArgument": "",
-                "m_BoolArgument": 0
-              },
-              "m_CallState": 2
-            },
-            {
-              "m_Target": {
-                "m_FileID": 0,
-                "m_PathID": 319
-              },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
-              "m_MethodName": "Play",
-              "m_Mode": 1,
-              "m_Arguments": {
-                "m_ObjectArgument": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
-                "m_IntArgument": 0,
-                "m_FloatArgument": 0.0,
-                "m_StringArgument": "",
-                "m_BoolArgument": 0
-              },
-              "m_CallState": 2
-            },
-            {
-              "m_Target": {
-                "m_FileID": 0,
-                "m_PathID": 323
-              },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
-              "m_MethodName": "Play",
-              "m_Mode": 1,
-              "m_Arguments": {
-                "m_ObjectArgument": {
-                  "m_FileID": 0,
-                  "m_PathID": 0
-                },
-                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
-                "m_IntArgument": 0,
-                "m_FloatArgument": 0.0,
-                "m_StringArgument": "",
-                "m_BoolArgument": 0
-              },
-              "m_CallState": 2
-            },
-            {
-              "m_Target": {
-                "m_FileID": 0,
-                "m_PathID": 324
-              },
-              "m_TargetAssemblyTypeName": "TweenInfo, Assembly-CSharp",
-              "m_MethodName": "Play",
+              "m_TargetAssemblyTypeName": "StarterUnlockControl, Assembly-CSharp",
+              "m_MethodName": "UpdatePurchaseInfo",
               "m_Mode": 1,
               "m_Arguments": {
                 "m_ObjectArgument": {
@@ -148,7 +127,67 @@
           ]
         }
       },
+      "offset": 0.5
+    },
+    {
+      "events": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 424
+              },
+              "m_TargetAssemblyTypeName": "StepSlideControl, Assembly-CSharp",
+              "m_MethodName": "SetAllowMove",
+              "m_Mode": 6,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      },
       "offset": 0.0
+    },
+    {
+      "events": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "m_FileID": 0,
+                "m_PathID": 424
+              },
+              "m_TargetAssemblyTypeName": "StepSlideControl, Assembly-CSharp",
+              "m_MethodName": "SetAllowMove",
+              "m_Mode": 6,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0.0,
+                "m_StringArgument": "",
+                "m_BoolArgument": 1
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      },
+      "offset": 1.5
     }
   ]
 }

@@ -1,0 +1,2209 @@
+Sprite Base
+	string m_Name = "00018"
+	Rectf m_Rect
+		float x = 0
+		float y = 0
+		float width = 2048
+		float height = 2048
+	Vector2f m_Offset
+		float x = 0
+		float y = 0
+	Vector4f m_Border
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	float m_PixelsToUnits = 98.5563
+	Vector2f m_Pivot
+		float x = 0.5
+		float y = 0.5
+	unsigned int m_Extrude = 1
+	bool m_IsPolygon = False
+	pair m_RenderDataKey
+		GUID first
+			unsigned int data[0] = 3440628403
+			unsigned int data[1] = 1079056227
+			unsigned int data[2] = 3602168747
+			unsigned int data[3] = 2604258570
+		SInt64 second = 21300000
+	vector m_AtlasTags
+		Array Array
+		int size = 0
+	PPtr<SpriteAtlas> m_SpriteAtlas
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	SpriteRenderData m_RD
+		PPtr<Texture2D> texture
+			int m_FileID = 0
+			SInt64 m_PathID = -5969850026628174156
+		PPtr<Texture2D> alphaTexture
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		vector secondaryTextures
+			Array Array
+			int size = 0
+		vector m_SubMeshes
+			Array Array
+			int size = 1
+				[0]
+				SubMesh data
+					unsigned int firstByte = 0
+					unsigned int indexCount = 453
+					int topology = 0
+					unsigned int baseVertex = 0
+					unsigned int firstVertex = 0
+					unsigned int vertexCount = 153
+					AABB localAABB
+						Vector3f m_Center
+							float x = 0
+							float y = 0
+							float z = 0
+						Vector3f m_Extent
+							float x = 0
+							float y = 0
+							float z = 0
+		vector m_IndexBuffer
+			Array Array
+			int size = 906
+				[0]
+				UInt8 data = 152
+				[1]
+				UInt8 data = 0
+				[2]
+				UInt8 data = 151
+				[3]
+				UInt8 data = 0
+				[4]
+				UInt8 data = 150
+				[5]
+				UInt8 data = 0
+				[6]
+				UInt8 data = 149
+				[7]
+				UInt8 data = 0
+				[8]
+				UInt8 data = 150
+				[9]
+				UInt8 data = 0
+				[10]
+				UInt8 data = 151
+				[11]
+				UInt8 data = 0
+				[12]
+				UInt8 data = 148
+				[13]
+				UInt8 data = 0
+				[14]
+				UInt8 data = 150
+				[15]
+				UInt8 data = 0
+				[16]
+				UInt8 data = 149
+				[17]
+				UInt8 data = 0
+				[18]
+				UInt8 data = 147
+				[19]
+				UInt8 data = 0
+				[20]
+				UInt8 data = 148
+				[21]
+				UInt8 data = 0
+				[22]
+				UInt8 data = 149
+				[23]
+				UInt8 data = 0
+				[24]
+				UInt8 data = 146
+				[25]
+				UInt8 data = 0
+				[26]
+				UInt8 data = 148
+				[27]
+				UInt8 data = 0
+				[28]
+				UInt8 data = 147
+				[29]
+				UInt8 data = 0
+				[30]
+				UInt8 data = 145
+				[31]
+				UInt8 data = 0
+				[32]
+				UInt8 data = 146
+				[33]
+				UInt8 data = 0
+				[34]
+				UInt8 data = 147
+				[35]
+				UInt8 data = 0
+				[36]
+				UInt8 data = 143
+				[37]
+				UInt8 data = 0
+				[38]
+				UInt8 data = 146
+				[39]
+				UInt8 data = 0
+				[40]
+				UInt8 data = 145
+				[41]
+				UInt8 data = 0
+				[42]
+				UInt8 data = 144
+				[43]
+				UInt8 data = 0
+				[44]
+				UInt8 data = 143
+				[45]
+				UInt8 data = 0
+				[46]
+				UInt8 data = 145
+				[47]
+				UInt8 data = 0
+				[48]
+				UInt8 data = 141
+				[49]
+				UInt8 data = 0
+				[50]
+				UInt8 data = 143
+				[51]
+				UInt8 data = 0
+				[52]
+				UInt8 data = 144
+				[53]
+				UInt8 data = 0
+				[54]
+				UInt8 data = 142
+				[55]
+				UInt8 data = 0
+				[56]
+				UInt8 data = 143
+				[57]
+				UInt8 data = 0
+				[58]
+				UInt8 data = 141
+				[59]
+				UInt8 data = 0
+				[60]
+				UInt8 data = 137
+				[61]
+				UInt8 data = 0
+				[62]
+				UInt8 data = 142
+				[63]
+				UInt8 data = 0
+				[64]
+				UInt8 data = 141
+				[65]
+				UInt8 data = 0
+				[66]
+				UInt8 data = 140
+				[67]
+				UInt8 data = 0
+				[68]
+				UInt8 data = 137
+				[69]
+				UInt8 data = 0
+				[70]
+				UInt8 data = 141
+				[71]
+				UInt8 data = 0
+				[72]
+				UInt8 data = 139
+				[73]
+				UInt8 data = 0
+				[74]
+				UInt8 data = 137
+				[75]
+				UInt8 data = 0
+				[76]
+				UInt8 data = 140
+				[77]
+				UInt8 data = 0
+				[78]
+				UInt8 data = 138
+				[79]
+				UInt8 data = 0
+				[80]
+				UInt8 data = 137
+				[81]
+				UInt8 data = 0
+				[82]
+				UInt8 data = 139
+				[83]
+				UInt8 data = 0
+				[84]
+				UInt8 data = 135
+				[85]
+				UInt8 data = 0
+				[86]
+				UInt8 data = 137
+				[87]
+				UInt8 data = 0
+				[88]
+				UInt8 data = 138
+				[89]
+				UInt8 data = 0
+				[90]
+				UInt8 data = 136
+				[91]
+				UInt8 data = 0
+				[92]
+				UInt8 data = 137
+				[93]
+				UInt8 data = 0
+				[94]
+				UInt8 data = 135
+				[95]
+				UInt8 data = 0
+				[96]
+				UInt8 data = 134
+				[97]
+				UInt8 data = 0
+				[98]
+				UInt8 data = 136
+				[99]
+				UInt8 data = 0
+				[100]
+				UInt8 data = 135
+				[101]
+				UInt8 data = 0
+				[102]
+				UInt8 data = 132
+				[103]
+				UInt8 data = 0
+				[104]
+				UInt8 data = 134
+				[105]
+				UInt8 data = 0
+				[106]
+				UInt8 data = 135
+				[107]
+				UInt8 data = 0
+				[108]
+				UInt8 data = 133
+				[109]
+				UInt8 data = 0
+				[110]
+				UInt8 data = 134
+				[111]
+				UInt8 data = 0
+				[112]
+				UInt8 data = 132
+				[113]
+				UInt8 data = 0
+				[114]
+				UInt8 data = 131
+				[115]
+				UInt8 data = 0
+				[116]
+				UInt8 data = 133
+				[117]
+				UInt8 data = 0
+				[118]
+				UInt8 data = 132
+				[119]
+				UInt8 data = 0
+				[120]
+				UInt8 data = 130
+				[121]
+				UInt8 data = 0
+				[122]
+				UInt8 data = 131
+				[123]
+				UInt8 data = 0
+				[124]
+				UInt8 data = 132
+				[125]
+				UInt8 data = 0
+				[126]
+				UInt8 data = 37
+				[127]
+				UInt8 data = 0
+				[128]
+				UInt8 data = 131
+				[129]
+				UInt8 data = 0
+				[130]
+				UInt8 data = 130
+				[131]
+				UInt8 data = 0
+				[132]
+				UInt8 data = 128
+				[133]
+				UInt8 data = 0
+				[134]
+				UInt8 data = 37
+				[135]
+				UInt8 data = 0
+				[136]
+				UInt8 data = 130
+				[137]
+				UInt8 data = 0
+				[138]
+				UInt8 data = 127
+				[139]
+				UInt8 data = 0
+				[140]
+				UInt8 data = 37
+				[141]
+				UInt8 data = 0
+				[142]
+				UInt8 data = 128
+				[143]
+				UInt8 data = 0
+				[144]
+				UInt8 data = 129
+				[145]
+				UInt8 data = 0
+				[146]
+				UInt8 data = 127
+				[147]
+				UInt8 data = 0
+				[148]
+				UInt8 data = 128
+				[149]
+				UInt8 data = 0
+				[150]
+				UInt8 data = 126
+				[151]
+				UInt8 data = 0
+				[152]
+				UInt8 data = 37
+				[153]
+				UInt8 data = 0
+				[154]
+				UInt8 data = 127
+				[155]
+				UInt8 data = 0
+				[156]
+				UInt8 data = 125
+				[157]
+				UInt8 data = 0
+				[158]
+				UInt8 data = 37
+				[159]
+				UInt8 data = 0
+				[160]
+				UInt8 data = 126
+				[161]
+				UInt8 data = 0
+				[162]
+				UInt8 data = 1
+				[163]
+				UInt8 data = 0
+				[164]
+				UInt8 data = 37
+				[165]
+				UInt8 data = 0
+				[166]
+				UInt8 data = 125
+				[167]
+				UInt8 data = 0
+				[168]
+				UInt8 data = 2
+				[169]
+				UInt8 data = 0
+				[170]
+				UInt8 data = 37
+				[171]
+				UInt8 data = 0
+				[172]
+				UInt8 data = 1
+				[173]
+				UInt8 data = 0
+				[174]
+				UInt8 data = 123
+				[175]
+				UInt8 data = 0
+				[176]
+				UInt8 data = 37
+				[177]
+				UInt8 data = 0
+				[178]
+				UInt8 data = 2
+				[179]
+				UInt8 data = 0
+				[180]
+				UInt8 data = 122
+				[181]
+				UInt8 data = 0
+				[182]
+				UInt8 data = 37
+				[183]
+				UInt8 data = 0
+				[184]
+				UInt8 data = 123
+				[185]
+				UInt8 data = 0
+				[186]
+				UInt8 data = 124
+				[187]
+				UInt8 data = 0
+				[188]
+				UInt8 data = 122
+				[189]
+				UInt8 data = 0
+				[190]
+				UInt8 data = 123
+				[191]
+				UInt8 data = 0
+				[192]
+				UInt8 data = 120
+				[193]
+				UInt8 data = 0
+				[194]
+				UInt8 data = 37
+				[195]
+				UInt8 data = 0
+				[196]
+				UInt8 data = 122
+				[197]
+				UInt8 data = 0
+				[198]
+				UInt8 data = 119
+				[199]
+				UInt8 data = 0
+				[200]
+				UInt8 data = 37
+				[201]
+				UInt8 data = 0
+				[202]
+				UInt8 data = 120
+				[203]
+				UInt8 data = 0
+				[204]
+				UInt8 data = 121
+				[205]
+				UInt8 data = 0
+				[206]
+				UInt8 data = 119
+				[207]
+				UInt8 data = 0
+				[208]
+				UInt8 data = 120
+				[209]
+				UInt8 data = 0
+				[210]
+				UInt8 data = 118
+				[211]
+				UInt8 data = 0
+				[212]
+				UInt8 data = 37
+				[213]
+				UInt8 data = 0
+				[214]
+				UInt8 data = 119
+				[215]
+				UInt8 data = 0
+				[216]
+				UInt8 data = 116
+				[217]
+				UInt8 data = 0
+				[218]
+				UInt8 data = 37
+				[219]
+				UInt8 data = 0
+				[220]
+				UInt8 data = 118
+				[221]
+				UInt8 data = 0
+				[222]
+				UInt8 data = 115
+				[223]
+				UInt8 data = 0
+				[224]
+				UInt8 data = 37
+				[225]
+				UInt8 data = 0
+				[226]
+				UInt8 data = 116
+				[227]
+				UInt8 data = 0
+				[228]
+				UInt8 data = 117
+				[229]
+				UInt8 data = 0
+				[230]
+				UInt8 data = 115
+				[231]
+				UInt8 data = 0
+				[232]
+				UInt8 data = 116
+				[233]
+				UInt8 data = 0
+				[234]
+				UInt8 data = 113
+				[235]
+				UInt8 data = 0
+				[236]
+				UInt8 data = 37
+				[237]
+				UInt8 data = 0
+				[238]
+				UInt8 data = 115
+				[239]
+				UInt8 data = 0
+				[240]
+				UInt8 data = 112
+				[241]
+				UInt8 data = 0
+				[242]
+				UInt8 data = 37
+				[243]
+				UInt8 data = 0
+				[244]
+				UInt8 data = 113
+				[245]
+				UInt8 data = 0
+				[246]
+				UInt8 data = 114
+				[247]
+				UInt8 data = 0
+				[248]
+				UInt8 data = 112
+				[249]
+				UInt8 data = 0
+				[250]
+				UInt8 data = 113
+				[251]
+				UInt8 data = 0
+				[252]
+				UInt8 data = 4
+				[253]
+				UInt8 data = 0
+				[254]
+				UInt8 data = 37
+				[255]
+				UInt8 data = 0
+				[256]
+				UInt8 data = 112
+				[257]
+				UInt8 data = 0
+				[258]
+				UInt8 data = 5
+				[259]
+				UInt8 data = 0
+				[260]
+				UInt8 data = 37
+				[261]
+				UInt8 data = 0
+				[262]
+				UInt8 data = 4
+				[263]
+				UInt8 data = 0
+				[264]
+				UInt8 data = 110
+				[265]
+				UInt8 data = 0
+				[266]
+				UInt8 data = 37
+				[267]
+				UInt8 data = 0
+				[268]
+				UInt8 data = 5
+				[269]
+				UInt8 data = 0
+				[270]
+				UInt8 data = 109
+				[271]
+				UInt8 data = 0
+				[272]
+				UInt8 data = 37
+				[273]
+				UInt8 data = 0
+				[274]
+				UInt8 data = 110
+				[275]
+				UInt8 data = 0
+				[276]
+				UInt8 data = 111
+				[277]
+				UInt8 data = 0
+				[278]
+				UInt8 data = 109
+				[279]
+				UInt8 data = 0
+				[280]
+				UInt8 data = 110
+				[281]
+				UInt8 data = 0
+				[282]
+				UInt8 data = 107
+				[283]
+				UInt8 data = 0
+				[284]
+				UInt8 data = 37
+				[285]
+				UInt8 data = 0
+				[286]
+				UInt8 data = 109
+				[287]
+				UInt8 data = 0
+				[288]
+				UInt8 data = 106
+				[289]
+				UInt8 data = 0
+				[290]
+				UInt8 data = 37
+				[291]
+				UInt8 data = 0
+				[292]
+				UInt8 data = 107
+				[293]
+				UInt8 data = 0
+				[294]
+				UInt8 data = 108
+				[295]
+				UInt8 data = 0
+				[296]
+				UInt8 data = 106
+				[297]
+				UInt8 data = 0
+				[298]
+				UInt8 data = 107
+				[299]
+				UInt8 data = 0
+				[300]
+				UInt8 data = 104
+				[301]
+				UInt8 data = 0
+				[302]
+				UInt8 data = 37
+				[303]
+				UInt8 data = 0
+				[304]
+				UInt8 data = 106
+				[305]
+				UInt8 data = 0
+				[306]
+				UInt8 data = 103
+				[307]
+				UInt8 data = 0
+				[308]
+				UInt8 data = 37
+				[309]
+				UInt8 data = 0
+				[310]
+				UInt8 data = 104
+				[311]
+				UInt8 data = 0
+				[312]
+				UInt8 data = 105
+				[313]
+				UInt8 data = 0
+				[314]
+				UInt8 data = 103
+				[315]
+				UInt8 data = 0
+				[316]
+				UInt8 data = 104
+				[317]
+				UInt8 data = 0
+				[318]
+				UInt8 data = 7
+				[319]
+				UInt8 data = 0
+				[320]
+				UInt8 data = 37
+				[321]
+				UInt8 data = 0
+				[322]
+				UInt8 data = 103
+				[323]
+				UInt8 data = 0
+				[324]
+				UInt8 data = 8
+				[325]
+				UInt8 data = 0
+				[326]
+				UInt8 data = 37
+				[327]
+				UInt8 data = 0
+				[328]
+				UInt8 data = 7
+				[329]
+				UInt8 data = 0
+				[330]
+				UInt8 data = 102
+				[331]
+				UInt8 data = 0
+				[332]
+				UInt8 data = 37
+				[333]
+				UInt8 data = 0
+				[334]
+				UInt8 data = 8
+				[335]
+				UInt8 data = 0
+				[336]
+				UInt8 data = 10
+				[337]
+				UInt8 data = 0
+				[338]
+				UInt8 data = 37
+				[339]
+				UInt8 data = 0
+				[340]
+				UInt8 data = 102
+				[341]
+				UInt8 data = 0
+				[342]
+				UInt8 data = 11
+				[343]
+				UInt8 data = 0
+				[344]
+				UInt8 data = 37
+				[345]
+				UInt8 data = 0
+				[346]
+				UInt8 data = 10
+				[347]
+				UInt8 data = 0
+				[348]
+				UInt8 data = 100
+				[349]
+				UInt8 data = 0
+				[350]
+				UInt8 data = 37
+				[351]
+				UInt8 data = 0
+				[352]
+				UInt8 data = 11
+				[353]
+				UInt8 data = 0
+				[354]
+				UInt8 data = 99
+				[355]
+				UInt8 data = 0
+				[356]
+				UInt8 data = 37
+				[357]
+				UInt8 data = 0
+				[358]
+				UInt8 data = 100
+				[359]
+				UInt8 data = 0
+				[360]
+				UInt8 data = 101
+				[361]
+				UInt8 data = 0
+				[362]
+				UInt8 data = 99
+				[363]
+				UInt8 data = 0
+				[364]
+				UInt8 data = 100
+				[365]
+				UInt8 data = 0
+				[366]
+				UInt8 data = 97
+				[367]
+				UInt8 data = 0
+				[368]
+				UInt8 data = 37
+				[369]
+				UInt8 data = 0
+				[370]
+				UInt8 data = 99
+				[371]
+				UInt8 data = 0
+				[372]
+				UInt8 data = 95
+				[373]
+				UInt8 data = 0
+				[374]
+				UInt8 data = 37
+				[375]
+				UInt8 data = 0
+				[376]
+				UInt8 data = 97
+				[377]
+				UInt8 data = 0
+				[378]
+				UInt8 data = 98
+				[379]
+				UInt8 data = 0
+				[380]
+				UInt8 data = 95
+				[381]
+				UInt8 data = 0
+				[382]
+				UInt8 data = 97
+				[383]
+				UInt8 data = 0
+				[384]
+				UInt8 data = 94
+				[385]
+				UInt8 data = 0
+				[386]
+				UInt8 data = 37
+				[387]
+				UInt8 data = 0
+				[388]
+				UInt8 data = 95
+				[389]
+				UInt8 data = 0
+				[390]
+				UInt8 data = 96
+				[391]
+				UInt8 data = 0
+				[392]
+				UInt8 data = 94
+				[393]
+				UInt8 data = 0
+				[394]
+				UInt8 data = 95
+				[395]
+				UInt8 data = 0
+				[396]
+				UInt8 data = 92
+				[397]
+				UInt8 data = 0
+				[398]
+				UInt8 data = 37
+				[399]
+				UInt8 data = 0
+				[400]
+				UInt8 data = 94
+				[401]
+				UInt8 data = 0
+				[402]
+				UInt8 data = 91
+				[403]
+				UInt8 data = 0
+				[404]
+				UInt8 data = 37
+				[405]
+				UInt8 data = 0
+				[406]
+				UInt8 data = 92
+				[407]
+				UInt8 data = 0
+				[408]
+				UInt8 data = 93
+				[409]
+				UInt8 data = 0
+				[410]
+				UInt8 data = 91
+				[411]
+				UInt8 data = 0
+				[412]
+				UInt8 data = 92
+				[413]
+				UInt8 data = 0
+				[414]
+				UInt8 data = 90
+				[415]
+				UInt8 data = 0
+				[416]
+				UInt8 data = 37
+				[417]
+				UInt8 data = 0
+				[418]
+				UInt8 data = 91
+				[419]
+				UInt8 data = 0
+				[420]
+				UInt8 data = 88
+				[421]
+				UInt8 data = 0
+				[422]
+				UInt8 data = 37
+				[423]
+				UInt8 data = 0
+				[424]
+				UInt8 data = 90
+				[425]
+				UInt8 data = 0
+				[426]
+				UInt8 data = 87
+				[427]
+				UInt8 data = 0
+				[428]
+				UInt8 data = 37
+				[429]
+				UInt8 data = 0
+				[430]
+				UInt8 data = 88
+				[431]
+				UInt8 data = 0
+				[432]
+				UInt8 data = 89
+				[433]
+				UInt8 data = 0
+				[434]
+				UInt8 data = 87
+				[435]
+				UInt8 data = 0
+				[436]
+				UInt8 data = 88
+				[437]
+				UInt8 data = 0
+				[438]
+				UInt8 data = 86
+				[439]
+				UInt8 data = 0
+				[440]
+				UInt8 data = 37
+				[441]
+				UInt8 data = 0
+				[442]
+				UInt8 data = 87
+				[443]
+				UInt8 data = 0
+				[444]
+				UInt8 data = 84
+				[445]
+				UInt8 data = 0
+				[446]
+				UInt8 data = 37
+				[447]
+				UInt8 data = 0
+				[448]
+				UInt8 data = 86
+				[449]
+				UInt8 data = 0
+				[450]
+				UInt8 data = 83
+				[451]
+				UInt8 data = 0
+				[452]
+				UInt8 data = 37
+				[453]
+				UInt8 data = 0
+				[454]
+				UInt8 data = 84
+				[455]
+				UInt8 data = 0
+				[456]
+				UInt8 data = 85
+				[457]
+				UInt8 data = 0
+				[458]
+				UInt8 data = 83
+				[459]
+				UInt8 data = 0
+				[460]
+				UInt8 data = 84
+				[461]
+				UInt8 data = 0
+				[462]
+				UInt8 data = 82
+				[463]
+				UInt8 data = 0
+				[464]
+				UInt8 data = 37
+				[465]
+				UInt8 data = 0
+				[466]
+				UInt8 data = 83
+				[467]
+				UInt8 data = 0
+				[468]
+				UInt8 data = 80
+				[469]
+				UInt8 data = 0
+				[470]
+				UInt8 data = 37
+				[471]
+				UInt8 data = 0
+				[472]
+				UInt8 data = 82
+				[473]
+				UInt8 data = 0
+				[474]
+				UInt8 data = 79
+				[475]
+				UInt8 data = 0
+				[476]
+				UInt8 data = 37
+				[477]
+				UInt8 data = 0
+				[478]
+				UInt8 data = 80
+				[479]
+				UInt8 data = 0
+				[480]
+				UInt8 data = 81
+				[481]
+				UInt8 data = 0
+				[482]
+				UInt8 data = 79
+				[483]
+				UInt8 data = 0
+				[484]
+				UInt8 data = 80
+				[485]
+				UInt8 data = 0
+				[486]
+				UInt8 data = 77
+				[487]
+				UInt8 data = 0
+				[488]
+				UInt8 data = 37
+				[489]
+				UInt8 data = 0
+				[490]
+				UInt8 data = 79
+				[491]
+				UInt8 data = 0
+				[492]
+				UInt8 data = 76
+				[493]
+				UInt8 data = 0
+				[494]
+				UInt8 data = 37
+				[495]
+				UInt8 data = 0
+				[496]
+				UInt8 data = 77
+				[497]
+				UInt8 data = 0
+				[498]
+				UInt8 data = 78
+				[499]
+				UInt8 data = 0
+				[500]
+				UInt8 data = 76
+				[501]
+				UInt8 data = 0
+				[502]
+				UInt8 data = 77
+				[503]
+				UInt8 data = 0
+				[504]
+				UInt8 data = 13
+				[505]
+				UInt8 data = 0
+				[506]
+				UInt8 data = 37
+				[507]
+				UInt8 data = 0
+				[508]
+				UInt8 data = 76
+				[509]
+				UInt8 data = 0
+				[510]
+				UInt8 data = 14
+				[511]
+				UInt8 data = 0
+				[512]
+				UInt8 data = 37
+				[513]
+				UInt8 data = 0
+				[514]
+				UInt8 data = 13
+				[515]
+				UInt8 data = 0
+				[516]
+				UInt8 data = 74
+				[517]
+				UInt8 data = 0
+				[518]
+				UInt8 data = 37
+				[519]
+				UInt8 data = 0
+				[520]
+				UInt8 data = 14
+				[521]
+				UInt8 data = 0
+				[522]
+				UInt8 data = 73
+				[523]
+				UInt8 data = 0
+				[524]
+				UInt8 data = 37
+				[525]
+				UInt8 data = 0
+				[526]
+				UInt8 data = 74
+				[527]
+				UInt8 data = 0
+				[528]
+				UInt8 data = 75
+				[529]
+				UInt8 data = 0
+				[530]
+				UInt8 data = 73
+				[531]
+				UInt8 data = 0
+				[532]
+				UInt8 data = 74
+				[533]
+				UInt8 data = 0
+				[534]
+				UInt8 data = 71
+				[535]
+				UInt8 data = 0
+				[536]
+				UInt8 data = 37
+				[537]
+				UInt8 data = 0
+				[538]
+				UInt8 data = 73
+				[539]
+				UInt8 data = 0
+				[540]
+				UInt8 data = 70
+				[541]
+				UInt8 data = 0
+				[542]
+				UInt8 data = 37
+				[543]
+				UInt8 data = 0
+				[544]
+				UInt8 data = 71
+				[545]
+				UInt8 data = 0
+				[546]
+				UInt8 data = 72
+				[547]
+				UInt8 data = 0
+				[548]
+				UInt8 data = 70
+				[549]
+				UInt8 data = 0
+				[550]
+				UInt8 data = 71
+				[551]
+				UInt8 data = 0
+				[552]
+				UInt8 data = 69
+				[553]
+				UInt8 data = 0
+				[554]
+				UInt8 data = 37
+				[555]
+				UInt8 data = 0
+				[556]
+				UInt8 data = 70
+				[557]
+				UInt8 data = 0
+				[558]
+				UInt8 data = 68
+				[559]
+				UInt8 data = 0
+				[560]
+				UInt8 data = 37
+				[561]
+				UInt8 data = 0
+				[562]
+				UInt8 data = 69
+				[563]
+				UInt8 data = 0
+				[564]
+				UInt8 data = 67
+				[565]
+				UInt8 data = 0
+				[566]
+				UInt8 data = 37
+				[567]
+				UInt8 data = 0
+				[568]
+				UInt8 data = 68
+				[569]
+				UInt8 data = 0
+				[570]
+				UInt8 data = 66
+				[571]
+				UInt8 data = 0
+				[572]
+				UInt8 data = 37
+				[573]
+				UInt8 data = 0
+				[574]
+				UInt8 data = 67
+				[575]
+				UInt8 data = 0
+				[576]
+				UInt8 data = 65
+				[577]
+				UInt8 data = 0
+				[578]
+				UInt8 data = 37
+				[579]
+				UInt8 data = 0
+				[580]
+				UInt8 data = 66
+				[581]
+				UInt8 data = 0
+				[582]
+				UInt8 data = 64
+				[583]
+				UInt8 data = 0
+				[584]
+				UInt8 data = 37
+				[585]
+				UInt8 data = 0
+				[586]
+				UInt8 data = 65
+				[587]
+				UInt8 data = 0
+				[588]
+				UInt8 data = 63
+				[589]
+				UInt8 data = 0
+				[590]
+				UInt8 data = 37
+				[591]
+				UInt8 data = 0
+				[592]
+				UInt8 data = 64
+				[593]
+				UInt8 data = 0
+				[594]
+				UInt8 data = 62
+				[595]
+				UInt8 data = 0
+				[596]
+				UInt8 data = 37
+				[597]
+				UInt8 data = 0
+				[598]
+				UInt8 data = 63
+				[599]
+				UInt8 data = 0
+				[600]
+				UInt8 data = 61
+				[601]
+				UInt8 data = 0
+				[602]
+				UInt8 data = 37
+				[603]
+				UInt8 data = 0
+				[604]
+				UInt8 data = 62
+				[605]
+				UInt8 data = 0
+				[606]
+				UInt8 data = 60
+				[607]
+				UInt8 data = 0
+				[608]
+				UInt8 data = 37
+				[609]
+				UInt8 data = 0
+				[610]
+				UInt8 data = 61
+				[611]
+				UInt8 data = 0
+				[612]
+				UInt8 data = 59
+				[613]
+				UInt8 data = 0
+				[614]
+				UInt8 data = 37
+				[615]
+				UInt8 data = 0
+				[616]
+				UInt8 data = 60
+				[617]
+				UInt8 data = 0
+				[618]
+				UInt8 data = 58
+				[619]
+				UInt8 data = 0
+				[620]
+				UInt8 data = 37
+				[621]
+				UInt8 data = 0
+				[622]
+				UInt8 data = 59
+				[623]
+				UInt8 data = 0
+				[624]
+				UInt8 data = 57
+				[625]
+				UInt8 data = 0
+				[626]
+				UInt8 data = 37
+				[627]
+				UInt8 data = 0
+				[628]
+				UInt8 data = 58
+				[629]
+				UInt8 data = 0
+				[630]
+				UInt8 data = 56
+				[631]
+				UInt8 data = 0
+				[632]
+				UInt8 data = 37
+				[633]
+				UInt8 data = 0
+				[634]
+				UInt8 data = 57
+				[635]
+				UInt8 data = 0
+				[636]
+				UInt8 data = 55
+				[637]
+				UInt8 data = 0
+				[638]
+				UInt8 data = 37
+				[639]
+				UInt8 data = 0
+				[640]
+				UInt8 data = 56
+				[641]
+				UInt8 data = 0
+				[642]
+				UInt8 data = 54
+				[643]
+				UInt8 data = 0
+				[644]
+				UInt8 data = 37
+				[645]
+				UInt8 data = 0
+				[646]
+				UInt8 data = 55
+				[647]
+				UInt8 data = 0
+				[648]
+				UInt8 data = 53
+				[649]
+				UInt8 data = 0
+				[650]
+				UInt8 data = 37
+				[651]
+				UInt8 data = 0
+				[652]
+				UInt8 data = 54
+				[653]
+				UInt8 data = 0
+				[654]
+				UInt8 data = 52
+				[655]
+				UInt8 data = 0
+				[656]
+				UInt8 data = 37
+				[657]
+				UInt8 data = 0
+				[658]
+				UInt8 data = 53
+				[659]
+				UInt8 data = 0
+				[660]
+				UInt8 data = 51
+				[661]
+				UInt8 data = 0
+				[662]
+				UInt8 data = 37
+				[663]
+				UInt8 data = 0
+				[664]
+				UInt8 data = 52
+				[665]
+				UInt8 data = 0
+				[666]
+				UInt8 data = 50
+				[667]
+				UInt8 data = 0
+				[668]
+				UInt8 data = 37
+				[669]
+				UInt8 data = 0
+				[670]
+				UInt8 data = 51
+				[671]
+				UInt8 data = 0
+				[672]
+				UInt8 data = 49
+				[673]
+				UInt8 data = 0
+				[674]
+				UInt8 data = 37
+				[675]
+				UInt8 data = 0
+				[676]
+				UInt8 data = 50
+				[677]
+				UInt8 data = 0
+				[678]
+				UInt8 data = 48
+				[679]
+				UInt8 data = 0
+				[680]
+				UInt8 data = 37
+				[681]
+				UInt8 data = 0
+				[682]
+				UInt8 data = 49
+				[683]
+				UInt8 data = 0
+				[684]
+				UInt8 data = 47
+				[685]
+				UInt8 data = 0
+				[686]
+				UInt8 data = 37
+				[687]
+				UInt8 data = 0
+				[688]
+				UInt8 data = 48
+				[689]
+				UInt8 data = 0
+				[690]
+				UInt8 data = 46
+				[691]
+				UInt8 data = 0
+				[692]
+				UInt8 data = 37
+				[693]
+				UInt8 data = 0
+				[694]
+				UInt8 data = 47
+				[695]
+				UInt8 data = 0
+				[696]
+				UInt8 data = 45
+				[697]
+				UInt8 data = 0
+				[698]
+				UInt8 data = 37
+				[699]
+				UInt8 data = 0
+				[700]
+				UInt8 data = 46
+				[701]
+				UInt8 data = 0
+				[702]
+				UInt8 data = 44
+				[703]
+				UInt8 data = 0
+				[704]
+				UInt8 data = 37
+				[705]
+				UInt8 data = 0
+				[706]
+				UInt8 data = 45
+				[707]
+				UInt8 data = 0
+				[708]
+				UInt8 data = 43
+				[709]
+				UInt8 data = 0
+				[710]
+				UInt8 data = 37
+				[711]
+				UInt8 data = 0
+				[712]
+				UInt8 data = 44
+				[713]
+				UInt8 data = 0
+				[714]
+				UInt8 data = 42
+				[715]
+				UInt8 data = 0
+				[716]
+				UInt8 data = 37
+				[717]
+				UInt8 data = 0
+				[718]
+				UInt8 data = 43
+				[719]
+				UInt8 data = 0
+				[720]
+				UInt8 data = 41
+				[721]
+				UInt8 data = 0
+				[722]
+				UInt8 data = 37
+				[723]
+				UInt8 data = 0
+				[724]
+				UInt8 data = 42
+				[725]
+				UInt8 data = 0
+				[726]
+				UInt8 data = 16
+				[727]
+				UInt8 data = 0
+				[728]
+				UInt8 data = 37
+				[729]
+				UInt8 data = 0
+				[730]
+				UInt8 data = 41
+				[731]
+				UInt8 data = 0
+				[732]
+				UInt8 data = 17
+				[733]
+				UInt8 data = 0
+				[734]
+				UInt8 data = 37
+				[735]
+				UInt8 data = 0
+				[736]
+				UInt8 data = 16
+				[737]
+				UInt8 data = 0
+				[738]
+				UInt8 data = 40
+				[739]
+				UInt8 data = 0
+				[740]
+				UInt8 data = 37
+				[741]
+				UInt8 data = 0
+				[742]
+				UInt8 data = 17
+				[743]
+				UInt8 data = 0
+				[744]
+				UInt8 data = 39
+				[745]
+				UInt8 data = 0
+				[746]
+				UInt8 data = 37
+				[747]
+				UInt8 data = 0
+				[748]
+				UInt8 data = 40
+				[749]
+				UInt8 data = 0
+				[750]
+				UInt8 data = 38
+				[751]
+				UInt8 data = 0
+				[752]
+				UInt8 data = 37
+				[753]
+				UInt8 data = 0
+				[754]
+				UInt8 data = 39
+				[755]
+				UInt8 data = 0
+				[756]
+				UInt8 data = 34
+				[757]
+				UInt8 data = 0
+				[758]
+				UInt8 data = 37
+				[759]
+				UInt8 data = 0
+				[760]
+				UInt8 data = 38
+				[761]
+				UInt8 data = 0
+				[762]
+				UInt8 data = 36
+				[763]
+				UInt8 data = 0
+				[764]
+				UInt8 data = 37
+				[765]
+				UInt8 data = 0
+				[766]
+				UInt8 data = 34
+				[767]
+				UInt8 data = 0
+				[768]
+				UInt8 data = 35
+				[769]
+				UInt8 data = 0
+				[770]
+				UInt8 data = 36
+				[771]
+				UInt8 data = 0
+				[772]
+				UInt8 data = 34
+				[773]
+				UInt8 data = 0
+				[774]
+				UInt8 data = 33
+				[775]
+				UInt8 data = 0
+				[776]
+				UInt8 data = 35
+				[777]
+				UInt8 data = 0
+				[778]
+				UInt8 data = 34
+				[779]
+				UInt8 data = 0
+				[780]
+				UInt8 data = 32
+				[781]
+				UInt8 data = 0
+				[782]
+				UInt8 data = 33
+				[783]
+				UInt8 data = 0
+				[784]
+				UInt8 data = 34
+				[785]
+				UInt8 data = 0
+				[786]
+				UInt8 data = 30
+				[787]
+				UInt8 data = 0
+				[788]
+				UInt8 data = 33
+				[789]
+				UInt8 data = 0
+				[790]
+				UInt8 data = 32
+				[791]
+				UInt8 data = 0
+				[792]
+				UInt8 data = 31
+				[793]
+				UInt8 data = 0
+				[794]
+				UInt8 data = 30
+				[795]
+				UInt8 data = 0
+				[796]
+				UInt8 data = 32
+				[797]
+				UInt8 data = 0
+				[798]
+				UInt8 data = 27
+				[799]
+				UInt8 data = 0
+				[800]
+				UInt8 data = 30
+				[801]
+				UInt8 data = 0
+				[802]
+				UInt8 data = 31
+				[803]
+				UInt8 data = 0
+				[804]
+				UInt8 data = 29
+				[805]
+				UInt8 data = 0
+				[806]
+				UInt8 data = 30
+				[807]
+				UInt8 data = 0
+				[808]
+				UInt8 data = 27
+				[809]
+				UInt8 data = 0
+				[810]
+				UInt8 data = 28
+				[811]
+				UInt8 data = 0
+				[812]
+				UInt8 data = 29
+				[813]
+				UInt8 data = 0
+				[814]
+				UInt8 data = 27
+				[815]
+				UInt8 data = 0
+				[816]
+				UInt8 data = 25
+				[817]
+				UInt8 data = 0
+				[818]
+				UInt8 data = 28
+				[819]
+				UInt8 data = 0
+				[820]
+				UInt8 data = 27
+				[821]
+				UInt8 data = 0
+				[822]
+				UInt8 data = 26
+				[823]
+				UInt8 data = 0
+				[824]
+				UInt8 data = 25
+				[825]
+				UInt8 data = 0
+				[826]
+				UInt8 data = 27
+				[827]
+				UInt8 data = 0
+				[828]
+				UInt8 data = 22
+				[829]
+				UInt8 data = 0
+				[830]
+				UInt8 data = 25
+				[831]
+				UInt8 data = 0
+				[832]
+				UInt8 data = 26
+				[833]
+				UInt8 data = 0
+				[834]
+				UInt8 data = 24
+				[835]
+				UInt8 data = 0
+				[836]
+				UInt8 data = 25
+				[837]
+				UInt8 data = 0
+				[838]
+				UInt8 data = 22
+				[839]
+				UInt8 data = 0
+				[840]
+				UInt8 data = 23
+				[841]
+				UInt8 data = 0
+				[842]
+				UInt8 data = 24
+				[843]
+				UInt8 data = 0
+				[844]
+				UInt8 data = 22
+				[845]
+				UInt8 data = 0
+				[846]
+				UInt8 data = 21
+				[847]
+				UInt8 data = 0
+				[848]
+				UInt8 data = 23
+				[849]
+				UInt8 data = 0
+				[850]
+				UInt8 data = 22
+				[851]
+				UInt8 data = 0
+				[852]
+				UInt8 data = 18
+				[853]
+				UInt8 data = 0
+				[854]
+				UInt8 data = 21
+				[855]
+				UInt8 data = 0
+				[856]
+				UInt8 data = 22
+				[857]
+				UInt8 data = 0
+				[858]
+				UInt8 data = 19
+				[859]
+				UInt8 data = 0
+				[860]
+				UInt8 data = 21
+				[861]
+				UInt8 data = 0
+				[862]
+				UInt8 data = 18
+				[863]
+				UInt8 data = 0
+				[864]
+				UInt8 data = 20
+				[865]
+				UInt8 data = 0
+				[866]
+				UInt8 data = 19
+				[867]
+				UInt8 data = 0
+				[868]
+				UInt8 data = 18
+				[869]
+				UInt8 data = 0
+				[870]
+				UInt8 data = 17
+				[871]
+				UInt8 data = 0
+				[872]
+				UInt8 data = 16
+				[873]
+				UInt8 data = 0
+				[874]
+				UInt8 data = 15
+				[875]
+				UInt8 data = 0
+				[876]
+				UInt8 data = 14
+				[877]
+				UInt8 data = 0
+				[878]
+				UInt8 data = 13
+				[879]
+				UInt8 data = 0
+				[880]
+				UInt8 data = 12
+				[881]
+				UInt8 data = 0
+				[882]
+				UInt8 data = 11
+				[883]
+				UInt8 data = 0
+				[884]
+				UInt8 data = 10
+				[885]
+				UInt8 data = 0
+				[886]
+				UInt8 data = 9
+				[887]
+				UInt8 data = 0
+				[888]
+				UInt8 data = 8
+				[889]
+				UInt8 data = 0
+				[890]
+				UInt8 data = 7
+				[891]
+				UInt8 data = 0
+				[892]
+				UInt8 data = 6
+				[893]
+				UInt8 data = 0
+				[894]
+				UInt8 data = 5
+				[895]
+				UInt8 data = 0
+				[896]
+				UInt8 data = 4
+				[897]
+				UInt8 data = 0
+				[898]
+				UInt8 data = 3
+				[899]
+				UInt8 data = 0
+				[900]
+				UInt8 data = 2
+				[901]
+				UInt8 data = 0
+				[902]
+				UInt8 data = 1
+				[903]
+				UInt8 data = 0
+				[904]
+				UInt8 data = 0
+				[905]
+				UInt8 data = 0
+		VertexData m_VertexData
+			unsigned int m_VertexCount = 153
+			vector m_Channels
+				Array Array
+				int size = 14
+					[0]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 3
+					[1]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[2]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[3]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[4]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 2
+					[5]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[6]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[7]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[8]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[9]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[10]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[11]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[12]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 8
+						UInt8 format = 0
+						UInt8 dimension = 4
+					[13]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 24
+						UInt8 format = 10
+						UInt8 dimension = 4
+			TypelessData m_DataSize
+			int size = 7960
+		vector m_Bindpose
+			Array Array
+			int size = 0
+		Rectf textureRect
+			float x = 288.0268
+			float y = 0
+			float width = 1471.922
+			float height = 401.9871
+		Vector2f textureRectOffset
+			float x = 288.0268
+			float y = 0
+		Vector2f atlasRectOffset
+			float x = -1
+			float y = -1
+		unsigned int settingsRaw = 64
+		Vector4f uvTransform
+			float x = 98.5563
+			float y = 1024
+			float z = 98.5563
+			float w = 1024
+		float downscaleMultiplier = 1
+	vector m_PhysicsShape
+		Array Array
+		int size = 5
+			[0]
+			vector data
+				Array Array
+				int size = 5
+					[0]
+					Vector2f data
+						float x = -7.346055
+						float y = -9.973994
+					[1]
+					Vector2f data
+						float x = -7.315616
+						float y = -9.953702
+					[2]
+					Vector2f data
+						float x = -7.346055
+						float y = -9.882676
+					[3]
+					Vector2f data
+						float x = -7.376494
+						float y = -9.882676
+					[4]
+					Vector2f data
+						float x = -7.386641
+						float y = -9.913116
+			[1]
+			vector data
+				Array Array
+				int size = 7
+					[0]
+					Vector2f data
+						float x = 7.376494
+						float y = -9.781211
+					[1]
+					Vector2f data
+						float x = 7.315616
+						float y = -9.953702
+					[2]
+					Vector2f data
+						float x = 7.335908
+						float y = -9.973994
+					[3]
+					Vector2f data
+						float x = 7.376494
+						float y = -9.973994
+					[4]
+					Vector2f data
+						float x = 7.427227
+						float y = -9.821797
+					[5]
+					Vector2f data
+						float x = 7.427227
+						float y = -9.781211
+					[6]
+					Vector2f data
+						float x = 7.406934
+						float y = -9.771065
+			[2]
+			vector data
+				Array Array
+				int size = 8
+					[0]
+					Vector2f data
+						float x = -7.41708
+						float y = -9.831944
+					[1]
+					Vector2f data
+						float x = -7.386641
+						float y = -9.882676
+					[2]
+					Vector2f data
+						float x = -7.356202
+						float y = -9.87253
+					[3]
+					Vector2f data
+						float x = -7.356202
+						float y = -9.831944
+					[4]
+					Vector2f data
+						float x = -7.366348
+						float y = -9.781211
+					[5]
+					Vector2f data
+						float x = -7.396787
+						float y = -9.771065
+					[6]
+					Vector2f data
+						float x = -7.41708
+						float y = -9.771065
+					[7]
+					Vector2f data
+						float x = -7.427227
+						float y = -9.801504
+			[3]
+			vector data
+				Array Array
+				int size = 13
+					[0]
+					Vector2f data
+						float x = 6.848877
+						float y = -9.334766
+					[1]
+					Vector2f data
+						float x = 6.848877
+						float y = -9.030372
+					[2]
+					Vector2f data
+						float x = 6.787998
+						float y = -8.847734
+					[3]
+					Vector2f data
+						float x = 6.534336
+						float y = -8.68539
+					[4]
+					Vector2f data
+						float x = 0.9943555
+						float y = -8.68539
+					[5]
+					Vector2f data
+						float x = 0.689961
+						float y = -8.898467
+					[6]
+					Vector2f data
+						float x = 0.689961
+						float y = -9.385498
+					[7]
+					Vector2f data
+						float x = 0.8523047
+						float y = -9.578281
+					[8]
+					Vector2f data
+						float x = 0.984209
+						float y = -9.63916
+					[9]
+					Vector2f data
+						float x = 1.116113
+						float y = -9.659453
+					[10]
+					Vector2f data
+						float x = 6.49375
+						float y = -9.659453
+					[11]
+					Vector2f data
+						float x = 6.686533
+						float y = -9.578281
+					[12]
+					Vector2f data
+						float x = 6.767705
+						float y = -9.476817
+			[4]
+			vector data
+				Array Array
+				int size = 15
+					[0]
+					Vector2f data
+						float x = -2.536621
+						float y = -7.183711
+					[1]
+					Vector2f data
+						float x = -2.567061
+						float y = -7.21415
+					[2]
+					Vector2f data
+						float x = -2.587354
+						float y = -7.254736
+					[3]
+					Vector2f data
+						float x = -2.607646
+						float y = -7.325762
+					[4]
+					Vector2f data
+						float x = -2.709111
+						float y = -7.630157
+					[5]
+					Vector2f data
+						float x = -2.851162
+						float y = -8.066455
+					[6]
+					Vector2f data
+						float x = -2.871455
+						float y = -8.127335
+					[7]
+					Vector2f data
+						float x = -2.901895
+						float y = -8.249092
+					[8]
+					Vector2f data
+						float x = -2.881602
+						float y = -8.269385
+					[9]
+					Vector2f data
+						float x = -2.698965
+						float y = -8.269385
+					[10]
+					Vector2f data
+						float x = -2.688818
+						float y = -8.279531
+					[11]
+					Vector2f data
+						float x = 7.437373
+						float y = -8.279531
+					[12]
+					Vector2f data
+						float x = 7.457666
+						float y = -8.259238
+					[13]
+					Vector2f data
+						float x = 7.457666
+						float y = -7.204004
+					[14]
+					Vector2f data
+						float x = 7.437373
+						float y = -7.183711
+	vector m_Bones
+		Array Array
+		int size = 0

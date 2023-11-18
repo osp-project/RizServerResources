@@ -11,7 +11,7 @@
   "m_Name": "Banners",
   "banners": [
     {
-      "id": "juggernautBanner",
+      "id": "DSBanner",
       "condition": {
         "enabled": 1,
         "anyConditionOf": [
@@ -44,7 +44,7 @@
                   "numberValue": 0.0,
                   "stringValue": "",
                   "productId": 0,
-                  "saveKey": "JuggernautEventSceneOpened_p1_{uid}"
+                  "saveKey": "DSEventSceneOpened_p0_{uid}"
                 },
                 "type": 0,
                 "value2": {

@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4524126615256384434
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4921664367192299482
+	string m_Name = ""
+	PPtr<$TweenStateControl> stateControl
+		int m_FileID = 0
+		SInt64 m_PathID = 8691920140105858126
+	string sceneId = "event.DSEvent.main"
+	PPtr<$GameObject> cutoutPrefab
+		int m_FileID = 1
+		SInt64 m_PathID = 3913902692694989914
+	PPtr<$CanvasGroup> canvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -4532891525545214898

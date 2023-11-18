@@ -1,0 +1,88 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 96
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 25
+	string m_Name = ""
+	PPtr<$Component> targetComponent
+		int m_FileID = 0
+		SInt64 m_PathID = 127
+	float duration = 0.5
+	float delay = 0
+	int easeType = 15
+	AnimationCurve curve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = -0.0009002686
+					float value = 0.001403809
+					float inSlope = 4.853674
+					float outSlope = 4.853674
+					int weightedMode = 3
+					float inWeight = 0.3333333
+					float outWeight = 0.2911688
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0.003862246
+					float outSlope = 0.003862246
+					int weightedMode = 3
+					float inWeight = 0.5164667
+					float outWeight = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	int tweenType = 1
+	UInt8 useOnStart = 0
+	UInt8 useOnComplete = 0
+	float target = 0
+	Vector2f target2
+		float x = 0
+		float y = 0
+	Vector3f target3
+		float x = 0
+		float y = 143
+		float z = 0
+	ColorRGBA targetColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	UnityEvent onStart
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	UnityEvent onComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	UnityEvent`1 onTween
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+	float nowTime = 0
+	float startValue = 0
+	ColorRGBA startColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	Vector2f startValue2
+		float x = 0
+		float y = 0
+	Vector3f startValue3
+		float x = 0
+		float y = 0
+		float z = 0
+	UInt8 autoPlay = 0
+	UInt8 isOver = 1
+	string caMessage = ""

@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 64
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 24
+  },
+  "m_Name": "",
+  "title": "purchase.moneyNotEnoughTitle",
+  "content": "purchase.moneyNotEnoughText",
+  "isLocal": 1,
+  "callback": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  }
+}

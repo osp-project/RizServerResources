@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 39
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 27
+  },
+  "m_Name": "",
+  "backEventTrigger": {
+    "m_FileID": 0,
+    "m_PathID": 191
+  },
+  "presaleTimeText": {
+    "m_FileID": 0,
+    "m_PathID": 145
+  },
+  "layoutContent": {
+    "m_FileID": 0,
+    "m_PathID": 88
+  },
+  "breathingOverlay": {
+    "m_FileID": 0,
+    "m_PathID": 124
+  },
+  "unlockButton": {
+    "m_FileID": 0,
+    "m_PathID": 44
+  },
+  "unlockedButton": {
+    "m_FileID": 0,
+    "m_PathID": 17
+  },
+  "paymentService": {
+    "m_FileID": 0,
+    "m_PathID": 212
+  }
+}

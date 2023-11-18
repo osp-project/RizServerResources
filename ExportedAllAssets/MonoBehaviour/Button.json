@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 4413970335731391837
+    "m_PathID": 14
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -4448497653027179337
+    "m_FileID": 1,
+    "m_PathID": 26
   },
   "m_Name": "",
   "m_Navigation": {
@@ -29,7 +29,7 @@
       "m_PathID": 0
     }
   },
-  "m_Transition": 0,
+  "m_Transition": 1,
   "m_Colors": {
     "m_NormalColor": {
       "r": 1.0,
@@ -38,31 +38,31 @@
       "a": 1.0
     },
     "m_HighlightedColor": {
-      "r": 0.9607843,
-      "g": 0.9607843,
-      "b": 0.9607843,
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
       "a": 1.0
     },
     "m_PressedColor": {
-      "r": 0.784313738,
-      "g": 0.784313738,
-      "b": 0.784313738,
+      "r": 0.8509804,
+      "g": 0.8509804,
+      "b": 0.8509804,
       "a": 1.0
     },
     "m_SelectedColor": {
-      "r": 0.9607843,
-      "g": 0.9607843,
-      "b": 0.9607843,
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
       "a": 1.0
     },
     "m_DisabledColor": {
-      "r": 0.784313738,
-      "g": 0.784313738,
-      "b": 0.784313738,
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
       "a": 0.5019608
     },
     "m_ColorMultiplier": 1.0,
-    "m_FadeDuration": 0.1
+    "m_FadeDuration": 0.133
   },
   "m_SpriteState": {
     "m_HighlightedSprite": {
@@ -92,7 +92,7 @@
   "m_Interactable": 1,
   "m_TargetGraphic": {
     "m_FileID": 0,
-    "m_PathID": -5030292776303944355
+    "m_PathID": 348
   },
   "m_OnClick": {
     "m_PersistentCalls": {
@@ -100,10 +100,10 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 5853534067424795997
+            "m_PathID": 346
           },
-          "m_TargetAssemblyTypeName": "EventCard, Assembly-CSharp",
-          "m_MethodName": "Enter",
+          "m_TargetAssemblyTypeName": "PaymentService, Assembly-CSharp",
+          "m_MethodName": "BuyItem",
           "m_Mode": 1,
           "m_Arguments": {
             "m_ObjectArgument": {

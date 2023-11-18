@@ -1,32 +1,33 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 48
+    "m_PathID": 107
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 20
+    "m_PathID": 27
   },
   "m_Name": "",
   "expandAnim": {
     "m_FileID": 0,
-    "m_PathID": 301
+    "m_PathID": 478
   },
   "collapseAnim": {
     "m_FileID": 0,
-    "m_PathID": 288
+    "m_PathID": 485
   },
   "expandButton": {
     "m_FileID": 0,
-    "m_PathID": 281
+    "m_PathID": 496
   },
   "helpButton": {
     "m_FileID": 0,
-    "m_PathID": 294
+    "m_PathID": 484
   },
   "purchaseCanvasGroup": {
     "m_FileID": 0,
-    "m_PathID": 194
-  }
+    "m_PathID": 324
+  },
+  "allowCollapseWhileHasActiveWindow": 0
 }

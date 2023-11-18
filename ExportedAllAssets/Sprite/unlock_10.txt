@@ -1,0 +1,329 @@
+Sprite Base
+	string m_Name = "unlock_10"
+	Rectf m_Rect
+		float x = 0
+		float y = 0
+		float width = 530
+		float height = 122
+	Vector2f m_Offset
+		float x = 0
+		float y = 0
+	Vector4f m_Border
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	float m_PixelsToUnits = 100
+	Vector2f m_Pivot
+		float x = 0.5
+		float y = 0.5
+	unsigned int m_Extrude = 1
+	bool m_IsPolygon = False
+	pair m_RenderDataKey
+		GUID first
+			unsigned int data[0] = 3431705468
+			unsigned int data[1] = 1105076239
+			unsigned int data[2] = 310213537
+			unsigned int data[3] = 1309459589
+		SInt64 second = 21300000
+	vector m_AtlasTags
+		Array Array
+		int size = 0
+	PPtr<SpriteAtlas> m_SpriteAtlas
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	SpriteRenderData m_RD
+		PPtr<Texture2D> texture
+			int m_FileID = 0
+			SInt64 m_PathID = 137
+		PPtr<Texture2D> alphaTexture
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		vector secondaryTextures
+			Array Array
+			int size = 0
+		vector m_SubMeshes
+			Array Array
+			int size = 1
+				[0]
+				SubMesh data
+					unsigned int firstByte = 0
+					unsigned int indexCount = 21
+					int topology = 0
+					unsigned int baseVertex = 0
+					unsigned int firstVertex = 0
+					unsigned int vertexCount = 9
+					AABB localAABB
+						Vector3f m_Center
+							float x = 0
+							float y = 0
+							float z = 0
+						Vector3f m_Extent
+							float x = 0
+							float y = 0
+							float z = 0
+		vector m_IndexBuffer
+			Array Array
+			int size = 42
+				[0]
+				UInt8 data = 8
+				[1]
+				UInt8 data = 0
+				[2]
+				UInt8 data = 7
+				[3]
+				UInt8 data = 0
+				[4]
+				UInt8 data = 6
+				[5]
+				UInt8 data = 0
+				[6]
+				UInt8 data = 5
+				[7]
+				UInt8 data = 0
+				[8]
+				UInt8 data = 6
+				[9]
+				UInt8 data = 0
+				[10]
+				UInt8 data = 7
+				[11]
+				UInt8 data = 0
+				[12]
+				UInt8 data = 4
+				[13]
+				UInt8 data = 0
+				[14]
+				UInt8 data = 6
+				[15]
+				UInt8 data = 0
+				[16]
+				UInt8 data = 5
+				[17]
+				UInt8 data = 0
+				[18]
+				UInt8 data = 3
+				[19]
+				UInt8 data = 0
+				[20]
+				UInt8 data = 4
+				[21]
+				UInt8 data = 0
+				[22]
+				UInt8 data = 5
+				[23]
+				UInt8 data = 0
+				[24]
+				UInt8 data = 1
+				[25]
+				UInt8 data = 0
+				[26]
+				UInt8 data = 4
+				[27]
+				UInt8 data = 0
+				[28]
+				UInt8 data = 3
+				[29]
+				UInt8 data = 0
+				[30]
+				UInt8 data = 0
+				[31]
+				UInt8 data = 0
+				[32]
+				UInt8 data = 1
+				[33]
+				UInt8 data = 0
+				[34]
+				UInt8 data = 3
+				[35]
+				UInt8 data = 0
+				[36]
+				UInt8 data = 2
+				[37]
+				UInt8 data = 0
+				[38]
+				UInt8 data = 1
+				[39]
+				UInt8 data = 0
+				[40]
+				UInt8 data = 0
+				[41]
+				UInt8 data = 0
+		VertexData m_VertexData
+			unsigned int m_VertexCount = 9
+			vector m_Channels
+				Array Array
+				int size = 14
+					[0]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 3
+					[1]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[2]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[3]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[4]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 2
+					[5]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[6]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[7]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[8]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[9]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[10]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[11]
+					ChannelInfo data
+						UInt8 stream = 0
+						UInt8 offset = 0
+						UInt8 format = 0
+						UInt8 dimension = 0
+					[12]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 8
+						UInt8 format = 0
+						UInt8 dimension = 4
+					[13]
+					ChannelInfo data
+						UInt8 stream = 1
+						UInt8 offset = 24
+						UInt8 format = 10
+						UInt8 dimension = 4
+			TypelessData m_DataSize
+			int size = 472
+		vector m_Bindpose
+			Array Array
+			int size = 0
+		Rectf textureRect
+			float x = 179.0761
+			float y = 0
+			float width = 171.8478
+			float height = 122
+		Vector2f textureRectOffset
+			float x = 179.0761
+			float y = 0
+		Vector2f atlasRectOffset
+			float x = -1
+			float y = -1
+		unsigned int settingsRaw = 64
+		Vector4f uvTransform
+			float x = 100
+			float y = 265
+			float z = 100
+			float w = 61
+		float downscaleMultiplier = 1
+	vector m_PhysicsShape
+		Array Array
+		int size = 1
+			[0]
+			vector data
+				Array Array
+				int size = 14
+					[0]
+					Vector2f data
+						float x = 0.86
+						float y = 0.18
+					[1]
+					Vector2f data
+						float x = 0.82
+						float y = 0.33
+					[2]
+					Vector2f data
+						float x = 0.64
+						float y = 0.58
+					[3]
+					Vector2f data
+						float x = -0.64
+						float y = 0.58
+					[4]
+					Vector2f data
+						float x = -0.75
+						float y = 0.45
+					[5]
+					Vector2f data
+						float x = -0.84
+						float y = 0.24
+					[6]
+					Vector2f data
+						float x = -0.86
+						float y = 0.11
+					[7]
+					Vector2f data
+						float x = -0.86
+						float y = -0.18
+					[8]
+					Vector2f data
+						float x = -0.75
+						float y = -0.45
+					[9]
+					Vector2f data
+						float x = -0.63
+						float y = -0.58
+					[10]
+					Vector2f data
+						float x = 0.63
+						float y = -0.58
+					[11]
+					Vector2f data
+						float x = 0.67
+						float y = -0.57
+					[12]
+					Vector2f data
+						float x = 0.83
+						float y = -0.33
+					[13]
+					Vector2f data
+						float x = 0.86
+						float y = -0.13
+	vector m_Bones
+		Array Array
+		int size = 0

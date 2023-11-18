@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 38
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 11
+	string m_Name = ""
+	UnityEvent back
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 2
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 291
+						string m_TargetAssemblyTypeName = "EventTrigger, Assembly-CSharp"
+						string m_MethodName = "StartEvents"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+					[1]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 35
+						string m_TargetAssemblyTypeName = "UnityEngine.GameObject, UnityEngine"
+						string m_MethodName = "SetActive"
+						int m_Mode = 6
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 1
+						int m_CallState = 2

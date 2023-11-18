@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 66
+    "m_PathID": 10
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 21
+    "m_PathID": 30
   },
   "m_Name": "",
   "clipKey": "Assets/GameAssets/CRIAsset/rizline_play_button_choice_1.acb",

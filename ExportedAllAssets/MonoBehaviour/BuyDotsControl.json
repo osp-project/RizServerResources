@@ -1,16 +1,16 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 106
+    "m_PathID": 113
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 42
+    "m_PathID": 44
   },
   "m_Name": "",
   "moneyDisplay": {
     "m_FileID": 0,
-    "m_PathID": 456
+    "m_PathID": 502
   }
 }

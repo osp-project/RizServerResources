@@ -1,0 +1,2946 @@
+AnimationClip Base
+	string m_Name = "Anim"
+	bool m_Legacy = False
+	bool m_Compressed = False
+	bool m_UseHighQualityCurve = True
+	vector m_RotationCurves
+		Array Array
+		int size = 0
+	vector m_CompressedRotationCurves
+		Array Array
+		int size = 0
+	vector m_EulerCurves
+		Array Array
+		int size = 0
+	vector m_PositionCurves
+		Array Array
+		int size = 0
+	vector m_ScaleCurves
+		Array Array
+		int size = 0
+	vector m_FloatCurves
+		Array Array
+		int size = 0
+	vector m_PPtrCurves
+		Array Array
+		int size = 0
+	float m_SampleRate = 60
+	int m_WrapMode = 0
+	AABB m_Bounds
+		Vector3f m_Center
+			float x = 0
+			float y = 0
+			float z = 0
+		Vector3f m_Extent
+			float x = 0
+			float y = 0
+			float z = 0
+	unsigned int m_MuscleClipSize = 5512
+	ClipMuscleConstant m_MuscleClip
+		HumanPose m_DeltaPose
+			xform m_RootX
+				float3 t
+					float x = 0
+					float y = 0
+					float z = 0
+				float4 q
+					float x = 0
+					float y = 0
+					float z = 0
+					float w = 1
+				float3 s
+					float x = 1
+					float y = 1
+					float z = 1
+			float3 m_LookAtPosition
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 m_LookAtWeight
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 0
+			staticvector m_GoalArray
+				Array Array
+				int size = 4
+					[0]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[1]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[2]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[3]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+			HandPose m_LeftHandPose
+				xform m_GrabX
+					float3 t
+						float x = 0
+						float y = 0
+						float z = 0
+					float4 q
+						float x = 0
+						float y = 0
+						float z = 0
+						float w = 1
+					float3 s
+						float x = 1
+						float y = 1
+						float z = 1
+				staticvector m_DoFArray
+					Array Array
+					int size = 20
+						[0]
+						float data = 0
+						[1]
+						float data = 0
+						[2]
+						float data = 0
+						[3]
+						float data = 0
+						[4]
+						float data = 0
+						[5]
+						float data = 0
+						[6]
+						float data = 0
+						[7]
+						float data = 0
+						[8]
+						float data = 0
+						[9]
+						float data = 0
+						[10]
+						float data = 0
+						[11]
+						float data = 0
+						[12]
+						float data = 0
+						[13]
+						float data = 0
+						[14]
+						float data = 0
+						[15]
+						float data = 0
+						[16]
+						float data = 0
+						[17]
+						float data = 0
+						[18]
+						float data = 0
+						[19]
+						float data = 0
+				float m_Override = 0
+				float m_CloseOpen = 0
+				float m_InOut = 0
+				float m_Grab = 0
+			HandPose m_RightHandPose
+				xform m_GrabX
+					float3 t
+						float x = 0
+						float y = 0
+						float z = 0
+					float4 q
+						float x = 0
+						float y = 0
+						float z = 0
+						float w = 1
+					float3 s
+						float x = 1
+						float y = 1
+						float z = 1
+				staticvector m_DoFArray
+					Array Array
+					int size = 20
+						[0]
+						float data = 0
+						[1]
+						float data = 0
+						[2]
+						float data = 0
+						[3]
+						float data = 0
+						[4]
+						float data = 0
+						[5]
+						float data = 0
+						[6]
+						float data = 0
+						[7]
+						float data = 0
+						[8]
+						float data = 0
+						[9]
+						float data = 0
+						[10]
+						float data = 0
+						[11]
+						float data = 0
+						[12]
+						float data = 0
+						[13]
+						float data = 0
+						[14]
+						float data = 0
+						[15]
+						float data = 0
+						[16]
+						float data = 0
+						[17]
+						float data = 0
+						[18]
+						float data = 0
+						[19]
+						float data = 0
+				float m_Override = 0
+				float m_CloseOpen = 0
+				float m_InOut = 0
+				float m_Grab = 0
+			staticvector m_DoFArray
+				Array Array
+				int size = 55
+					[0]
+					float data = 0
+					[1]
+					float data = 0
+					[2]
+					float data = 0
+					[3]
+					float data = 0
+					[4]
+					float data = 0
+					[5]
+					float data = 0
+					[6]
+					float data = 0
+					[7]
+					float data = 0
+					[8]
+					float data = 0
+					[9]
+					float data = 0
+					[10]
+					float data = 0
+					[11]
+					float data = 0
+					[12]
+					float data = 0
+					[13]
+					float data = 0
+					[14]
+					float data = 0
+					[15]
+					float data = 0
+					[16]
+					float data = 0
+					[17]
+					float data = 0
+					[18]
+					float data = 0
+					[19]
+					float data = 0
+					[20]
+					float data = 0
+					[21]
+					float data = 0
+					[22]
+					float data = 0
+					[23]
+					float data = 0
+					[24]
+					float data = 0
+					[25]
+					float data = 0
+					[26]
+					float data = 0
+					[27]
+					float data = 0
+					[28]
+					float data = 0
+					[29]
+					float data = 0
+					[30]
+					float data = 0
+					[31]
+					float data = 0
+					[32]
+					float data = 0
+					[33]
+					float data = 0
+					[34]
+					float data = 0
+					[35]
+					float data = 0
+					[36]
+					float data = 0
+					[37]
+					float data = 0
+					[38]
+					float data = 0
+					[39]
+					float data = 0
+					[40]
+					float data = 0
+					[41]
+					float data = 0
+					[42]
+					float data = 0
+					[43]
+					float data = 0
+					[44]
+					float data = 0
+					[45]
+					float data = 0
+					[46]
+					float data = 0
+					[47]
+					float data = 0
+					[48]
+					float data = 0
+					[49]
+					float data = 0
+					[50]
+					float data = 0
+					[51]
+					float data = 0
+					[52]
+					float data = 0
+					[53]
+					float data = 0
+					[54]
+					float data = 0
+			staticvector m_TDoFArray
+				Array Array
+				int size = 21
+					[0]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[1]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[2]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[3]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[4]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[5]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[6]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[7]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[8]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[9]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[10]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[11]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[12]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[13]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[14]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[15]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[16]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[17]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[18]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[19]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[20]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+		xform m_StartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_StopX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_LeftFootStartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_RightFootStartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		float3 m_AverageSpeed
+			float x = 0
+			float y = 0
+			float z = 0
+		OffsetPtr m_Clip
+			Clip data
+				StreamedClip m_StreamedClip
+					vector data
+						Array Array
+						int size = 744
+							[0]
+							unsigned int data = 4286578687
+							[1]
+							unsigned int data = 1
+							[2]
+							unsigned int data = 0
+							[3]
+							unsigned int data = 0
+							[4]
+							unsigned int data = 0
+							[5]
+							unsigned int data = 0
+							[6]
+							unsigned int data = 0
+							[7]
+							unsigned int data = 1015580809
+							[8]
+							unsigned int data = 1
+							[9]
+							unsigned int data = 0
+							[10]
+							unsigned int data = 0
+							[11]
+							unsigned int data = 0
+							[12]
+							unsigned int data = 0
+							[13]
+							unsigned int data = 1065353216
+							[14]
+							unsigned int data = 1023969417
+							[15]
+							unsigned int data = 1
+							[16]
+							unsigned int data = 0
+							[17]
+							unsigned int data = 0
+							[18]
+							unsigned int data = 0
+							[19]
+							unsigned int data = 0
+							[20]
+							unsigned int data = 1073741824
+							[21]
+							unsigned int data = 1028443341
+							[22]
+							unsigned int data = 1
+							[23]
+							unsigned int data = 0
+							[24]
+							unsigned int data = 0
+							[25]
+							unsigned int data = 0
+							[26]
+							unsigned int data = 0
+							[27]
+							unsigned int data = 1077936128
+							[28]
+							unsigned int data = 1032358025
+							[29]
+							unsigned int data = 1
+							[30]
+							unsigned int data = 0
+							[31]
+							unsigned int data = 0
+							[32]
+							unsigned int data = 0
+							[33]
+							unsigned int data = 0
+							[34]
+							unsigned int data = 1082130432
+							[35]
+							unsigned int data = 1034594987
+							[36]
+							unsigned int data = 1
+							[37]
+							unsigned int data = 0
+							[38]
+							unsigned int data = 0
+							[39]
+							unsigned int data = 0
+							[40]
+							unsigned int data = 0
+							[41]
+							unsigned int data = 1084227584
+							[42]
+							unsigned int data = 1036831949
+							[43]
+							unsigned int data = 1
+							[44]
+							unsigned int data = 0
+							[45]
+							unsigned int data = 0
+							[46]
+							unsigned int data = 0
+							[47]
+							unsigned int data = 0
+							[48]
+							unsigned int data = 1086324736
+							[49]
+							unsigned int data = 1039068911
+							[50]
+							unsigned int data = 1
+							[51]
+							unsigned int data = 0
+							[52]
+							unsigned int data = 0
+							[53]
+							unsigned int data = 0
+							[54]
+							unsigned int data = 0
+							[55]
+							unsigned int data = 1088421888
+							[56]
+							unsigned int data = 1040746633
+							[57]
+							unsigned int data = 1
+							[58]
+							unsigned int data = 0
+							[59]
+							unsigned int data = 0
+							[60]
+							unsigned int data = 0
+							[61]
+							unsigned int data = 0
+							[62]
+							unsigned int data = 1090519040
+							[63]
+							unsigned int data = 1041865114
+							[64]
+							unsigned int data = 1
+							[65]
+							unsigned int data = 0
+							[66]
+							unsigned int data = 0
+							[67]
+							unsigned int data = 0
+							[68]
+							unsigned int data = 0
+							[69]
+							unsigned int data = 1091567616
+							[70]
+							unsigned int data = 1042983595
+							[71]
+							unsigned int data = 1
+							[72]
+							unsigned int data = 0
+							[73]
+							unsigned int data = 0
+							[74]
+							unsigned int data = 0
+							[75]
+							unsigned int data = 0
+							[76]
+							unsigned int data = 1092616192
+							[77]
+							unsigned int data = 1044102076
+							[78]
+							unsigned int data = 1
+							[79]
+							unsigned int data = 0
+							[80]
+							unsigned int data = 0
+							[81]
+							unsigned int data = 0
+							[82]
+							unsigned int data = 0
+							[83]
+							unsigned int data = 1093664768
+							[84]
+							unsigned int data = 1045220557
+							[85]
+							unsigned int data = 1
+							[86]
+							unsigned int data = 0
+							[87]
+							unsigned int data = 0
+							[88]
+							unsigned int data = 0
+							[89]
+							unsigned int data = 0
+							[90]
+							unsigned int data = 1094713344
+							[91]
+							unsigned int data = 1046339038
+							[92]
+							unsigned int data = 1
+							[93]
+							unsigned int data = 0
+							[94]
+							unsigned int data = 0
+							[95]
+							unsigned int data = 0
+							[96]
+							unsigned int data = 0
+							[97]
+							unsigned int data = 1095761920
+							[98]
+							unsigned int data = 1047457519
+							[99]
+							unsigned int data = 1
+							[100]
+							unsigned int data = 0
+							[101]
+							unsigned int data = 0
+							[102]
+							unsigned int data = 0
+							[103]
+							unsigned int data = 0
+							[104]
+							unsigned int data = 1096810496
+							[105]
+							unsigned int data = 1048576000
+							[106]
+							unsigned int data = 1
+							[107]
+							unsigned int data = 0
+							[108]
+							unsigned int data = 0
+							[109]
+							unsigned int data = 0
+							[110]
+							unsigned int data = 0
+							[111]
+							unsigned int data = 1097859072
+							[112]
+							unsigned int data = 1049135241
+							[113]
+							unsigned int data = 1
+							[114]
+							unsigned int data = 0
+							[115]
+							unsigned int data = 0
+							[116]
+							unsigned int data = 0
+							[117]
+							unsigned int data = 0
+							[118]
+							unsigned int data = 1098907648
+							[119]
+							unsigned int data = 1049694481
+							[120]
+							unsigned int data = 1
+							[121]
+							unsigned int data = 0
+							[122]
+							unsigned int data = 0
+							[123]
+							unsigned int data = 0
+							[124]
+							unsigned int data = 0
+							[125]
+							unsigned int data = 1099431936
+							[126]
+							unsigned int data = 1050253722
+							[127]
+							unsigned int data = 1
+							[128]
+							unsigned int data = 0
+							[129]
+							unsigned int data = 0
+							[130]
+							unsigned int data = 0
+							[131]
+							unsigned int data = 0
+							[132]
+							unsigned int data = 1099956224
+							[133]
+							unsigned int data = 1050812962
+							[134]
+							unsigned int data = 1
+							[135]
+							unsigned int data = 0
+							[136]
+							unsigned int data = 0
+							[137]
+							unsigned int data = 0
+							[138]
+							unsigned int data = 0
+							[139]
+							unsigned int data = 1100480512
+							[140]
+							unsigned int data = 1051372203
+							[141]
+							unsigned int data = 1
+							[142]
+							unsigned int data = 0
+							[143]
+							unsigned int data = 0
+							[144]
+							unsigned int data = 0
+							[145]
+							unsigned int data = 0
+							[146]
+							unsigned int data = 1101004800
+							[147]
+							unsigned int data = 1051931443
+							[148]
+							unsigned int data = 1
+							[149]
+							unsigned int data = 0
+							[150]
+							unsigned int data = 0
+							[151]
+							unsigned int data = 0
+							[152]
+							unsigned int data = 0
+							[153]
+							unsigned int data = 1101529088
+							[154]
+							unsigned int data = 1052490684
+							[155]
+							unsigned int data = 1
+							[156]
+							unsigned int data = 0
+							[157]
+							unsigned int data = 0
+							[158]
+							unsigned int data = 0
+							[159]
+							unsigned int data = 0
+							[160]
+							unsigned int data = 1102053376
+							[161]
+							unsigned int data = 1053049924
+							[162]
+							unsigned int data = 1
+							[163]
+							unsigned int data = 0
+							[164]
+							unsigned int data = 0
+							[165]
+							unsigned int data = 0
+							[166]
+							unsigned int data = 0
+							[167]
+							unsigned int data = 1102577664
+							[168]
+							unsigned int data = 1053609165
+							[169]
+							unsigned int data = 1
+							[170]
+							unsigned int data = 0
+							[171]
+							unsigned int data = 0
+							[172]
+							unsigned int data = 0
+							[173]
+							unsigned int data = 0
+							[174]
+							unsigned int data = 1103101952
+							[175]
+							unsigned int data = 1054168405
+							[176]
+							unsigned int data = 1
+							[177]
+							unsigned int data = 0
+							[178]
+							unsigned int data = 0
+							[179]
+							unsigned int data = 0
+							[180]
+							unsigned int data = 0
+							[181]
+							unsigned int data = 1103626240
+							[182]
+							unsigned int data = 1054727646
+							[183]
+							unsigned int data = 1
+							[184]
+							unsigned int data = 0
+							[185]
+							unsigned int data = 0
+							[186]
+							unsigned int data = 0
+							[187]
+							unsigned int data = 0
+							[188]
+							unsigned int data = 1104150528
+							[189]
+							unsigned int data = 1055286886
+							[190]
+							unsigned int data = 1
+							[191]
+							unsigned int data = 0
+							[192]
+							unsigned int data = 0
+							[193]
+							unsigned int data = 0
+							[194]
+							unsigned int data = 0
+							[195]
+							unsigned int data = 1104674816
+							[196]
+							unsigned int data = 1055846127
+							[197]
+							unsigned int data = 1
+							[198]
+							unsigned int data = 0
+							[199]
+							unsigned int data = 0
+							[200]
+							unsigned int data = 0
+							[201]
+							unsigned int data = 0
+							[202]
+							unsigned int data = 1105199104
+							[203]
+							unsigned int data = 1056405367
+							[204]
+							unsigned int data = 1
+							[205]
+							unsigned int data = 0
+							[206]
+							unsigned int data = 0
+							[207]
+							unsigned int data = 0
+							[208]
+							unsigned int data = 0
+							[209]
+							unsigned int data = 1105723392
+							[210]
+							unsigned int data = 1056964608
+							[211]
+							unsigned int data = 1
+							[212]
+							unsigned int data = 0
+							[213]
+							unsigned int data = 0
+							[214]
+							unsigned int data = 0
+							[215]
+							unsigned int data = 0
+							[216]
+							unsigned int data = 1106247680
+							[217]
+							unsigned int data = 1057244228
+							[218]
+							unsigned int data = 1
+							[219]
+							unsigned int data = 0
+							[220]
+							unsigned int data = 0
+							[221]
+							unsigned int data = 0
+							[222]
+							unsigned int data = 0
+							[223]
+							unsigned int data = 1106771968
+							[224]
+							unsigned int data = 1057523849
+							[225]
+							unsigned int data = 1
+							[226]
+							unsigned int data = 0
+							[227]
+							unsigned int data = 0
+							[228]
+							unsigned int data = 0
+							[229]
+							unsigned int data = 0
+							[230]
+							unsigned int data = 1107296256
+							[231]
+							unsigned int data = 1057803469
+							[232]
+							unsigned int data = 1
+							[233]
+							unsigned int data = 0
+							[234]
+							unsigned int data = 0
+							[235]
+							unsigned int data = 0
+							[236]
+							unsigned int data = 0
+							[237]
+							unsigned int data = 1107558400
+							[238]
+							unsigned int data = 1058083089
+							[239]
+							unsigned int data = 1
+							[240]
+							unsigned int data = 0
+							[241]
+							unsigned int data = 0
+							[242]
+							unsigned int data = 0
+							[243]
+							unsigned int data = 0
+							[244]
+							unsigned int data = 1107820544
+							[245]
+							unsigned int data = 1058362709
+							[246]
+							unsigned int data = 1
+							[247]
+							unsigned int data = 0
+							[248]
+							unsigned int data = 0
+							[249]
+							unsigned int data = 0
+							[250]
+							unsigned int data = 0
+							[251]
+							unsigned int data = 1108082688
+							[252]
+							unsigned int data = 1058642330
+							[253]
+							unsigned int data = 1
+							[254]
+							unsigned int data = 0
+							[255]
+							unsigned int data = 0
+							[256]
+							unsigned int data = 0
+							[257]
+							unsigned int data = 0
+							[258]
+							unsigned int data = 1108344832
+							[259]
+							unsigned int data = 1058921950
+							[260]
+							unsigned int data = 1
+							[261]
+							unsigned int data = 0
+							[262]
+							unsigned int data = 0
+							[263]
+							unsigned int data = 0
+							[264]
+							unsigned int data = 0
+							[265]
+							unsigned int data = 1108606976
+							[266]
+							unsigned int data = 1059201570
+							[267]
+							unsigned int data = 1
+							[268]
+							unsigned int data = 0
+							[269]
+							unsigned int data = 0
+							[270]
+							unsigned int data = 0
+							[271]
+							unsigned int data = 0
+							[272]
+							unsigned int data = 1108869120
+							[273]
+							unsigned int data = 1059481190
+							[274]
+							unsigned int data = 1
+							[275]
+							unsigned int data = 0
+							[276]
+							unsigned int data = 0
+							[277]
+							unsigned int data = 0
+							[278]
+							unsigned int data = 0
+							[279]
+							unsigned int data = 1109131264
+							[280]
+							unsigned int data = 1059760811
+							[281]
+							unsigned int data = 1
+							[282]
+							unsigned int data = 0
+							[283]
+							unsigned int data = 0
+							[284]
+							unsigned int data = 0
+							[285]
+							unsigned int data = 0
+							[286]
+							unsigned int data = 1109393408
+							[287]
+							unsigned int data = 1060040431
+							[288]
+							unsigned int data = 1
+							[289]
+							unsigned int data = 0
+							[290]
+							unsigned int data = 0
+							[291]
+							unsigned int data = 0
+							[292]
+							unsigned int data = 0
+							[293]
+							unsigned int data = 1109655552
+							[294]
+							unsigned int data = 1060320051
+							[295]
+							unsigned int data = 1
+							[296]
+							unsigned int data = 0
+							[297]
+							unsigned int data = 0
+							[298]
+							unsigned int data = 0
+							[299]
+							unsigned int data = 0
+							[300]
+							unsigned int data = 1109917696
+							[301]
+							unsigned int data = 1060599671
+							[302]
+							unsigned int data = 1
+							[303]
+							unsigned int data = 0
+							[304]
+							unsigned int data = 0
+							[305]
+							unsigned int data = 0
+							[306]
+							unsigned int data = 0
+							[307]
+							unsigned int data = 1110179840
+							[308]
+							unsigned int data = 1060879292
+							[309]
+							unsigned int data = 1
+							[310]
+							unsigned int data = 0
+							[311]
+							unsigned int data = 0
+							[312]
+							unsigned int data = 0
+							[313]
+							unsigned int data = 0
+							[314]
+							unsigned int data = 1110441984
+							[315]
+							unsigned int data = 1061158912
+							[316]
+							unsigned int data = 1
+							[317]
+							unsigned int data = 0
+							[318]
+							unsigned int data = 0
+							[319]
+							unsigned int data = 0
+							[320]
+							unsigned int data = 0
+							[321]
+							unsigned int data = 1110704128
+							[322]
+							unsigned int data = 1061438532
+							[323]
+							unsigned int data = 1
+							[324]
+							unsigned int data = 0
+							[325]
+							unsigned int data = 0
+							[326]
+							unsigned int data = 0
+							[327]
+							unsigned int data = 0
+							[328]
+							unsigned int data = 1110966272
+							[329]
+							unsigned int data = 1061718153
+							[330]
+							unsigned int data = 1
+							[331]
+							unsigned int data = 0
+							[332]
+							unsigned int data = 0
+							[333]
+							unsigned int data = 0
+							[334]
+							unsigned int data = 0
+							[335]
+							unsigned int data = 1111228416
+							[336]
+							unsigned int data = 1061997773
+							[337]
+							unsigned int data = 1
+							[338]
+							unsigned int data = 0
+							[339]
+							unsigned int data = 0
+							[340]
+							unsigned int data = 0
+							[341]
+							unsigned int data = 0
+							[342]
+							unsigned int data = 1111490560
+							[343]
+							unsigned int data = 1062277393
+							[344]
+							unsigned int data = 1
+							[345]
+							unsigned int data = 0
+							[346]
+							unsigned int data = 0
+							[347]
+							unsigned int data = 0
+							[348]
+							unsigned int data = 0
+							[349]
+							unsigned int data = 1111752704
+							[350]
+							unsigned int data = 1062557013
+							[351]
+							unsigned int data = 1
+							[352]
+							unsigned int data = 0
+							[353]
+							unsigned int data = 0
+							[354]
+							unsigned int data = 0
+							[355]
+							unsigned int data = 0
+							[356]
+							unsigned int data = 1112014848
+							[357]
+							unsigned int data = 1062836634
+							[358]
+							unsigned int data = 1
+							[359]
+							unsigned int data = 0
+							[360]
+							unsigned int data = 0
+							[361]
+							unsigned int data = 0
+							[362]
+							unsigned int data = 0
+							[363]
+							unsigned int data = 1112276992
+							[364]
+							unsigned int data = 1063116254
+							[365]
+							unsigned int data = 1
+							[366]
+							unsigned int data = 0
+							[367]
+							unsigned int data = 0
+							[368]
+							unsigned int data = 0
+							[369]
+							unsigned int data = 0
+							[370]
+							unsigned int data = 1112539136
+							[371]
+							unsigned int data = 1072623343
+							[372]
+							unsigned int data = 1
+							[373]
+							unsigned int data = 0
+							[374]
+							unsigned int data = 0
+							[375]
+							unsigned int data = 0
+							[376]
+							unsigned int data = 0
+							[377]
+							unsigned int data = 1112801280
+							[378]
+							unsigned int data = 1072763153
+							[379]
+							unsigned int data = 1
+							[380]
+							unsigned int data = 0
+							[381]
+							unsigned int data = 0
+							[382]
+							unsigned int data = 0
+							[383]
+							unsigned int data = 0
+							[384]
+							unsigned int data = 1113063424
+							[385]
+							unsigned int data = 1072902963
+							[386]
+							unsigned int data = 1
+							[387]
+							unsigned int data = 0
+							[388]
+							unsigned int data = 0
+							[389]
+							unsigned int data = 0
+							[390]
+							unsigned int data = 0
+							[391]
+							unsigned int data = 1113325568
+							[392]
+							unsigned int data = 1073042773
+							[393]
+							unsigned int data = 1
+							[394]
+							unsigned int data = 0
+							[395]
+							unsigned int data = 0
+							[396]
+							unsigned int data = 0
+							[397]
+							unsigned int data = 0
+							[398]
+							unsigned int data = 1113587712
+							[399]
+							unsigned int data = 1073182583
+							[400]
+							unsigned int data = 1
+							[401]
+							unsigned int data = 0
+							[402]
+							unsigned int data = 0
+							[403]
+							unsigned int data = 0
+							[404]
+							unsigned int data = 0
+							[405]
+							unsigned int data = 1113849856
+							[406]
+							unsigned int data = 1073322394
+							[407]
+							unsigned int data = 1
+							[408]
+							unsigned int data = 0
+							[409]
+							unsigned int data = 0
+							[410]
+							unsigned int data = 0
+							[411]
+							unsigned int data = 0
+							[412]
+							unsigned int data = 1114112000
+							[413]
+							unsigned int data = 1073462204
+							[414]
+							unsigned int data = 1
+							[415]
+							unsigned int data = 0
+							[416]
+							unsigned int data = 0
+							[417]
+							unsigned int data = 0
+							[418]
+							unsigned int data = 0
+							[419]
+							unsigned int data = 1114374144
+							[420]
+							unsigned int data = 1073602014
+							[421]
+							unsigned int data = 1
+							[422]
+							unsigned int data = 0
+							[423]
+							unsigned int data = 0
+							[424]
+							unsigned int data = 0
+							[425]
+							unsigned int data = 0
+							[426]
+							unsigned int data = 1114636288
+							[427]
+							unsigned int data = 1073741824
+							[428]
+							unsigned int data = 1
+							[429]
+							unsigned int data = 0
+							[430]
+							unsigned int data = 0
+							[431]
+							unsigned int data = 0
+							[432]
+							unsigned int data = 0
+							[433]
+							unsigned int data = 1114898432
+							[434]
+							unsigned int data = 1073811729
+							[435]
+							unsigned int data = 1
+							[436]
+							unsigned int data = 0
+							[437]
+							unsigned int data = 0
+							[438]
+							unsigned int data = 0
+							[439]
+							unsigned int data = 0
+							[440]
+							unsigned int data = 1115160576
+							[441]
+							unsigned int data = 1073881634
+							[442]
+							unsigned int data = 1
+							[443]
+							unsigned int data = 0
+							[444]
+							unsigned int data = 0
+							[445]
+							unsigned int data = 0
+							[446]
+							unsigned int data = 0
+							[447]
+							unsigned int data = 1115422720
+							[448]
+							unsigned int data = 1073951539
+							[449]
+							unsigned int data = 1
+							[450]
+							unsigned int data = 0
+							[451]
+							unsigned int data = 0
+							[452]
+							unsigned int data = 0
+							[453]
+							unsigned int data = 0
+							[454]
+							unsigned int data = 1115684864
+							[455]
+							unsigned int data = 1074021444
+							[456]
+							unsigned int data = 1
+							[457]
+							unsigned int data = 0
+							[458]
+							unsigned int data = 0
+							[459]
+							unsigned int data = 0
+							[460]
+							unsigned int data = 0
+							[461]
+							unsigned int data = 1115815936
+							[462]
+							unsigned int data = 1074091349
+							[463]
+							unsigned int data = 1
+							[464]
+							unsigned int data = 0
+							[465]
+							unsigned int data = 0
+							[466]
+							unsigned int data = 0
+							[467]
+							unsigned int data = 0
+							[468]
+							unsigned int data = 1115947008
+							[469]
+							unsigned int data = 1074161254
+							[470]
+							unsigned int data = 1
+							[471]
+							unsigned int data = 0
+							[472]
+							unsigned int data = 0
+							[473]
+							unsigned int data = 0
+							[474]
+							unsigned int data = 0
+							[475]
+							unsigned int data = 1116078080
+							[476]
+							unsigned int data = 1074231159
+							[477]
+							unsigned int data = 1
+							[478]
+							unsigned int data = 0
+							[479]
+							unsigned int data = 0
+							[480]
+							unsigned int data = 0
+							[481]
+							unsigned int data = 0
+							[482]
+							unsigned int data = 1116209152
+							[483]
+							unsigned int data = 1074301065
+							[484]
+							unsigned int data = 1
+							[485]
+							unsigned int data = 0
+							[486]
+							unsigned int data = 0
+							[487]
+							unsigned int data = 0
+							[488]
+							unsigned int data = 0
+							[489]
+							unsigned int data = 1116340224
+							[490]
+							unsigned int data = 1074370970
+							[491]
+							unsigned int data = 1
+							[492]
+							unsigned int data = 0
+							[493]
+							unsigned int data = 0
+							[494]
+							unsigned int data = 0
+							[495]
+							unsigned int data = 0
+							[496]
+							unsigned int data = 1116471296
+							[497]
+							unsigned int data = 1074440875
+							[498]
+							unsigned int data = 1
+							[499]
+							unsigned int data = 0
+							[500]
+							unsigned int data = 0
+							[501]
+							unsigned int data = 0
+							[502]
+							unsigned int data = 0
+							[503]
+							unsigned int data = 1116602368
+							[504]
+							unsigned int data = 1074510780
+							[505]
+							unsigned int data = 1
+							[506]
+							unsigned int data = 0
+							[507]
+							unsigned int data = 0
+							[508]
+							unsigned int data = 0
+							[509]
+							unsigned int data = 0
+							[510]
+							unsigned int data = 1116733440
+							[511]
+							unsigned int data = 1074580685
+							[512]
+							unsigned int data = 1
+							[513]
+							unsigned int data = 0
+							[514]
+							unsigned int data = 0
+							[515]
+							unsigned int data = 0
+							[516]
+							unsigned int data = 0
+							[517]
+							unsigned int data = 1116864512
+							[518]
+							unsigned int data = 1074650590
+							[519]
+							unsigned int data = 1
+							[520]
+							unsigned int data = 0
+							[521]
+							unsigned int data = 0
+							[522]
+							unsigned int data = 0
+							[523]
+							unsigned int data = 0
+							[524]
+							unsigned int data = 1116995584
+							[525]
+							unsigned int data = 1074720495
+							[526]
+							unsigned int data = 1
+							[527]
+							unsigned int data = 0
+							[528]
+							unsigned int data = 0
+							[529]
+							unsigned int data = 0
+							[530]
+							unsigned int data = 0
+							[531]
+							unsigned int data = 1117126656
+							[532]
+							unsigned int data = 1074790400
+							[533]
+							unsigned int data = 1
+							[534]
+							unsigned int data = 0
+							[535]
+							unsigned int data = 0
+							[536]
+							unsigned int data = 0
+							[537]
+							unsigned int data = 0
+							[538]
+							unsigned int data = 1117257728
+							[539]
+							unsigned int data = 1074860305
+							[540]
+							unsigned int data = 1
+							[541]
+							unsigned int data = 0
+							[542]
+							unsigned int data = 0
+							[543]
+							unsigned int data = 0
+							[544]
+							unsigned int data = 0
+							[545]
+							unsigned int data = 1117388800
+							[546]
+							unsigned int data = 1074930210
+							[547]
+							unsigned int data = 1
+							[548]
+							unsigned int data = 0
+							[549]
+							unsigned int data = 0
+							[550]
+							unsigned int data = 0
+							[551]
+							unsigned int data = 0
+							[552]
+							unsigned int data = 1117519872
+							[553]
+							unsigned int data = 1075000115
+							[554]
+							unsigned int data = 1
+							[555]
+							unsigned int data = 0
+							[556]
+							unsigned int data = 0
+							[557]
+							unsigned int data = 0
+							[558]
+							unsigned int data = 0
+							[559]
+							unsigned int data = 1117650944
+							[560]
+							unsigned int data = 1075070020
+							[561]
+							unsigned int data = 1
+							[562]
+							unsigned int data = 0
+							[563]
+							unsigned int data = 0
+							[564]
+							unsigned int data = 0
+							[565]
+							unsigned int data = 0
+							[566]
+							unsigned int data = 1117782016
+							[567]
+							unsigned int data = 1075139925
+							[568]
+							unsigned int data = 1
+							[569]
+							unsigned int data = 0
+							[570]
+							unsigned int data = 0
+							[571]
+							unsigned int data = 0
+							[572]
+							unsigned int data = 0
+							[573]
+							unsigned int data = 1117913088
+							[574]
+							unsigned int data = 1075209830
+							[575]
+							unsigned int data = 1
+							[576]
+							unsigned int data = 0
+							[577]
+							unsigned int data = 0
+							[578]
+							unsigned int data = 0
+							[579]
+							unsigned int data = 0
+							[580]
+							unsigned int data = 1118044160
+							[581]
+							unsigned int data = 1075279735
+							[582]
+							unsigned int data = 1
+							[583]
+							unsigned int data = 0
+							[584]
+							unsigned int data = 0
+							[585]
+							unsigned int data = 0
+							[586]
+							unsigned int data = 0
+							[587]
+							unsigned int data = 1118175232
+							[588]
+							unsigned int data = 1075349641
+							[589]
+							unsigned int data = 1
+							[590]
+							unsigned int data = 0
+							[591]
+							unsigned int data = 0
+							[592]
+							unsigned int data = 0
+							[593]
+							unsigned int data = 0
+							[594]
+							unsigned int data = 1118306304
+							[595]
+							unsigned int data = 1075419546
+							[596]
+							unsigned int data = 1
+							[597]
+							unsigned int data = 0
+							[598]
+							unsigned int data = 0
+							[599]
+							unsigned int data = 0
+							[600]
+							unsigned int data = 0
+							[601]
+							unsigned int data = 1118437376
+							[602]
+							unsigned int data = 1075489451
+							[603]
+							unsigned int data = 1
+							[604]
+							unsigned int data = 0
+							[605]
+							unsigned int data = 0
+							[606]
+							unsigned int data = 0
+							[607]
+							unsigned int data = 0
+							[608]
+							unsigned int data = 1118568448
+							[609]
+							unsigned int data = 1075559356
+							[610]
+							unsigned int data = 1
+							[611]
+							unsigned int data = 0
+							[612]
+							unsigned int data = 0
+							[613]
+							unsigned int data = 0
+							[614]
+							unsigned int data = 0
+							[615]
+							unsigned int data = 1118699520
+							[616]
+							unsigned int data = 1075629261
+							[617]
+							unsigned int data = 1
+							[618]
+							unsigned int data = 0
+							[619]
+							unsigned int data = 0
+							[620]
+							unsigned int data = 0
+							[621]
+							unsigned int data = 0
+							[622]
+							unsigned int data = 1118830592
+							[623]
+							unsigned int data = 1075699166
+							[624]
+							unsigned int data = 1
+							[625]
+							unsigned int data = 0
+							[626]
+							unsigned int data = 0
+							[627]
+							unsigned int data = 0
+							[628]
+							unsigned int data = 0
+							[629]
+							unsigned int data = 1118961664
+							[630]
+							unsigned int data = 1075769071
+							[631]
+							unsigned int data = 1
+							[632]
+							unsigned int data = 0
+							[633]
+							unsigned int data = 0
+							[634]
+							unsigned int data = 0
+							[635]
+							unsigned int data = 0
+							[636]
+							unsigned int data = 1119092736
+							[637]
+							unsigned int data = 1075838976
+							[638]
+							unsigned int data = 1
+							[639]
+							unsigned int data = 0
+							[640]
+							unsigned int data = 0
+							[641]
+							unsigned int data = 0
+							[642]
+							unsigned int data = 0
+							[643]
+							unsigned int data = 1119223808
+							[644]
+							unsigned int data = 1075908881
+							[645]
+							unsigned int data = 1
+							[646]
+							unsigned int data = 0
+							[647]
+							unsigned int data = 0
+							[648]
+							unsigned int data = 0
+							[649]
+							unsigned int data = 0
+							[650]
+							unsigned int data = 1119354880
+							[651]
+							unsigned int data = 1075978786
+							[652]
+							unsigned int data = 1
+							[653]
+							unsigned int data = 0
+							[654]
+							unsigned int data = 0
+							[655]
+							unsigned int data = 0
+							[656]
+							unsigned int data = 0
+							[657]
+							unsigned int data = 1119485952
+							[658]
+							unsigned int data = 1076048691
+							[659]
+							unsigned int data = 1
+							[660]
+							unsigned int data = 0
+							[661]
+							unsigned int data = 0
+							[662]
+							unsigned int data = 0
+							[663]
+							unsigned int data = 0
+							[664]
+							unsigned int data = 1119617024
+							[665]
+							unsigned int data = 1076118596
+							[666]
+							unsigned int data = 1
+							[667]
+							unsigned int data = 0
+							[668]
+							unsigned int data = 0
+							[669]
+							unsigned int data = 0
+							[670]
+							unsigned int data = 0
+							[671]
+							unsigned int data = 1119748096
+							[672]
+							unsigned int data = 1076188501
+							[673]
+							unsigned int data = 1
+							[674]
+							unsigned int data = 0
+							[675]
+							unsigned int data = 0
+							[676]
+							unsigned int data = 0
+							[677]
+							unsigned int data = 0
+							[678]
+							unsigned int data = 1119879168
+							[679]
+							unsigned int data = 1076258406
+							[680]
+							unsigned int data = 1
+							[681]
+							unsigned int data = 0
+							[682]
+							unsigned int data = 0
+							[683]
+							unsigned int data = 0
+							[684]
+							unsigned int data = 0
+							[685]
+							unsigned int data = 1120010240
+							[686]
+							unsigned int data = 1076328311
+							[687]
+							unsigned int data = 1
+							[688]
+							unsigned int data = 0
+							[689]
+							unsigned int data = 0
+							[690]
+							unsigned int data = 0
+							[691]
+							unsigned int data = 0
+							[692]
+							unsigned int data = 1120141312
+							[693]
+							unsigned int data = 1076398217
+							[694]
+							unsigned int data = 1
+							[695]
+							unsigned int data = 0
+							[696]
+							unsigned int data = 0
+							[697]
+							unsigned int data = 0
+							[698]
+							unsigned int data = 0
+							[699]
+							unsigned int data = 1120272384
+							[700]
+							unsigned int data = 1076468122
+							[701]
+							unsigned int data = 1
+							[702]
+							unsigned int data = 0
+							[703]
+							unsigned int data = 0
+							[704]
+							unsigned int data = 0
+							[705]
+							unsigned int data = 0
+							[706]
+							unsigned int data = 1120403456
+							[707]
+							unsigned int data = 1076538027
+							[708]
+							unsigned int data = 1
+							[709]
+							unsigned int data = 0
+							[710]
+							unsigned int data = 0
+							[711]
+							unsigned int data = 0
+							[712]
+							unsigned int data = 0
+							[713]
+							unsigned int data = 1120534528
+							[714]
+							unsigned int data = 1076607932
+							[715]
+							unsigned int data = 1
+							[716]
+							unsigned int data = 0
+							[717]
+							unsigned int data = 0
+							[718]
+							unsigned int data = 0
+							[719]
+							unsigned int data = 0
+							[720]
+							unsigned int data = 1120665600
+							[721]
+							unsigned int data = 1076677837
+							[722]
+							unsigned int data = 1
+							[723]
+							unsigned int data = 0
+							[724]
+							unsigned int data = 0
+							[725]
+							unsigned int data = 0
+							[726]
+							unsigned int data = 0
+							[727]
+							unsigned int data = 1120796672
+							[728]
+							unsigned int data = 1076747742
+							[729]
+							unsigned int data = 1
+							[730]
+							unsigned int data = 0
+							[731]
+							unsigned int data = 0
+							[732]
+							unsigned int data = 0
+							[733]
+							unsigned int data = 0
+							[734]
+							unsigned int data = 1120927744
+							[735]
+							unsigned int data = 1076817647
+							[736]
+							unsigned int data = 1
+							[737]
+							unsigned int data = 0
+							[738]
+							unsigned int data = 0
+							[739]
+							unsigned int data = 0
+							[740]
+							unsigned int data = 0
+							[741]
+							unsigned int data = 1121058816
+							[742]
+							unsigned int data = 2139095040
+							[743]
+							unsigned int data = 0
+					unsigned int curveCount = 1
+				DenseClip m_DenseClip
+					int m_FrameCount = 167
+					unsigned int m_CurveCount = 0
+					float m_SampleRate = 60
+					float m_BeginTime = 0
+					vector m_SampleArray
+						Array Array
+						int size = 0
+				ConstantClip m_ConstantClip
+					vector data
+						Array Array
+						int size = 0
+		float m_StartTime = 0
+		float m_StopTime = 2.75
+		float m_OrientationOffsetY = 0
+		float m_Level = 0
+		float m_CycleOffset = 0
+		float m_AverageAngularSpeed = 0
+		staticvector m_IndexArray
+			Array Array
+			int size = 200
+				[0]
+				int data = -1
+				[1]
+				int data = -1
+				[2]
+				int data = -1
+				[3]
+				int data = -1
+				[4]
+				int data = -1
+				[5]
+				int data = -1
+				[6]
+				int data = -1
+				[7]
+				int data = -1
+				[8]
+				int data = -1
+				[9]
+				int data = -1
+				[10]
+				int data = -1
+				[11]
+				int data = -1
+				[12]
+				int data = -1
+				[13]
+				int data = -1
+				[14]
+				int data = -1
+				[15]
+				int data = -1
+				[16]
+				int data = -1
+				[17]
+				int data = -1
+				[18]
+				int data = -1
+				[19]
+				int data = -1
+				[20]
+				int data = -1
+				[21]
+				int data = -1
+				[22]
+				int data = -1
+				[23]
+				int data = -1
+				[24]
+				int data = -1
+				[25]
+				int data = -1
+				[26]
+				int data = -1
+				[27]
+				int data = -1
+				[28]
+				int data = -1
+				[29]
+				int data = -1
+				[30]
+				int data = -1
+				[31]
+				int data = -1
+				[32]
+				int data = -1
+				[33]
+				int data = -1
+				[34]
+				int data = -1
+				[35]
+				int data = -1
+				[36]
+				int data = -1
+				[37]
+				int data = -1
+				[38]
+				int data = -1
+				[39]
+				int data = -1
+				[40]
+				int data = -1
+				[41]
+				int data = -1
+				[42]
+				int data = -1
+				[43]
+				int data = -1
+				[44]
+				int data = -1
+				[45]
+				int data = -1
+				[46]
+				int data = -1
+				[47]
+				int data = -1
+				[48]
+				int data = -1
+				[49]
+				int data = -1
+				[50]
+				int data = -1
+				[51]
+				int data = -1
+				[52]
+				int data = -1
+				[53]
+				int data = -1
+				[54]
+				int data = -1
+				[55]
+				int data = -1
+				[56]
+				int data = -1
+				[57]
+				int data = -1
+				[58]
+				int data = -1
+				[59]
+				int data = -1
+				[60]
+				int data = -1
+				[61]
+				int data = -1
+				[62]
+				int data = -1
+				[63]
+				int data = -1
+				[64]
+				int data = -1
+				[65]
+				int data = -1
+				[66]
+				int data = -1
+				[67]
+				int data = -1
+				[68]
+				int data = -1
+				[69]
+				int data = -1
+				[70]
+				int data = -1
+				[71]
+				int data = -1
+				[72]
+				int data = -1
+				[73]
+				int data = -1
+				[74]
+				int data = -1
+				[75]
+				int data = -1
+				[76]
+				int data = -1
+				[77]
+				int data = -1
+				[78]
+				int data = -1
+				[79]
+				int data = -1
+				[80]
+				int data = -1
+				[81]
+				int data = -1
+				[82]
+				int data = -1
+				[83]
+				int data = -1
+				[84]
+				int data = -1
+				[85]
+				int data = -1
+				[86]
+				int data = -1
+				[87]
+				int data = -1
+				[88]
+				int data = -1
+				[89]
+				int data = -1
+				[90]
+				int data = -1
+				[91]
+				int data = -1
+				[92]
+				int data = -1
+				[93]
+				int data = -1
+				[94]
+				int data = -1
+				[95]
+				int data = -1
+				[96]
+				int data = -1
+				[97]
+				int data = -1
+				[98]
+				int data = -1
+				[99]
+				int data = -1
+				[100]
+				int data = -1
+				[101]
+				int data = -1
+				[102]
+				int data = -1
+				[103]
+				int data = -1
+				[104]
+				int data = -1
+				[105]
+				int data = -1
+				[106]
+				int data = -1
+				[107]
+				int data = -1
+				[108]
+				int data = -1
+				[109]
+				int data = -1
+				[110]
+				int data = -1
+				[111]
+				int data = -1
+				[112]
+				int data = -1
+				[113]
+				int data = -1
+				[114]
+				int data = -1
+				[115]
+				int data = -1
+				[116]
+				int data = -1
+				[117]
+				int data = -1
+				[118]
+				int data = -1
+				[119]
+				int data = -1
+				[120]
+				int data = -1
+				[121]
+				int data = -1
+				[122]
+				int data = -1
+				[123]
+				int data = -1
+				[124]
+				int data = -1
+				[125]
+				int data = -1
+				[126]
+				int data = -1
+				[127]
+				int data = -1
+				[128]
+				int data = -1
+				[129]
+				int data = -1
+				[130]
+				int data = -1
+				[131]
+				int data = -1
+				[132]
+				int data = -1
+				[133]
+				int data = -1
+				[134]
+				int data = -1
+				[135]
+				int data = -1
+				[136]
+				int data = -1
+				[137]
+				int data = -1
+				[138]
+				int data = -1
+				[139]
+				int data = -1
+				[140]
+				int data = -1
+				[141]
+				int data = -1
+				[142]
+				int data = -1
+				[143]
+				int data = -1
+				[144]
+				int data = -1
+				[145]
+				int data = -1
+				[146]
+				int data = -1
+				[147]
+				int data = -1
+				[148]
+				int data = -1
+				[149]
+				int data = -1
+				[150]
+				int data = -1
+				[151]
+				int data = -1
+				[152]
+				int data = -1
+				[153]
+				int data = -1
+				[154]
+				int data = -1
+				[155]
+				int data = -1
+				[156]
+				int data = -1
+				[157]
+				int data = -1
+				[158]
+				int data = -1
+				[159]
+				int data = -1
+				[160]
+				int data = -1
+				[161]
+				int data = -1
+				[162]
+				int data = -1
+				[163]
+				int data = -1
+				[164]
+				int data = -1
+				[165]
+				int data = -1
+				[166]
+				int data = -1
+				[167]
+				int data = -1
+				[168]
+				int data = -1
+				[169]
+				int data = -1
+				[170]
+				int data = -1
+				[171]
+				int data = -1
+				[172]
+				int data = -1
+				[173]
+				int data = -1
+				[174]
+				int data = -1
+				[175]
+				int data = -1
+				[176]
+				int data = -1
+				[177]
+				int data = -1
+				[178]
+				int data = -1
+				[179]
+				int data = -1
+				[180]
+				int data = -1
+				[181]
+				int data = -1
+				[182]
+				int data = -1
+				[183]
+				int data = -1
+				[184]
+				int data = -1
+				[185]
+				int data = -1
+				[186]
+				int data = -1
+				[187]
+				int data = -1
+				[188]
+				int data = -1
+				[189]
+				int data = -1
+				[190]
+				int data = -1
+				[191]
+				int data = -1
+				[192]
+				int data = -1
+				[193]
+				int data = -1
+				[194]
+				int data = -1
+				[195]
+				int data = -1
+				[196]
+				int data = -1
+				[197]
+				int data = -1
+				[198]
+				int data = -1
+				[199]
+				int data = -1
+		vector m_ValueArrayDelta
+			Array Array
+			int size = 1
+				[0]
+				ValueDelta data
+					float m_Start = 0
+					float m_Stop = 105
+		vector m_ValueArrayReferencePose
+			Array Array
+			int size = 0
+		bool m_Mirror = False
+		bool m_LoopTime = False
+		bool m_LoopBlend = False
+		bool m_LoopBlendOrientation = False
+		bool m_LoopBlendPositionY = False
+		bool m_LoopBlendPositionXZ = False
+		bool m_StartAtOrigin = True
+		bool m_KeepOriginalOrientation = False
+		bool m_KeepOriginalPositionY = True
+		bool m_KeepOriginalPositionXZ = False
+		bool m_HeightFromFeet = False
+	AnimationClipBindingConstant m_ClipBindingConstant
+		vector genericBindings
+			Array Array
+			int size = 1
+				[0]
+				GenericBinding data
+					unsigned int path = 0
+					unsigned int attribute = 2015549526
+					PPtr<Object> script
+						int m_FileID = 0
+						SInt64 m_PathID = 10
+					int typeID = 114
+					UInt8 customType = 0
+					UInt8 isPPtrCurve = 1
+		vector pptrCurveMapping
+			Array Array
+			int size = 106
+				[0]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 178
+				[1]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 234
+				[2]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 185
+				[3]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 233
+				[4]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 261
+				[5]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 209
+				[6]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 232
+				[7]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 260
+				[8]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 216
+				[9]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 242
+				[10]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 266
+				[11]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 196
+				[12]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 207
+				[13]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 262
+				[14]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 250
+				[15]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 188
+				[16]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 278
+				[17]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 193
+				[18]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 184
+				[19]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 249
+				[20]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 269
+				[21]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 179
+				[22]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 243
+				[23]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 191
+				[24]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 183
+				[25]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 246
+				[26]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 189
+				[27]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 239
+				[28]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 230
+				[29]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 268
+				[30]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 222
+				[31]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 221
+				[32]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 265
+				[33]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 180
+				[34]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 259
+				[35]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 241
+				[36]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 226
+				[37]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 275
+				[38]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 271
+				[39]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 182
+				[40]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 181
+				[41]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 283
+				[42]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 236
+				[43]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 186
+				[44]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 200
+				[45]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 235
+				[46]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 229
+				[47]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 281
+				[48]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 210
+				[49]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 212
+				[50]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 187
+				[51]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 214
+				[52]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 198
+				[53]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 282
+				[54]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 228
+				[55]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 217
+				[56]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 267
+				[57]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 192
+				[58]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 276
+				[59]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 256
+				[60]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 245
+				[61]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 197
+				[62]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 218
+				[63]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 248
+				[64]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 201
+				[65]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 255
+				[66]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 206
+				[67]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 199
+				[68]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 254
+				[69]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 258
+				[70]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 219
+				[71]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 247
+				[72]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 220
+				[73]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 238
+				[74]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 205
+				[75]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 273
+				[76]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 190
+				[77]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 257
+				[78]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 223
+				[79]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 224
+				[80]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 231
+				[81]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 244
+				[82]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 240
+				[83]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 195
+				[84]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 252
+				[85]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 202
+				[86]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 208
+				[87]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 253
+				[88]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 213
+				[89]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 194
+				[90]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 203
+				[91]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 211
+				[92]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 274
+				[93]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 225
+				[94]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 237
+				[95]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 263
+				[96]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 279
+				[97]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 204
+				[98]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 251
+				[99]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 277
+				[100]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 264
+				[101]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 272
+				[102]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 270
+				[103]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 227
+				[104]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 280
+				[105]
+				PPtr<Object> data
+					int m_FileID = 0
+					SInt64 m_PathID = 215
+	bool m_HasGenericRootTransform = False
+	bool m_HasMotionFloatCurves = False
+	vector m_Events
+		Array Array
+		int size = 0

@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 4879262963296803392
+    "m_PathID": 3724296607164883152
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -9,15 +9,11 @@
     "m_PathID": -4110335770548431337
   },
   "m_Name": "",
-  "text": "Permanent Event",
+  "text": "",
   "texts": [
     {
       "m_FileID": 0,
-      "m_PathID": 4473101488913947200
-    },
-    {
-      "m_FileID": 0,
-      "m_PathID": 1026369878397459008
+      "m_PathID": -3928402763393048368
     }
   ],
   "tmpTexts": []

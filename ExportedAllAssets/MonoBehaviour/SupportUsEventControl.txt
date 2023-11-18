@@ -1,0 +1,60 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 44
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 16
+	string m_Name = ""
+	PPtr<$GameObject> buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = 29
+	PPtr<$GameObject> giveDotsHint
+		int m_FileID = 0
+		SInt64 m_PathID = 77
+	PPtr<$PaymentService> paymentService
+		int m_FileID = 0
+		SInt64 m_PathID = 274
+	PPtr<$AddressableImageLoader> imageLoader
+		int m_FileID = 0
+		SInt64 m_PathID = 258
+	PPtr<$TweenInfo> infoAppear
+		int m_FileID = 0
+		SInt64 m_PathID = 251
+	PPtr<$TweenOneShootControl> imageAppear
+		int m_FileID = 0
+		SInt64 m_PathID = 282
+	PPtr<$DotControl> dotPrefab
+		int m_FileID = 1
+		SInt64 m_PathID = 302
+	PPtr<$Transform> dotAnimParent
+		int m_FileID = 0
+		SInt64 m_PathID = 168
+	PPtr<$GameObject> uncompletedGameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 21
+	PPtr<$GameObject> completedGameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 25
+	PPtr<$Text> uncompletedText
+		int m_FileID = 0
+		SInt64 m_PathID = 230
+	PPtr<$Text> completedText
+		int m_FileID = 0
+		SInt64 m_PathID = 263
+	PPtr<$Text> trackName
+		int m_FileID = 0
+		SInt64 m_PathID = 298
+	PPtr<$Text> artist
+		int m_FileID = 0
+		SInt64 m_PathID = 246
+	PPtr<$Text> eZ
+		int m_FileID = 0
+		SInt64 m_PathID = 250
+	PPtr<$Text> hD
+		int m_FileID = 0
+		SInt64 m_PathID = 249
+	PPtr<$Text> iN
+		int m_FileID = 0
+		SInt64 m_PathID = 270

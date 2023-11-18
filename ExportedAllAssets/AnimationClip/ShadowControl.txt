@@ -1,0 +1,2931 @@
+AnimationClip Base
+	string m_Name = "ShadowControl"
+	bool m_Legacy = True
+	bool m_Compressed = False
+	bool m_UseHighQualityCurve = True
+	vector m_RotationCurves
+		Array Array
+		int size = 1
+			[0]
+			QuaternionCurve data
+				AnimationCurve curve
+					vector m_Curve
+						Array Array
+						int size = 61
+							[0]
+							Keyframe data
+								float time = 0
+								Quaternionf value
+									float x = 0.08715574
+									float y = 0
+									float z = 0
+									float w = 0.9961947
+								Quaternionf inSlope
+									float x = -0.08693977
+									float y = 0
+									float z = 0
+									float w = 0.007542371
+								Quaternionf outSlope
+									float x = -0.08693977
+									float y = 0
+									float z = 0
+									float w = 0.007542371
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[1]
+							Keyframe data
+								float time = 0.01666667
+								Quaternionf value
+									float x = 0.08570674
+									float y = 0
+									float z = 0
+									float w = 0.9963204
+								Quaternionf inSlope
+									float x = -0.08694514
+									float y = 0
+									float z = 0
+									float w = 0.007477998
+								Quaternionf outSlope
+									float x = -0.08694514
+									float y = 0
+									float z = 0
+									float w = 0.007477998
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[2]
+							Keyframe data
+								float time = 0.03333334
+								Quaternionf value
+									float x = 0.08425757
+									float y = 0
+									float z = 0
+									float w = 0.996444
+								Quaternionf inSlope
+									float x = -0.08695608
+									float y = 0
+									float z = 0
+									float w = 0.007352828
+								Quaternionf outSlope
+									float x = -0.08695608
+									float y = 0
+									float z = 0
+									float w = 0.007352828
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[3]
+							Keyframe data
+								float time = 0.05
+								Quaternionf value
+									float x = 0.0828082
+									float y = 0
+									float z = 0
+									float w = 0.9965655
+								Quaternionf inSlope
+									float x = -0.08696683
+									float y = 0
+									float z = 0
+									float w = 0.007227659
+								Quaternionf outSlope
+									float x = -0.08696683
+									float y = 0
+									float z = 0
+									float w = 0.007227659
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[4]
+							Keyframe data
+								float time = 0.06666667
+								Quaternionf value
+									float x = 0.08135867
+									float y = 0
+									float z = 0
+									float w = 0.9966849
+								Quaternionf inSlope
+									float x = -0.08697689
+									float y = 0
+									float z = 0
+									float w = 0.007098914
+								Quaternionf outSlope
+									float x = -0.08697689
+									float y = 0
+									float z = 0
+									float w = 0.007098914
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[5]
+							Keyframe data
+								float time = 0.08333334
+								Quaternionf value
+									float x = 0.07990897
+									float y = 0
+									float z = 0
+									float w = 0.9968022
+								Quaternionf inSlope
+									float x = -0.08698718
+									float y = 0
+									float z = 0
+									float w = 0.006971956
+								Quaternionf outSlope
+									float x = -0.08698718
+									float y = 0
+									float z = 0
+									float w = 0.006971956
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[6]
+							Keyframe data
+								float time = 0.1
+								Quaternionf value
+									float x = 0.0784591
+									float y = 0
+									float z = 0
+									float w = 0.9969173
+								Quaternionf inSlope
+									float x = -0.08699768
+									float y = 0
+									float z = 0
+									float w = 0.006846786
+								Quaternionf outSlope
+									float x = -0.08699768
+									float y = 0
+									float z = 0
+									float w = 0.006846786
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[7]
+							Keyframe data
+								float time = 0.1166667
+								Quaternionf value
+									float x = 0.07700905
+									float y = 0
+									float z = 0
+									float w = 0.9970304
+								Quaternionf inSlope
+									float x = -0.08700749
+									float y = 0
+									float z = 0
+									float w = 0.006721615
+								Quaternionf outSlope
+									float x = -0.08700749
+									float y = 0
+									float z = 0
+									float w = 0.006721615
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[8]
+							Keyframe data
+								float time = 0.1333333
+								Quaternionf value
+									float x = 0.07555885
+									float y = 0
+									float z = 0
+									float w = 0.9971414
+								Quaternionf inSlope
+									float x = -0.08701688
+									float y = 0
+									float z = 0
+									float w = 0.006594657
+								Quaternionf outSlope
+									float x = -0.08701688
+									float y = 0
+									float z = 0
+									float w = 0.006594657
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[9]
+							Keyframe data
+								float time = 0.15
+								Quaternionf value
+									float x = 0.07410849
+									float y = 0
+									float z = 0
+									float w = 0.9972502
+								Quaternionf inSlope
+									float x = -0.08702651
+									float y = 0
+									float z = 0
+									float w = 0.006465912
+								Quaternionf outSlope
+									float x = -0.08702651
+									float y = 0
+									float z = 0
+									float w = 0.006465912
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[10]
+							Keyframe data
+								float time = 0.1666667
+								Quaternionf value
+									float x = 0.07265797
+									float y = 0
+									float z = 0
+									float w = 0.9973569
+								Quaternionf inSlope
+									float x = -0.08703568
+									float y = 0
+									float z = 0
+									float w = 0.006340743
+								Quaternionf outSlope
+									float x = -0.08703568
+									float y = 0
+									float z = 0
+									float w = 0.006340743
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[11]
+							Keyframe data
+								float time = 0.1833333
+								Quaternionf value
+									float x = 0.0712073
+									float y = 0
+									float z = 0
+									float w = 0.9974616
+								Quaternionf inSlope
+									float x = -0.08704484
+									float y = 0
+									float z = 0
+									float w = 0.006215573
+								Quaternionf outSlope
+									float x = -0.08704484
+									float y = 0
+									float z = 0
+									float w = 0.006215573
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[12]
+							Keyframe data
+								float time = 0.2
+								Quaternionf value
+									float x = 0.06975647
+									float y = 0
+									float z = 0
+									float w = 0.9975641
+								Quaternionf inSlope
+									float x = -0.08705401
+									float y = 0
+									float z = 0
+									float w = 0.006086827
+								Quaternionf outSlope
+									float x = -0.08705401
+									float y = 0
+									float z = 0
+									float w = 0.006086827
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[13]
+							Keyframe data
+								float time = 0.2166667
+								Quaternionf value
+									float x = 0.0683055
+									float y = 0
+									float z = 0
+									float w = 0.9976645
+								Quaternionf inSlope
+									float x = -0.0870625
+									float y = 0
+									float z = 0
+									float w = 0.005959869
+								Quaternionf outSlope
+									float x = -0.0870625
+									float y = 0
+									float z = 0
+									float w = 0.005959869
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[14]
+							Keyframe data
+								float time = 0.2333333
+								Quaternionf value
+									float x = 0.06685439
+									float y = 0
+									float z = 0
+									float w = 0.9977627
+								Quaternionf inSlope
+									float x = -0.08707099
+									float y = 0
+									float z = 0
+									float w = 0.005834699
+								Quaternionf outSlope
+									float x = -0.08707099
+									float y = 0
+									float z = 0
+									float w = 0.005834699
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[15]
+							Keyframe data
+								float time = 0.25
+								Quaternionf value
+									float x = 0.06540313
+									float y = 0
+									float z = 0
+									float w = 0.9978589
+								Quaternionf inSlope
+									float x = -0.08707967
+									float y = 0
+									float z = 0
+									float w = 0.005707739
+								Quaternionf outSlope
+									float x = -0.08707967
+									float y = 0
+									float z = 0
+									float w = 0.005707739
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[16]
+							Keyframe data
+								float time = 0.2666667
+								Quaternionf value
+									float x = 0.06395173
+									float y = 0
+									float z = 0
+									float w = 0.997953
+								Quaternionf inSlope
+									float x = -0.0870879
+									float y = 0
+									float z = 0
+									float w = 0.005580778
+								Quaternionf outSlope
+									float x = -0.0870879
+									float y = 0
+									float z = 0
+									float w = 0.005580778
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[17]
+							Keyframe data
+								float time = 0.2833334
+								Quaternionf value
+									float x = 0.0625002
+									float y = 0
+									float z = 0
+									float w = 0.998045
+								Quaternionf inSlope
+									float x = -0.08709572
+									float y = 0
+									float z = 0
+									float w = 0.00545382
+								Quaternionf outSlope
+									float x = -0.08709572
+									float y = 0
+									float z = 0
+									float w = 0.00545382
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[18]
+							Keyframe data
+								float time = 0.3
+								Quaternionf value
+									float x = 0.06104854
+									float y = 0
+									float z = 0
+									float w = 0.9981348
+								Quaternionf inSlope
+									float x = -0.08710366
+									float y = 0
+									float z = 0
+									float w = 0.005326862
+								Quaternionf outSlope
+									float x = -0.08710366
+									float y = 0
+									float z = 0
+									float w = 0.005326862
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[19]
+							Keyframe data
+								float time = 0.3166667
+								Quaternionf value
+									float x = 0.05959674
+									float y = 0
+									float z = 0
+									float w = 0.9982225
+								Quaternionf inSlope
+									float x = -0.08711137
+									float y = 0
+									float z = 0
+									float w = 0.005201693
+								Quaternionf outSlope
+									float x = -0.08711137
+									float y = 0
+									float z = 0
+									float w = 0.005201693
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[20]
+							Keyframe data
+								float time = 0.3333334
+								Quaternionf value
+									float x = 0.05814482
+									float y = 0
+									float z = 0
+									float w = 0.9983082
+								Quaternionf inSlope
+									float x = -0.08711886
+									float y = 0
+									float z = 0
+									float w = 0.005074735
+								Quaternionf outSlope
+									float x = -0.08711886
+									float y = 0
+									float z = 0
+									float w = 0.005074735
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[21]
+							Keyframe data
+								float time = 0.3500001
+								Quaternionf value
+									float x = 0.05669278
+									float y = 0
+									float z = 0
+									float w = 0.9983917
+								Quaternionf inSlope
+									float x = -0.08712612
+									float y = 0
+									float z = 0
+									float w = 0.004945989
+								Quaternionf outSlope
+									float x = -0.08712612
+									float y = 0
+									float z = 0
+									float w = 0.004945989
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[22]
+							Keyframe data
+								float time = 0.3666668
+								Quaternionf value
+									float x = 0.05524062
+									float y = 0
+									float z = 0
+									float w = 0.998473
+								Quaternionf inSlope
+									float x = -0.08713316
+									float y = 0
+									float z = 0
+									float w = 0.004820819
+								Quaternionf outSlope
+									float x = -0.08713316
+									float y = 0
+									float z = 0
+									float w = 0.004820819
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[23]
+							Keyframe data
+								float time = 0.3833334
+								Quaternionf value
+									float x = 0.05378834
+									float y = 0
+									float z = 0
+									float w = 0.9985524
+								Quaternionf inSlope
+									float x = -0.08714009
+									float y = 0
+									float z = 0
+									float w = 0.004693862
+								Quaternionf outSlope
+									float x = -0.08714009
+									float y = 0
+									float z = 0
+									float w = 0.004693862
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[24]
+							Keyframe data
+								float time = 0.4000001
+								Quaternionf value
+									float x = 0.05233594
+									float y = 0
+									float z = 0
+									float w = 0.9986295
+								Quaternionf inSlope
+									float x = -0.0871468
+									float y = 0
+									float z = 0
+									float w = 0.004566904
+								Quaternionf outSlope
+									float x = -0.0871468
+									float y = 0
+									float z = 0
+									float w = 0.004566904
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[25]
+							Keyframe data
+								float time = 0.4166668
+								Quaternionf value
+									float x = 0.05088344
+									float y = 0
+									float z = 0
+									float w = 0.9987046
+								Quaternionf inSlope
+									float x = -0.08715339
+									float y = 0
+									float z = 0
+									float w = 0.004441734
+								Quaternionf outSlope
+									float x = -0.08715339
+									float y = 0
+									float z = 0
+									float w = 0.004441734
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[26]
+							Keyframe data
+								float time = 0.4333335
+								Quaternionf value
+									float x = 0.04943083
+									float y = 0
+									float z = 0
+									float w = 0.9987776
+								Quaternionf inSlope
+									float x = -0.08715987
+									float y = 0
+									float z = 0
+									float w = 0.004312988
+								Quaternionf outSlope
+									float x = -0.08715987
+									float y = 0
+									float z = 0
+									float w = 0.004312988
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[27]
+							Keyframe data
+								float time = 0.4500002
+								Quaternionf value
+									float x = 0.04797811
+									float y = 0
+									float z = 0
+									float w = 0.9988484
+								Quaternionf inSlope
+									float x = -0.08716591
+									float y = 0
+									float z = 0
+									float w = 0.00418603
+								Quaternionf outSlope
+									float x = -0.08716591
+									float y = 0
+									float z = 0
+									float w = 0.00418603
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[28]
+							Keyframe data
+								float time = 0.4666668
+								Quaternionf value
+									float x = 0.0465253
+									float y = 0
+									float z = 0
+									float w = 0.9989171
+								Quaternionf inSlope
+									float x = -0.08717183
+									float y = 0
+									float z = 0
+									float w = 0.004060861
+								Quaternionf outSlope
+									float x = -0.08717183
+									float y = 0
+									float z = 0
+									float w = 0.004060861
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[29]
+							Keyframe data
+								float time = 0.4833335
+								Quaternionf value
+									float x = 0.04507238
+									float y = 0
+									float z = 0
+									float w = 0.9989837
+								Quaternionf inSlope
+									float x = -0.08717772
+									float y = 0
+									float z = 0
+									float w = 0.003933907
+								Quaternionf outSlope
+									float x = -0.08717772
+									float y = 0
+									float z = 0
+									float w = 0.003933907
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[30]
+							Keyframe data
+								float time = 0.5000002
+								Quaternionf value
+									float x = 0.04361937
+									float y = 0
+									float z = 0
+									float w = 0.9990482
+								Quaternionf inSlope
+									float x = -0.08718339
+									float y = 0
+									float z = 0
+									float w = 0.003805164
+								Quaternionf outSlope
+									float x = -0.08718339
+									float y = 0
+									float z = 0
+									float w = 0.003805164
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[31]
+							Keyframe data
+								float time = 0.5166668
+								Quaternionf value
+									float x = 0.04216627
+									float y = 0
+									float z = 0
+									float w = 0.9991106
+								Quaternionf inSlope
+									float x = -0.08718886
+									float y = 0
+									float z = 0
+									float w = 0.003679994
+								Quaternionf outSlope
+									float x = -0.08718886
+									float y = 0
+									float z = 0
+									float w = 0.003679994
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[32]
+							Keyframe data
+								float time = 0.5333335
+								Quaternionf value
+									float x = 0.04071308
+									float y = 0
+									float z = 0
+									float w = 0.9991709
+								Quaternionf inSlope
+									float x = -0.08719411
+									float y = 0
+									float z = 0
+									float w = 0.003553036
+								Quaternionf outSlope
+									float x = -0.08719411
+									float y = 0
+									float z = 0
+									float w = 0.003553036
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[33]
+							Keyframe data
+								float time = 0.5500001
+								Quaternionf value
+									float x = 0.0392598
+									float y = 0
+									float z = 0
+									float w = 0.999229
+								Quaternionf inSlope
+									float x = -0.08719914
+									float y = 0
+									float z = 0
+									float w = 0.003426078
+								Quaternionf outSlope
+									float x = -0.08719914
+									float y = 0
+									float z = 0
+									float w = 0.003426078
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[34]
+							Keyframe data
+								float time = 0.5666668
+								Quaternionf value
+									float x = 0.03780644
+									float y = 0
+									float z = 0
+									float w = 0.9992851
+								Quaternionf inSlope
+									float x = -0.08720406
+									float y = 0
+									float z = 0
+									float w = 0.00329912
+								Quaternionf outSlope
+									float x = -0.08720406
+									float y = 0
+									float z = 0
+									float w = 0.00329912
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[35]
+							Keyframe data
+								float time = 0.5833334
+								Quaternionf value
+									float x = 0.036353
+									float y = 0
+									float z = 0
+									float w = 0.999339
+								Quaternionf inSlope
+									float x = -0.08720876
+									float y = 0
+									float z = 0
+									float w = 0.003172162
+								Quaternionf outSlope
+									float x = -0.08720876
+									float y = 0
+									float z = 0
+									float w = 0.003172162
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[36]
+							Keyframe data
+								float time = 0.6000001
+								Quaternionf value
+									float x = 0.03489949
+									float y = 0
+									float z = 0
+									float w = 0.9993908
+								Quaternionf inSlope
+									float x = -0.08721323
+									float y = 0
+									float z = 0
+									float w = 0.003046992
+								Quaternionf outSlope
+									float x = -0.08721323
+									float y = 0
+									float z = 0
+									float w = 0.003046992
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[37]
+							Keyframe data
+								float time = 0.6166667
+								Quaternionf value
+									float x = 0.0334459
+									float y = 0
+									float z = 0
+									float w = 0.9994406
+								Quaternionf inSlope
+									float x = -0.0872177
+									float y = 0
+									float z = 0
+									float w = 0.002918246
+								Quaternionf outSlope
+									float x = -0.0872177
+									float y = 0
+									float z = 0
+									float w = 0.002918246
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[38]
+							Keyframe data
+								float time = 0.6333334
+								Quaternionf value
+									float x = 0.03199223
+									float y = 0
+									float z = 0
+									float w = 0.9994881
+								Quaternionf inSlope
+									float x = -0.08722172
+									float y = 0
+									float z = 0
+									float w = 0.002791288
+								Quaternionf outSlope
+									float x = -0.08722172
+									float y = 0
+									float z = 0
+									float w = 0.002791288
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[39]
+							Keyframe data
+								float time = 0.65
+								Quaternionf value
+									float x = 0.03053851
+									float y = 0
+									float z = 0
+									float w = 0.9995336
+								Quaternionf inSlope
+									float x = -0.08722563
+									float y = 0
+									float z = 0
+									float w = 0.00266433
+								Quaternionf outSlope
+									float x = -0.08722563
+									float y = 0
+									float z = 0
+									float w = 0.00266433
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[40]
+							Keyframe data
+								float time = 0.6666667
+								Quaternionf value
+									float x = 0.02908472
+									float y = 0
+									float z = 0
+									float w = 0.9995769
+								Quaternionf inSlope
+									float x = -0.08722954
+									float y = 0
+									float z = 0
+									float w = 0.002537372
+								Quaternionf outSlope
+									float x = -0.08722954
+									float y = 0
+									float z = 0
+									float w = 0.002537372
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[41]
+							Keyframe data
+								float time = 0.6833333
+								Quaternionf value
+									float x = 0.02763086
+									float y = 0
+									float z = 0
+									float w = 0.9996182
+								Quaternionf inSlope
+									float x = -0.08723307
+									float y = 0
+									float z = 0
+									float w = 0.002412202
+								Quaternionf outSlope
+									float x = -0.08723307
+									float y = 0
+									float z = 0
+									float w = 0.002412202
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[42]
+							Keyframe data
+								float time = 0.7
+								Quaternionf value
+									float x = 0.02617695
+									float y = 0
+									float z = 0
+									float w = 0.9996573
+								Quaternionf inSlope
+									float x = -0.08723658
+									float y = 0
+									float z = 0
+									float w = 0.002285244
+								Quaternionf outSlope
+									float x = -0.08723658
+									float y = 0
+									float z = 0
+									float w = 0.002285244
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[43]
+							Keyframe data
+								float time = 0.7166666
+								Quaternionf value
+									float x = 0.02472298
+									float y = 0
+									float z = 0
+									float w = 0.9996943
+								Quaternionf inSlope
+									float x = -0.08723982
+									float y = 0
+									float z = 0
+									float w = 0.002156498
+								Quaternionf outSlope
+									float x = -0.08723982
+									float y = 0
+									float z = 0
+									float w = 0.002156498
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[44]
+							Keyframe data
+								float time = 0.7333333
+								Quaternionf value
+									float x = 0.02326896
+									float y = 0
+									float z = 0
+									float w = 0.9997292
+								Quaternionf inSlope
+									float x = -0.08724278
+									float y = 0
+									float z = 0
+									float w = 0.00202954
+								Quaternionf outSlope
+									float x = -0.08724278
+									float y = 0
+									float z = 0
+									float w = 0.00202954
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[45]
+							Keyframe data
+								float time = 0.7499999
+								Quaternionf value
+									float x = 0.02181489
+									float y = 0
+									float z = 0
+									float w = 0.999762
+								Quaternionf inSlope
+									float x = -0.08724564
+									float y = 0
+									float z = 0
+									float w = 0.00190437
+								Quaternionf outSlope
+									float x = -0.08724564
+									float y = 0
+									float z = 0
+									float w = 0.00190437
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[46]
+							Keyframe data
+								float time = 0.7666666
+								Quaternionf value
+									float x = 0.02036077
+									float y = 0
+									float z = 0
+									float w = 0.9997927
+								Quaternionf inSlope
+									float x = -0.08724832
+									float y = 0
+									float z = 0
+									float w = 0.001777412
+								Quaternionf outSlope
+									float x = -0.08724832
+									float y = 0
+									float z = 0
+									float w = 0.001777412
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[47]
+							Keyframe data
+								float time = 0.7833332
+								Quaternionf value
+									float x = 0.01890661
+									float y = 0
+									float z = 0
+									float w = 0.9998212
+								Quaternionf inSlope
+									float x = -0.08725089
+									float y = 0
+									float z = 0
+									float w = 0.001650454
+								Quaternionf outSlope
+									float x = -0.08725089
+									float y = 0
+									float z = 0
+									float w = 0.001650454
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[48]
+							Keyframe data
+								float time = 0.7999999
+								Quaternionf value
+									float x = 0.01745241
+									float y = 0
+									float z = 0
+									float w = 0.9998477
+								Quaternionf inSlope
+									float x = -0.08725301
+									float y = 0
+									float z = 0
+									float w = 0.001523496
+								Quaternionf outSlope
+									float x = -0.08725301
+									float y = 0
+									float z = 0
+									float w = 0.001523496
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[49]
+							Keyframe data
+								float time = 0.8166665
+								Quaternionf value
+									float x = 0.01599818
+									float y = 0
+									float z = 0
+									float w = 0.999872
+								Quaternionf inSlope
+									float x = -0.08725522
+									float y = 0
+									float z = 0
+									float w = 0.001396538
+								Quaternionf outSlope
+									float x = -0.08725522
+									float y = 0
+									float z = 0
+									float w = 0.001396538
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[50]
+							Keyframe data
+								float time = 0.8333332
+								Quaternionf value
+									float x = 0.01454391
+									float y = 0
+									float z = 0
+									float w = 0.9998943
+								Quaternionf inSlope
+									float x = -0.08725721
+									float y = 0
+									float z = 0
+									float w = 0.00126958
+								Quaternionf outSlope
+									float x = -0.08725721
+									float y = 0
+									float z = 0
+									float w = 0.00126958
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[51]
+							Keyframe data
+								float time = 0.8499998
+								Quaternionf value
+									float x = 0.01308961
+									float y = 0
+									float z = 0
+									float w = 0.9999143
+								Quaternionf inSlope
+									float x = -0.08725896
+									float y = 0
+									float z = 0
+									float w = 0.001140834
+								Quaternionf outSlope
+									float x = -0.08725896
+									float y = 0
+									float z = 0
+									float w = 0.001140834
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[52]
+							Keyframe data
+								float time = 0.8666665
+								Quaternionf value
+									float x = 0.01163528
+									float y = 0
+									float z = 0
+									float w = 0.9999323
+								Quaternionf inSlope
+									float x = -0.08726053
+									float y = 0
+									float z = 0
+									float w = 0.001013876
+								Quaternionf outSlope
+									float x = -0.08726053
+									float y = 0
+									float z = 0
+									float w = 0.001013876
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[53]
+							Keyframe data
+								float time = 0.8833331
+								Quaternionf value
+									float x = 0.01018093
+									float y = 0
+									float z = 0
+									float w = 0.9999481
+								Quaternionf inSlope
+									float x = -0.0872619
+									float y = 0
+									float z = 0
+									float w = 0.0008887061
+								Quaternionf outSlope
+									float x = -0.0872619
+									float y = 0
+									float z = 0
+									float w = 0.0008887061
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[54]
+							Keyframe data
+								float time = 0.8999998
+								Quaternionf value
+									float x = 0.008726552
+									float y = 0
+									float z = 0
+									float w = 0.9999619
+								Quaternionf inSlope
+									float x = -0.08726311
+									float y = 0
+									float z = 0
+									float w = 0.0007617481
+								Quaternionf outSlope
+									float x = -0.08726311
+									float y = 0
+									float z = 0
+									float w = 0.0007617481
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[55]
+							Keyframe data
+								float time = 0.9166664
+								Quaternionf value
+									float x = 0.007272163
+									float y = 0
+									float z = 0
+									float w = 0.9999735
+								Quaternionf inSlope
+									float x = -0.08726412
+									float y = 0
+									float z = 0
+									float w = 0.00063479
+								Quaternionf outSlope
+									float x = -0.08726412
+									float y = 0
+									float z = 0
+									float w = 0.00063479
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[56]
+							Keyframe data
+								float time = 0.9333331
+								Quaternionf value
+									float x = 0.005817751
+									float y = 0
+									float z = 0
+									float w = 0.9999831
+								Quaternionf inSlope
+									float x = -0.08726494
+									float y = 0
+									float z = 0
+									float w = 0.000507832
+								Quaternionf outSlope
+									float x = -0.08726494
+									float y = 0
+									float z = 0
+									float w = 0.000507832
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[57]
+							Keyframe data
+								float time = 0.9499997
+								Quaternionf value
+									float x = 0.004363334
+									float y = 0
+									float z = 0
+									float w = 0.9999905
+								Quaternionf inSlope
+									float x = -0.08726561
+									float y = 0
+									float z = 0
+									float w = 0.000380874
+								Quaternionf outSlope
+									float x = -0.08726561
+									float y = 0
+									float z = 0
+									float w = 0.000380874
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[58]
+							Keyframe data
+								float time = 0.9666664
+								Quaternionf value
+									float x = 0.0029089
+									float y = 0
+									float z = 0
+									float w = 0.9999958
+								Quaternionf inSlope
+									float x = -0.08726606
+									float y = 0
+									float z = 0
+									float w = 0.000253916
+								Quaternionf outSlope
+									float x = -0.08726606
+									float y = 0
+									float z = 0
+									float w = 0.000253916
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[59]
+							Keyframe data
+								float time = 0.9833331
+								Quaternionf value
+									float x = 0.001454468
+									float y = 0
+									float z = 0
+									float w = 0.9999989
+								Quaternionf inSlope
+									float x = -0.08726631
+									float y = 0
+									float z = 0
+									float w = 0.0001269574
+								Quaternionf outSlope
+									float x = -0.08726631
+									float y = 0
+									float z = 0
+									float w = 0.0001269574
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+							[60]
+							Keyframe data
+								float time = 1
+								Quaternionf value
+									float x = 0
+									float y = 0
+									float z = 0
+									float w = 1
+								Quaternionf inSlope
+									float x = -0.08726662
+									float y = 0
+									float z = 0
+									float w = 6.437192E-05
+								Quaternionf outSlope
+									float x = -0.08726662
+									float y = 0
+									float z = 0
+									float w = 6.437192E-05
+								int weightedMode = 0
+								Quaternionf inWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+								Quaternionf outWeight
+									float x = 0.3333333
+									float y = 0.3333333
+									float z = 0.3333333
+									float w = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				string path = "Mask/ShadowContainer/GameObject"
+	vector m_CompressedRotationCurves
+		Array Array
+		int size = 0
+	vector m_EulerCurves
+		Array Array
+		int size = 0
+	vector m_PositionCurves
+		Array Array
+		int size = 0
+	vector m_ScaleCurves
+		Array Array
+		int size = 0
+	vector m_FloatCurves
+		Array Array
+		int size = 4
+			[0]
+			FloatCurve data
+				AnimationCurve curve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 12.471
+								float inSlope = 0
+								float outSlope = 23.529
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 36
+								float inSlope = 23.529
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				string attribute = "m_EffectDistance.x"
+				string path = "Mask/bottomPanel/Avatar (1)"
+				Type* classID = 114
+				PPtr<MonoScript> script
+					int m_FileID = 0
+					SInt64 m_PathID = 572360394642765677
+			[1]
+			FloatCurve data
+				AnimationCurve curve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 12.471
+								float inSlope = 0
+								float outSlope = 23.529
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 36
+								float inSlope = 23.529
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				string attribute = "m_EffectDistance.x"
+				string path = "Mask/bottomPanel/Text (Legacy) (1)"
+				Type* classID = 114
+				PPtr<MonoScript> script
+					int m_FileID = 0
+					SInt64 m_PathID = 572360394642765677
+			[2]
+			FloatCurve data
+				AnimationCurve curve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = -36
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = -27
+								float inSlope = 19.08397
+								float outSlope = 19.08397
+								int weightedMode = 0
+								float inWeight = 0.2527472
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				string attribute = "m_EffectDistance.y"
+				string path = "Mask/bottomPanel/Text (Legacy) (1)"
+				Type* classID = 114
+				PPtr<MonoScript> script
+					int m_FileID = 0
+					SInt64 m_PathID = 572360394642765677
+			[3]
+			FloatCurve data
+				AnimationCurve curve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = -36
+								float inSlope = 0
+								float outSlope = 0
+								int weightedMode = 0
+								float inWeight = 0.3333333
+								float outWeight = 0.3333333
+							[1]
+							Keyframe data
+								float time = 1
+								float value = -27
+								float inSlope = 19.01797
+								float outSlope = 19.01797
+								int weightedMode = 0
+								float inWeight = 0.2174433
+								float outWeight = 0.3333333
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				string attribute = "m_EffectDistance.y"
+				string path = "Mask/bottomPanel/Avatar (1)"
+				Type* classID = 114
+				PPtr<MonoScript> script
+					int m_FileID = 0
+					SInt64 m_PathID = 572360394642765677
+	vector m_PPtrCurves
+		Array Array
+		int size = 0
+	float m_SampleRate = 60
+	int m_WrapMode = 0
+	AABB m_Bounds
+		Vector3f m_Center
+			float x = 0
+			float y = 0
+			float z = 0
+		Vector3f m_Extent
+			float x = 0
+			float y = 0
+			float z = 0
+	unsigned int m_MuscleClipSize = 0
+	ClipMuscleConstant m_MuscleClip
+		HumanPose m_DeltaPose
+			xform m_RootX
+				float3 t
+					float x = 0
+					float y = 0
+					float z = 0
+				float4 q
+					float x = 0
+					float y = 0
+					float z = 0
+					float w = 1
+				float3 s
+					float x = 1
+					float y = 1
+					float z = 1
+			float3 m_LookAtPosition
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 m_LookAtWeight
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 0
+			staticvector m_GoalArray
+				Array Array
+				int size = 4
+					[0]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[1]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[2]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+					[3]
+					HumanGoal data
+						xform m_X
+							float3 t
+								float x = 0
+								float y = 0
+								float z = 0
+							float4 q
+								float x = 0
+								float y = 0
+								float z = 0
+								float w = 1
+							float3 s
+								float x = 1
+								float y = 1
+								float z = 1
+						float m_WeightT = 0
+						float m_WeightR = 0
+						float3 m_HintT
+							float x = 0
+							float y = 0
+							float z = 0
+						float m_HintWeightT = 0
+			HandPose m_LeftHandPose
+				xform m_GrabX
+					float3 t
+						float x = 0
+						float y = 0
+						float z = 0
+					float4 q
+						float x = 0
+						float y = 0
+						float z = 0
+						float w = 1
+					float3 s
+						float x = 1
+						float y = 1
+						float z = 1
+				staticvector m_DoFArray
+					Array Array
+					int size = 20
+						[0]
+						float data = 0
+						[1]
+						float data = 0
+						[2]
+						float data = 0
+						[3]
+						float data = 0
+						[4]
+						float data = 0
+						[5]
+						float data = 0
+						[6]
+						float data = 0
+						[7]
+						float data = 0
+						[8]
+						float data = 0
+						[9]
+						float data = 0
+						[10]
+						float data = 0
+						[11]
+						float data = 0
+						[12]
+						float data = 0
+						[13]
+						float data = 0
+						[14]
+						float data = 0
+						[15]
+						float data = 0
+						[16]
+						float data = 0
+						[17]
+						float data = 0
+						[18]
+						float data = 0
+						[19]
+						float data = 0
+				float m_Override = 0
+				float m_CloseOpen = 0
+				float m_InOut = 0
+				float m_Grab = 0
+			HandPose m_RightHandPose
+				xform m_GrabX
+					float3 t
+						float x = 0
+						float y = 0
+						float z = 0
+					float4 q
+						float x = 0
+						float y = 0
+						float z = 0
+						float w = 1
+					float3 s
+						float x = 1
+						float y = 1
+						float z = 1
+				staticvector m_DoFArray
+					Array Array
+					int size = 20
+						[0]
+						float data = 0
+						[1]
+						float data = 0
+						[2]
+						float data = 0
+						[3]
+						float data = 0
+						[4]
+						float data = 0
+						[5]
+						float data = 0
+						[6]
+						float data = 0
+						[7]
+						float data = 0
+						[8]
+						float data = 0
+						[9]
+						float data = 0
+						[10]
+						float data = 0
+						[11]
+						float data = 0
+						[12]
+						float data = 0
+						[13]
+						float data = 0
+						[14]
+						float data = 0
+						[15]
+						float data = 0
+						[16]
+						float data = 0
+						[17]
+						float data = 0
+						[18]
+						float data = 0
+						[19]
+						float data = 0
+				float m_Override = 0
+				float m_CloseOpen = 0
+				float m_InOut = 0
+				float m_Grab = 0
+			staticvector m_DoFArray
+				Array Array
+				int size = 55
+					[0]
+					float data = 0
+					[1]
+					float data = 0
+					[2]
+					float data = 0
+					[3]
+					float data = 0
+					[4]
+					float data = 0
+					[5]
+					float data = 0
+					[6]
+					float data = 0
+					[7]
+					float data = 0
+					[8]
+					float data = 0
+					[9]
+					float data = 0
+					[10]
+					float data = 0
+					[11]
+					float data = 0
+					[12]
+					float data = 0
+					[13]
+					float data = 0
+					[14]
+					float data = 0
+					[15]
+					float data = 0
+					[16]
+					float data = 0
+					[17]
+					float data = 0
+					[18]
+					float data = 0
+					[19]
+					float data = 0
+					[20]
+					float data = 0
+					[21]
+					float data = 0
+					[22]
+					float data = 0
+					[23]
+					float data = 0
+					[24]
+					float data = 0
+					[25]
+					float data = 0
+					[26]
+					float data = 0
+					[27]
+					float data = 0
+					[28]
+					float data = 0
+					[29]
+					float data = 0
+					[30]
+					float data = 0
+					[31]
+					float data = 0
+					[32]
+					float data = 0
+					[33]
+					float data = 0
+					[34]
+					float data = 0
+					[35]
+					float data = 0
+					[36]
+					float data = 0
+					[37]
+					float data = 0
+					[38]
+					float data = 0
+					[39]
+					float data = 0
+					[40]
+					float data = 0
+					[41]
+					float data = 0
+					[42]
+					float data = 0
+					[43]
+					float data = 0
+					[44]
+					float data = 0
+					[45]
+					float data = 0
+					[46]
+					float data = 0
+					[47]
+					float data = 0
+					[48]
+					float data = 0
+					[49]
+					float data = 0
+					[50]
+					float data = 0
+					[51]
+					float data = 0
+					[52]
+					float data = 0
+					[53]
+					float data = 0
+					[54]
+					float data = 0
+			staticvector m_TDoFArray
+				Array Array
+				int size = 21
+					[0]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[1]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[2]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[3]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[4]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[5]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[6]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[7]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[8]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[9]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[10]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[11]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[12]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[13]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[14]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[15]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[16]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[17]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[18]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[19]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+					[20]
+					float3 data
+						float x = 0
+						float y = 0
+						float z = 0
+		xform m_StartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_StopX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_LeftFootStartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		xform m_RightFootStartX
+			float3 t
+				float x = 0
+				float y = 0
+				float z = 0
+			float4 q
+				float x = 0
+				float y = 0
+				float z = 0
+				float w = 1
+			float3 s
+				float x = 1
+				float y = 1
+				float z = 1
+		float3 m_AverageSpeed
+			float x = 0
+			float y = 0
+			float z = 0
+		OffsetPtr m_Clip
+			Clip data
+				StreamedClip m_StreamedClip
+					vector data
+						Array Array
+						int size = 0
+					unsigned int curveCount = 0
+				DenseClip m_DenseClip
+					int m_FrameCount = 0
+					unsigned int m_CurveCount = 0
+					float m_SampleRate = 0
+					float m_BeginTime = 0
+					vector m_SampleArray
+						Array Array
+						int size = 0
+				ConstantClip m_ConstantClip
+					vector data
+						Array Array
+						int size = 0
+		float m_StartTime = 0
+		float m_StopTime = 1
+		float m_OrientationOffsetY = 0
+		float m_Level = 0
+		float m_CycleOffset = 0
+		float m_AverageAngularSpeed = 0
+		staticvector m_IndexArray
+			Array Array
+			int size = 200
+				[0]
+				int data = -1
+				[1]
+				int data = -1
+				[2]
+				int data = -1
+				[3]
+				int data = -1
+				[4]
+				int data = -1
+				[5]
+				int data = -1
+				[6]
+				int data = -1
+				[7]
+				int data = -1
+				[8]
+				int data = -1
+				[9]
+				int data = -1
+				[10]
+				int data = -1
+				[11]
+				int data = -1
+				[12]
+				int data = -1
+				[13]
+				int data = -1
+				[14]
+				int data = -1
+				[15]
+				int data = -1
+				[16]
+				int data = -1
+				[17]
+				int data = -1
+				[18]
+				int data = -1
+				[19]
+				int data = -1
+				[20]
+				int data = -1
+				[21]
+				int data = -1
+				[22]
+				int data = -1
+				[23]
+				int data = -1
+				[24]
+				int data = -1
+				[25]
+				int data = -1
+				[26]
+				int data = -1
+				[27]
+				int data = -1
+				[28]
+				int data = -1
+				[29]
+				int data = -1
+				[30]
+				int data = -1
+				[31]
+				int data = -1
+				[32]
+				int data = -1
+				[33]
+				int data = -1
+				[34]
+				int data = -1
+				[35]
+				int data = -1
+				[36]
+				int data = -1
+				[37]
+				int data = -1
+				[38]
+				int data = -1
+				[39]
+				int data = -1
+				[40]
+				int data = -1
+				[41]
+				int data = -1
+				[42]
+				int data = -1
+				[43]
+				int data = -1
+				[44]
+				int data = -1
+				[45]
+				int data = -1
+				[46]
+				int data = -1
+				[47]
+				int data = -1
+				[48]
+				int data = -1
+				[49]
+				int data = -1
+				[50]
+				int data = -1
+				[51]
+				int data = -1
+				[52]
+				int data = -1
+				[53]
+				int data = -1
+				[54]
+				int data = -1
+				[55]
+				int data = -1
+				[56]
+				int data = -1
+				[57]
+				int data = -1
+				[58]
+				int data = -1
+				[59]
+				int data = -1
+				[60]
+				int data = -1
+				[61]
+				int data = -1
+				[62]
+				int data = -1
+				[63]
+				int data = -1
+				[64]
+				int data = -1
+				[65]
+				int data = -1
+				[66]
+				int data = -1
+				[67]
+				int data = -1
+				[68]
+				int data = -1
+				[69]
+				int data = -1
+				[70]
+				int data = -1
+				[71]
+				int data = -1
+				[72]
+				int data = -1
+				[73]
+				int data = -1
+				[74]
+				int data = -1
+				[75]
+				int data = -1
+				[76]
+				int data = -1
+				[77]
+				int data = -1
+				[78]
+				int data = -1
+				[79]
+				int data = -1
+				[80]
+				int data = -1
+				[81]
+				int data = -1
+				[82]
+				int data = -1
+				[83]
+				int data = -1
+				[84]
+				int data = -1
+				[85]
+				int data = -1
+				[86]
+				int data = -1
+				[87]
+				int data = -1
+				[88]
+				int data = -1
+				[89]
+				int data = -1
+				[90]
+				int data = -1
+				[91]
+				int data = -1
+				[92]
+				int data = -1
+				[93]
+				int data = -1
+				[94]
+				int data = -1
+				[95]
+				int data = -1
+				[96]
+				int data = -1
+				[97]
+				int data = -1
+				[98]
+				int data = -1
+				[99]
+				int data = -1
+				[100]
+				int data = -1
+				[101]
+				int data = -1
+				[102]
+				int data = -1
+				[103]
+				int data = -1
+				[104]
+				int data = -1
+				[105]
+				int data = -1
+				[106]
+				int data = -1
+				[107]
+				int data = -1
+				[108]
+				int data = -1
+				[109]
+				int data = -1
+				[110]
+				int data = -1
+				[111]
+				int data = -1
+				[112]
+				int data = -1
+				[113]
+				int data = -1
+				[114]
+				int data = -1
+				[115]
+				int data = -1
+				[116]
+				int data = -1
+				[117]
+				int data = -1
+				[118]
+				int data = -1
+				[119]
+				int data = -1
+				[120]
+				int data = -1
+				[121]
+				int data = -1
+				[122]
+				int data = -1
+				[123]
+				int data = -1
+				[124]
+				int data = -1
+				[125]
+				int data = -1
+				[126]
+				int data = -1
+				[127]
+				int data = -1
+				[128]
+				int data = -1
+				[129]
+				int data = -1
+				[130]
+				int data = -1
+				[131]
+				int data = -1
+				[132]
+				int data = -1
+				[133]
+				int data = -1
+				[134]
+				int data = -1
+				[135]
+				int data = -1
+				[136]
+				int data = -1
+				[137]
+				int data = -1
+				[138]
+				int data = -1
+				[139]
+				int data = -1
+				[140]
+				int data = -1
+				[141]
+				int data = -1
+				[142]
+				int data = -1
+				[143]
+				int data = -1
+				[144]
+				int data = -1
+				[145]
+				int data = -1
+				[146]
+				int data = -1
+				[147]
+				int data = -1
+				[148]
+				int data = -1
+				[149]
+				int data = -1
+				[150]
+				int data = -1
+				[151]
+				int data = -1
+				[152]
+				int data = -1
+				[153]
+				int data = -1
+				[154]
+				int data = -1
+				[155]
+				int data = -1
+				[156]
+				int data = -1
+				[157]
+				int data = -1
+				[158]
+				int data = -1
+				[159]
+				int data = -1
+				[160]
+				int data = -1
+				[161]
+				int data = -1
+				[162]
+				int data = -1
+				[163]
+				int data = -1
+				[164]
+				int data = -1
+				[165]
+				int data = -1
+				[166]
+				int data = -1
+				[167]
+				int data = -1
+				[168]
+				int data = -1
+				[169]
+				int data = -1
+				[170]
+				int data = -1
+				[171]
+				int data = -1
+				[172]
+				int data = -1
+				[173]
+				int data = -1
+				[174]
+				int data = -1
+				[175]
+				int data = -1
+				[176]
+				int data = -1
+				[177]
+				int data = -1
+				[178]
+				int data = -1
+				[179]
+				int data = -1
+				[180]
+				int data = -1
+				[181]
+				int data = -1
+				[182]
+				int data = -1
+				[183]
+				int data = -1
+				[184]
+				int data = -1
+				[185]
+				int data = -1
+				[186]
+				int data = -1
+				[187]
+				int data = -1
+				[188]
+				int data = -1
+				[189]
+				int data = -1
+				[190]
+				int data = -1
+				[191]
+				int data = -1
+				[192]
+				int data = -1
+				[193]
+				int data = -1
+				[194]
+				int data = -1
+				[195]
+				int data = -1
+				[196]
+				int data = -1
+				[197]
+				int data = -1
+				[198]
+				int data = -1
+				[199]
+				int data = -1
+		vector m_ValueArrayDelta
+			Array Array
+			int size = 0
+		vector m_ValueArrayReferencePose
+			Array Array
+			int size = 0
+		bool m_Mirror = False
+		bool m_LoopTime = False
+		bool m_LoopBlend = False
+		bool m_LoopBlendOrientation = False
+		bool m_LoopBlendPositionY = False
+		bool m_LoopBlendPositionXZ = False
+		bool m_StartAtOrigin = True
+		bool m_KeepOriginalOrientation = False
+		bool m_KeepOriginalPositionY = True
+		bool m_KeepOriginalPositionXZ = False
+		bool m_HeightFromFeet = False
+	AnimationClipBindingConstant m_ClipBindingConstant
+		vector genericBindings
+			Array Array
+			int size = 0
+		vector pptrCurveMapping
+			Array Array
+			int size = 0
+	bool m_HasGenericRootTransform = False
+	bool m_HasMotionFloatCurves = False
+	vector m_Events
+		Array Array
+		int size = 0

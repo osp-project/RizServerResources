@@ -1,0 +1,33 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6683037922963818906
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5405477967739823407
+	string m_Name = ""
+	PPtr<$Image> backgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = 8194674157291763302
+	PPtr<$Image> layoutImage
+		int m_FileID = 0
+		SInt64 m_PathID = -4567489748090816922
+	PPtr<$Image> avatarImage
+		int m_FileID = 0
+		SInt64 m_PathID = 8180180680938681958
+	PPtr<$RectTransform> avatarTransform
+		int m_FileID = 0
+		SInt64 m_PathID = -8417319796765428122
+	PPtr<$LinkedText> usernameText
+		int m_FileID = 0
+		SInt64 m_PathID = -7910496106348284314
+	PPtr<$LinkedText> bioText
+		int m_FileID = 0
+		SInt64 m_PathID = -3557481546768451994
+	PPtr<$GameObject> border
+		int m_FileID = 0
+		SInt64 m_PathID = 7520274099741914726
+	PPtr<$Animation> shadowAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -7331744384557648282

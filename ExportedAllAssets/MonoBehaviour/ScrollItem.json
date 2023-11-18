@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 105
+    "m_PathID": 83
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 0,
-    "m_PathID": 50
+    "m_PathID": 51
   },
   "m_Name": "",
   "cursorIn": 1,
@@ -16,7 +16,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 198
+            "m_PathID": 170
           },
           "m_TargetAssemblyTypeName": "TweenStateControl, Assembly-CSharp",
           "m_MethodName": "SetState",
@@ -37,7 +37,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 128
+            "m_PathID": 106
           },
           "m_TargetAssemblyTypeName": "ListDotControl, Assembly-CSharp",
           "m_MethodName": "UpdateInfo",
@@ -64,7 +64,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 198
+            "m_PathID": 170
           },
           "m_TargetAssemblyTypeName": "TweenStateControl, Assembly-CSharp",
           "m_MethodName": "SetState",

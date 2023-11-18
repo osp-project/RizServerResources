@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 40
+    "m_PathID": 42
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -11,6 +11,6 @@
   "m_Name": "",
   "canvas": {
     "m_FileID": 0,
-    "m_PathID": 187
+    "m_PathID": 209
   }
 }

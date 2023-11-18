@@ -1,31 +1,50 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -4237823126905381474
+    "m_PathID": 22
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3400912871967986507
+    "m_FileID": 1,
+    "m_PathID": 17
   },
   "m_Name": "",
   "targetComponent": {
     "m_FileID": 0,
-    "m_PathID": 6817855870347222430
+    "m_PathID": 98
   },
-  "duration": 0.5,
-  "delay": 0.0,
-  "easeType": 5,
+  "duration": 1.0,
+  "delay": 0.05,
+  "easeType": 15,
   "curve": {
-    "m_Curve": [],
+    "m_Curve": [
+      {
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 1.009832,
+        "outSlope": 1.009832,
+        "weightedMode": 2,
+        "inWeight": 0.0,
+        "outWeight": 0.349072516
+      },
+      {
+        "time": 1.0,
+        "value": 1.0,
+        "inSlope": 0.001791916,
+        "outSlope": 0.001791916,
+        "weightedMode": 1,
+        "inWeight": 1.0,
+        "outWeight": 0.0
+      }
+    ],
     "m_PreInfinity": 2,
     "m_PostInfinity": 2,
     "m_RotationOrder": 4
   },
-  "tweenType": 6,
-  "useOnStart": 0,
-  "useOnComplete": 1,
-  "target": 1.0,
+  "tweenType": 4,
+  "useOnStart": 1,
+  "useOnComplete": 0,
+  "target": 0.0,
   "target2": {
     "x": 0.0,
     "y": 0.0
@@ -43,16 +62,11 @@
   },
   "onStart": {
     "m_PersistentCalls": {
-      "m_Calls": []
-    }
-  },
-  "onComplete": {
-    "m_PersistentCalls": {
       "m_Calls": [
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 6817855870347222430
+            "m_PathID": 122
           },
           "m_TargetAssemblyTypeName": "UnityEngine.CanvasGroup, UnityEngine",
           "m_MethodName": "set_blocksRaycasts",
@@ -66,11 +80,16 @@
             "m_IntArgument": 0,
             "m_FloatArgument": 0.0,
             "m_StringArgument": "",
-            "m_BoolArgument": 1
+            "m_BoolArgument": 0
           },
           "m_CallState": 2
         }
       ]
+    }
+  },
+  "onComplete": {
+    "m_PersistentCalls": {
+      "m_Calls": []
     }
   },
   "onTween": {

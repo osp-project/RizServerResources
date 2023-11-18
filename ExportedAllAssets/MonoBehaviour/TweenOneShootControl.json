@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 7127964628843076160
+    "m_PathID": 16
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -1782264595728004252
+    "m_FileID": 1,
+    "m_PathID": 10
   },
   "m_Name": "",
   "autoPlay": 0

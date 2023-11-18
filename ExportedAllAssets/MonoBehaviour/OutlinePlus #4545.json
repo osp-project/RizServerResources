@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6882047638551644665
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -1824831565585172376
+  },
+  "m_Name": "",
+  "<Color>k__BackingField": {
+    "r": 0.4392157,
+    "g": 0.6392157,
+    "b": 0.05882353,
+    "a": 1.0
+  },
+  "<Width>k__BackingField": 4
+}

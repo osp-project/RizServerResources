@@ -1,0 +1,66 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 61
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 21
+	string m_Name = ""
+	PPtr<$ListDotControl> listItem
+		int m_FileID = 1
+		SInt64 m_PathID = 106
+	PPtr<$Transform> listTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 263
+	PPtr<$CircleScroll> circleScroll
+		int m_FileID = 0
+		SInt64 m_PathID = 425
+	PPtr<$StepSlideControl> stepSlideControl
+		int m_FileID = 0
+		SInt64 m_PathID = 424
+	PPtr<$PaymentService> paymentService
+		int m_FileID = 0
+		SInt64 m_PathID = 346
+	PPtr<$GameObject> notUnlockText
+		int m_FileID = 0
+		SInt64 m_PathID = 2
+	PPtr<$GameObject> unlockedText
+		int m_FileID = 0
+		SInt64 m_PathID = 30
+	PPtr<$Text> songName
+		int m_FileID = 0
+		SInt64 m_PathID = 399
+	PPtr<$Text> artist
+		int m_FileID = 0
+		SInt64 m_PathID = 392
+	vector difficulties
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Text> data
+				int m_FileID = 0
+				SInt64 m_PathID = 397
+			[1]
+			PPtr<$Text> data
+				int m_FileID = 0
+				SInt64 m_PathID = 384
+			[2]
+			PPtr<$Text> data
+				int m_FileID = 0
+				SInt64 m_PathID = 438
+	PPtr<$Text> price
+		int m_FileID = 0
+		SInt64 m_PathID = 364
+	PPtr<$TweenStateControl> buyButtonState
+		int m_FileID = 0
+		SInt64 m_PathID = 376
+	PPtr<$Button> buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = 347
+	PPtr<$LeanCircle> progressFill
+		int m_FileID = 0
+		SInt64 m_PathID = 447
+	PPtr<$Transform> progressFillTop
+		int m_FileID = 0
+		SInt64 m_PathID = 253

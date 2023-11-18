@@ -1,0 +1,167 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 14
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 46
+	string m_Name = ""
+	UInt8 playOnStart = 0
+	UInt8 playOnEnable = 0
+	UInt8 playOnDisable = 0
+	UInt8 refuseInvokeBeforeEventsFinished = 0
+	UInt8 refuseInvokeWhileTouchBlocked = 0
+	Trigger triggers
+		Array Array
+		int size = 3
+			[0]
+			Trigger data
+				UnityEvent events
+					PersistentCallGroup m_PersistentCalls
+						PersistentCall m_Calls
+							Array Array
+							int size = 5
+								[0]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 2
+									string m_TargetAssemblyTypeName = "UnityEngine.GameObject, UnityEngine"
+									string m_MethodName = "SetActive"
+									int m_Mode = 6
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+								[1]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 30
+									string m_TargetAssemblyTypeName = "UnityEngine.GameObject, UnityEngine"
+									string m_MethodName = "SetActive"
+									int m_Mode = 6
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 1
+									int m_CallState = 2
+								[2]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 352
+									string m_TargetAssemblyTypeName = "TweenOneShootControl, Assembly-CSharp"
+									string m_MethodName = "Play"
+									int m_Mode = 1
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+								[3]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 376
+									string m_TargetAssemblyTypeName = "TweenStateControl, Assembly-CSharp"
+									string m_MethodName = "SetState"
+									int m_Mode = 3
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 1
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+								[4]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 423
+									string m_TargetAssemblyTypeName = "StarterUnlockControl, Assembly-CSharp"
+									string m_MethodName = "UpdatePurchaseInfo"
+									int m_Mode = 1
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+				float offset = 0.5
+			[1]
+			Trigger data
+				UnityEvent events
+					PersistentCallGroup m_PersistentCalls
+						PersistentCall m_Calls
+							Array Array
+							int size = 1
+								[0]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 424
+									string m_TargetAssemblyTypeName = "StepSlideControl, Assembly-CSharp"
+									string m_MethodName = "SetAllowMove"
+									int m_Mode = 6
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 0
+									int m_CallState = 2
+				float offset = 0
+			[2]
+			Trigger data
+				UnityEvent events
+					PersistentCallGroup m_PersistentCalls
+						PersistentCall m_Calls
+							Array Array
+							int size = 1
+								[0]
+								PersistentCall data
+									PPtr<$Object> m_Target
+										int m_FileID = 0
+										SInt64 m_PathID = 424
+									string m_TargetAssemblyTypeName = "StepSlideControl, Assembly-CSharp"
+									string m_MethodName = "SetAllowMove"
+									int m_Mode = 6
+									ArgumentCache m_Arguments
+										PPtr<$Object> m_ObjectArgument
+											int m_FileID = 0
+											SInt64 m_PathID = 0
+										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+										int m_IntArgument = 0
+										float m_FloatArgument = 0
+										string m_StringArgument = ""
+										UInt8 m_BoolArgument = 1
+									int m_CallState = 2
+				float offset = 1.5

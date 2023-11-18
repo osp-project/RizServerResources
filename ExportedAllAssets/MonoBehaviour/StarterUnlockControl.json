@@ -1,33 +1,33 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 59
+    "m_PathID": 61
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 20
+    "m_PathID": 21
   },
   "m_Name": "",
   "listItem": {
     "m_FileID": 1,
-    "m_PathID": 128
+    "m_PathID": 106
   },
   "listTarget": {
     "m_FileID": 0,
-    "m_PathID": 239
+    "m_PathID": 263
   },
   "circleScroll": {
     "m_FileID": 0,
-    "m_PathID": 390
+    "m_PathID": 425
   },
   "stepSlideControl": {
     "m_FileID": 0,
-    "m_PathID": 389
+    "m_PathID": 424
   },
   "paymentService": {
     "m_FileID": 0,
-    "m_PathID": 322
+    "m_PathID": 346
   },
   "notUnlockText": {
     "m_FileID": 0,
@@ -35,48 +35,48 @@
   },
   "unlockedText": {
     "m_FileID": 0,
-    "m_PathID": 29
+    "m_PathID": 30
   },
   "songName": {
     "m_FileID": 0,
-    "m_PathID": 365
+    "m_PathID": 399
   },
   "artist": {
     "m_FileID": 0,
-    "m_PathID": 362
+    "m_PathID": 392
   },
   "difficulties": [
     {
       "m_FileID": 0,
-      "m_PathID": 298
+      "m_PathID": 397
     },
     {
       "m_FileID": 0,
-      "m_PathID": 296
+      "m_PathID": 384
     },
     {
       "m_FileID": 0,
-      "m_PathID": 301
+      "m_PathID": 438
     }
   ],
   "price": {
     "m_FileID": 0,
-    "m_PathID": 293
+    "m_PathID": 364
   },
   "buyButtonState": {
     "m_FileID": 0,
-    "m_PathID": 348
+    "m_PathID": 376
   },
   "buyButton": {
     "m_FileID": 0,
-    "m_PathID": 323
+    "m_PathID": 347
   },
   "progressFill": {
     "m_FileID": 0,
-    "m_PathID": 410
+    "m_PathID": 447
   },
   "progressFillTop": {
     "m_FileID": 0,
-    "m_PathID": 229
+    "m_PathID": 253
   }
 }

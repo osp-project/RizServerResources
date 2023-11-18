@@ -1,0 +1,13 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3913902692694989914
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -313811669401408955
+	string m_Name = ""
+	UInt8 m_IgnoreReversedGraphics = 1
+	int m_BlockingObjects = 0
+	BitField m_BlockingMask
+		unsigned int m_Bits = 55

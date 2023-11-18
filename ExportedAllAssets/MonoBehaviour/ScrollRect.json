@@ -1,17 +1,17 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 58
+    "m_PathID": 60
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 19
+    "m_PathID": 20
   },
   "m_Name": "",
   "m_Content": {
     "m_FileID": 0,
-    "m_PathID": 197
+    "m_PathID": 219
   },
   "m_Horizontal": 0,
   "m_Vertical": 1,
@@ -22,7 +22,7 @@
   "m_ScrollSensitivity": 1.0,
   "m_Viewport": {
     "m_FileID": 0,
-    "m_PathID": 249
+    "m_PathID": 273
   },
   "m_HorizontalScrollbar": {
     "m_FileID": 0,

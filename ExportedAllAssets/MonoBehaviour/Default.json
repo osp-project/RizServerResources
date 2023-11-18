@@ -503,6 +503,18 @@
       "discName": "Disc EX"
     },
     {
+      "id": "ColorfulFlavor.Cansol.0",
+      "musicId": "ColorfulFlavor.Cansol.0",
+      "illustrationId": "illustration.ColorfulFlavor.Cansol.0",
+      "chartIds": [
+        "chart.ColorfulFlavor.Cansol.0.EZ",
+        "chart.ColorfulFlavor.Cansol.0.HD",
+        "chart.ColorfulFlavor.Cansol.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
       "id": "Abiogenesis.Juggernaut.0",
       "musicId": "Abiogenesis.Juggernaut.0",
       "illustrationId": "illustration.Abiogenesis.Juggernaut.0",
@@ -510,6 +522,54 @@
         "chart.Abiogenesis.Juggernaut.0.EZ",
         "chart.Abiogenesis.Juggernaut.0.HD",
         "chart.Abiogenesis.Juggernaut.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "Revenant.Juggernaut.0",
+      "musicId": "Revenant.Juggernaut.0",
+      "illustrationId": "illustration.Revenant.Juggernaut.0",
+      "chartIds": [
+        "chart.Revenant.Juggernaut.0.EZ",
+        "chart.Revenant.Juggernaut.0.HD",
+        "chart.Revenant.Juggernaut.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "Antler.Juggernaut.0",
+      "musicId": "Antler.Juggernaut.0",
+      "illustrationId": "illustration.Antler.Juggernaut.0",
+      "chartIds": [
+        "chart.Antler.Juggernaut.0.EZ",
+        "chart.Antler.Juggernaut.0.HD",
+        "chart.Antler.Juggernaut.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "PuppetShow.MeatyRabbit.0",
+      "musicId": "PuppetShow.MeatyRabbit.0",
+      "illustrationId": "illustration.PuppetShow.MeatyRabbit.0",
+      "chartIds": [
+        "chart.PuppetShow.MeatyRabbit.0.EZ",
+        "chart.PuppetShow.MeatyRabbit.0.HD",
+        "chart.PuppetShow.MeatyRabbit.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc 1"
+    },
+    {
+      "id": "Contortion.PTB10.0",
+      "musicId": "Contortion.PTB10.0",
+      "illustrationId": "illustration.Contortion.PTB10.0",
+      "chartIds": [
+        "chart.Contortion.PTB10.0.EZ",
+        "chart.Contortion.PTB10.0.HD",
+        "chart.Contortion.PTB10.0.IN"
       ],
       "appearType": 0,
       "discName": "Disc EX"
@@ -1296,6 +1356,25 @@
       }
     },
     {
+      "id": "ColorfulFlavor.Cansol.0",
+      "musicName": "Colorful Flavor",
+      "artist": "Cansol",
+      "previewStartTime": 29.891,
+      "previewOverTime": 49.891,
+      "themeBackgroundColor": {
+        "r": 0.9647059,
+        "g": 0.968627453,
+        "b": 0.9647059,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5568628,
+        "g": 0.6666667,
+        "b": 0.75686276,
+        "a": 1.0
+      }
+    },
+    {
       "id": "Abiogenesis.Juggernaut.0",
       "musicName": "Abiogenesis",
       "artist": "Juggernaut.",
@@ -1311,6 +1390,82 @@
         "r": 0.78039217,
         "g": 0.8117647,
         "b": 0.8117647,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Revenant.Juggernaut.0",
+      "musicName": "Revenant",
+      "artist": "Juggernaut.",
+      "previewStartTime": 45.857,
+      "previewOverTime": 65.857,
+      "themeBackgroundColor": {
+        "r": 0.733333349,
+        "g": 0.698039234,
+        "b": 0.709803939,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.419607848,
+        "g": 0.172549024,
+        "b": 0.192156866,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Antler.Juggernaut.0",
+      "musicName": "Antler",
+      "artist": "Juggernaut.",
+      "previewStartTime": 44.333,
+      "previewOverTime": 64.333,
+      "themeBackgroundColor": {
+        "r": 0.933333337,
+        "g": 0.929411769,
+        "b": 0.9411765,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.298039228,
+        "g": 0.4,
+        "b": 0.8117647,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "PuppetShow.MeatyRabbit.0",
+      "musicName": "Puppet Show",
+      "artist": "MeatyRabbit",
+      "previewStartTime": 48.354,
+      "previewOverTime": 68.354,
+      "themeBackgroundColor": {
+        "r": 0.796078444,
+        "g": 0.7607843,
+        "b": 0.847058833,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.5411765,
+        "g": 0.5764706,
+        "b": 0.7254902,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "Contortion.PTB10.0",
+      "musicName": "Contortion",
+      "artist": "PTB10",
+      "previewStartTime": 23.0,
+      "previewOverTime": 43.0,
+      "themeBackgroundColor": {
+        "r": 0.784313738,
+        "g": 0.8039216,
+        "b": 0.9137255,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.6039216,
+        "g": 0.596078455,
+        "b": 0.7647059,
         "a": 1.0
       }
     }
@@ -1481,7 +1636,31 @@
       "artist": "山山奇"
     },
     {
+      "id": "illustration.ColorfulFlavor.Cansol.0",
+      "artist": "山山奇"
+    },
+    {
       "id": "illustration.Abiogenesis.Juggernaut.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Revenant.Juggernaut.0",
+      "artist": "ゲソきんぐ"
+    },
+    {
+      "id": "illustration.Antler.Juggernaut.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.PuppetShow.MeatyRabbit.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Contortion.PTB10.0",
+      "artist": "破晓buff-夜刃•Ex"
+    },
+    {
+      "id": "altIllustration.MilK.morimoriatsushi.0.0",
       "artist": "山山奇"
     }
   ],
@@ -2225,6 +2404,24 @@
       "designer": "HaraKuma"
     },
     {
+      "id": "chart.ColorfulFlavor.Cansol.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "Colorful Star"
+    },
+    {
+      "id": "chart.ColorfulFlavor.Cansol.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.ColorfulFlavor.Cansol.0.IN",
+      "level": "IN",
+      "difficulty": 13.5,
+      "designer": "Nightful ShinE"
+    },
+    {
       "id": "chart.Abiogenesis.Juggernaut.0.EZ",
       "level": "EZ",
       "difficulty": 1.0,
@@ -2241,6 +2438,78 @@
       "level": "IN",
       "difficulty": 12.0,
       "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.Revenant.Juggernaut.0.EZ",
+      "level": "EZ",
+      "difficulty": 6.0,
+      "designer": "HaraKuma"
+    },
+    {
+      "id": "chart.Revenant.Juggernaut.0.HD",
+      "level": "HD",
+      "difficulty": 10.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.Revenant.Juggernaut.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Antler.Juggernaut.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "满天星"
+    },
+    {
+      "id": "chart.Antler.Juggernaut.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.Antler.Juggernaut.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.PuppetShow.MeatyRabbit.0.EZ",
+      "level": "EZ",
+      "difficulty": 1.0,
+      "designer": "Puppet Shine"
+    },
+    {
+      "id": "chart.PuppetShow.MeatyRabbit.0.HD",
+      "level": "HD",
+      "difficulty": 5.0,
+      "designer": "Puppet kuma"
+    },
+    {
+      "id": "chart.PuppetShow.MeatyRabbit.0.IN",
+      "level": "IN",
+      "difficulty": 9.0,
+      "designer": "Puppet cat"
+    },
+    {
+      "id": "chart.Contortion.PTB10.0.EZ",
+      "level": "EZ",
+      "difficulty": 2.0,
+      "designer": "百九十八"
+    },
+    {
+      "id": "chart.Contortion.PTB10.0.HD",
+      "level": "HD",
+      "difficulty": 8.0,
+      "designer": "南門贰"
+    },
+    {
+      "id": "chart.Contortion.PTB10.0.IN",
+      "level": "IN",
+      "difficulty": 13.0,
+      "designer": "Harakuma"
     }
   ],
   "difficultyColors": [

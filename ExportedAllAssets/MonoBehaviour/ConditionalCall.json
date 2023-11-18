@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 49
+    "m_PathID": 53
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 23
+    "m_PathID": 25
   },
   "m_Name": "",
   "events": [
@@ -21,7 +21,7 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 274
+                "m_PathID": 309
               },
               "m_TargetAssemblyTypeName": "MoneyBarControl, Assembly-CSharp",
               "m_MethodName": "ExpandPurchase",
@@ -54,7 +54,7 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 283
+                "m_PathID": 324
               },
               "m_TargetAssemblyTypeName": "OpenLinkService, Assembly-CSharp",
               "m_MethodName": "OpenLink",
@@ -87,7 +87,7 @@
             {
               "m_Target": {
                 "m_FileID": 0,
-                "m_PathID": 274
+                "m_PathID": 309
               },
               "m_TargetAssemblyTypeName": "MoneyBarControl, Assembly-CSharp",
               "m_MethodName": "ExpandPurchase",

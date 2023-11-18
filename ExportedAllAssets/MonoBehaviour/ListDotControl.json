@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 105
+    "m_PathID": 83
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 0,
-    "m_PathID": 46
+    "m_PathID": 48
   },
   "m_Name": "",
   "controller": {
@@ -15,7 +15,7 @@
   },
   "addressableImageLoader": {
     "m_FileID": 0,
-    "m_PathID": 188
+    "m_PathID": 160
   },
   "level": {
     "id": "",
@@ -50,6 +50,7 @@
       "id": "",
       "artist": ""
     },
+    "altIllustrationInfos": [],
     "chartInfos": [],
     "appearType": 0
   },
@@ -58,14 +59,14 @@
   "goodId": 0,
   "unlockAnim": {
     "m_FileID": 0,
-    "m_PathID": 189
+    "m_PathID": 161
   },
   "toUnlockedState": {
     "m_FileID": 0,
-    "m_PathID": 187
+    "m_PathID": 159
   },
   "unlockedCover": {
     "m_FileID": 0,
-    "m_PathID": 106
+    "m_PathID": 84
   }
 }

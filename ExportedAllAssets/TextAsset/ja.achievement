@@ -59,4 +59,4 @@ ach.[achievement_enthusiast].desc=10種類の実績を獲得する
 ach.[tomaru_n_janee_zo].name=あと少しであの場所に……
 ach.[tomaru_n_janee_zo].title1=絶対諦めない
 ach.[tomaru_n_janee_zo].title2=挑戦者
-ach.[tomaru_n_janee_zo].desc=105%以上の達成率でFailする
+ach.[tomaru_n_janee_zo].desc=難易度14以上の譜面で105%以上の達成率を獲得した状態でFailする

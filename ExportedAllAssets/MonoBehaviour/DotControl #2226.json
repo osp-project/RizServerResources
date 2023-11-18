@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 160
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 35
+  },
+  "m_Name": "",
+  "dotText": {
+    "m_FileID": 0,
+    "m_PathID": 298
+  },
+  "newDotText": {
+    "m_FileID": 0,
+    "m_PathID": 297
+  },
+  "getDotAnime": {
+    "m_FileID": 0,
+    "m_PathID": 303
+  },
+  "tweenStateControl": {
+    "m_FileID": 0,
+    "m_PathID": 304
+  },
+  "getDotDelay": 0.6
+}

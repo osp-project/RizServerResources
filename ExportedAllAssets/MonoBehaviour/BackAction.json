@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 37
+    "m_PathID": 35
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 11
+    "m_PathID": 12
   },
   "m_Name": "",
   "back": {
@@ -15,7 +15,7 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 258
+            "m_PathID": 382
           },
           "m_TargetAssemblyTypeName": "EventTrigger, Assembly-CSharp",
           "m_MethodName": "StartEvents",
@@ -36,11 +36,11 @@
         {
           "m_Target": {
             "m_FileID": 0,
-            "m_PathID": 34
+            "m_PathID": 405
           },
-          "m_TargetAssemblyTypeName": "UnityEngine.GameObject, UnityEngine",
-          "m_MethodName": "SetActive",
-          "m_Mode": 6,
+          "m_TargetAssemblyTypeName": "AddressableAudioSource, Assembly-CSharp",
+          "m_MethodName": "Play",
+          "m_Mode": 1,
           "m_Arguments": {
             "m_ObjectArgument": {
               "m_FileID": 0,
@@ -50,7 +50,7 @@
             "m_IntArgument": 0,
             "m_FloatArgument": 0.0,
             "m_StringArgument": "",
-            "m_BoolArgument": 1
+            "m_BoolArgument": 0
           },
           "m_CallState": 2
         }

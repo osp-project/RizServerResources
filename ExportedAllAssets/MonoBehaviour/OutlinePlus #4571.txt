@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7005573866055671442
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1824831565585172376
+	string m_Name = ""
+	ColorRGBA <Color>k__BackingField
+		float r = 0.5450981
+		float g = 0.6196079
+		float b = 0.6588235
+		float a = 1
+	int <Width>k__BackingField = 4

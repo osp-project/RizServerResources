@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 34
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 4
+  },
+  "m_Name": "",
+  "text": "",
+  "texts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 196
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 162
+    }
+  ],
+  "tmpTexts": []
+}
