@@ -4,7 +4,17 @@
     "coin": 0,
     "dot": 1145,
     "rizcard": {
-        "avatarPos": {}
+        "avatarPos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "avatarId": "illustration.PastelLines.RekuMochizuki.0",
+        "bioId1": "bio.exbio00001.1",
+        "bioId2": "bio.exbio00001.2",
+        "backgroundId": "illustration.PastelLines.RekuMochizuki.0",
+        "layoutId": "layout.00001",
+        "createTime": "1145-14-24T01:01:01.001Z"
     },
     "getProducts": [
         {
@@ -897,6 +907,26 @@
             "preTask": []
         },
         {
+            "id": 20019,
+            "costs": [
+                {
+                    "type": "coin",
+                    "amount": 1
+                }
+            ],
+            "onSalePercent": 1,
+            "assets": [
+                {
+                    "amount": 1,
+                    "type": "track",
+                    "assetId": "track.BringMeBack.Zekk.0"
+                }
+            ],
+            "getLimit": 1,
+            "conditionType": "or",
+            "preTask": []
+        },
+        {
             "id": 30000,
             "costs": [
                 {
@@ -999,41 +1029,6 @@
             "getLimit": 1,
             "conditionType": "or",
             "preTask": []
-        },
-        {
-            "id": 50000,
-            "costs": [
-                {
-                    "type": "coin",
-                    "amount": 3
-                }
-            ],
-            "onSalePercent": 1,
-            "assets": [
-                {
-                    "amount": 1,
-                    "type": "item",
-                    "assetId": "layout.00031"
-                },
-                {
-                    "amount": 1,
-                    "type": "track",
-                    "assetId": "track.BringMeBack.Zekk.0"
-                },
-                {
-                    "amount": 1,
-                    "type": "track",
-                    "assetId": "track.Hullbreaker.Maozon.0"
-                },
-                {
-                    "amount": 1,
-                    "type": "track",
-                    "assetId": "track.DBirth.Sakuzyo.0"
-                }
-            ],
-            "getLimit": 1,
-            "conditionType": "or",
-            "preTask": []
         }
     ],
     "getOwnProducts": [
@@ -1050,9 +1045,209 @@
         {
             "amount": 1,
             "itemAssetId": "event.startEvent"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Enneaquest.SEPHID.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.JourneyToTheRainbows.Ardolf.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Vrtuaresort.seatrus.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.PastelLines.RekuMochizuki.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Gleam.Uske.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.PowerAttack.EBIMAYO.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Antler.Juggernaut.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Revenant.Juggernaut.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Skyscape.Plum.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Polygons.Riya.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.OnAndOn.ETIA.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Abgrund.ElousFZ.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.MidnightFlux.ProjectG.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.NOONEYESMAN.MYUKKE.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ClockParadox.WyvernP.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.FRIEND.DAAN.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Shattered.ARForest.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.SwingSweetTweeDance.Uske.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.SakuraFubuki.Street.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Tempest.Plum.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Dice20.Daily.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.macrowav.dandeless.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.TheNextArcady.SEPHID.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.AuthenticGamever.Rukadesunowheretogo.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.MilK.morimoriatsushi.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Empire.416.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ILLEGALLEGACY.seatrus.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Bamboo.rissyuu.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.RIP.eicateve.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.DropDown.Cosmograph.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Contact.NeutralMoonMK.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.CANDYLAND.Seo.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ArcadeViruZ.AspidCat.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.LINKLINS.Halv.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.LEONIDS.SaMZIngTitanChaos.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.FORTALiCE.ZxNX.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.TurningPOINT.Junk.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ReversedZenith.Synzak.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ParadialResonator.RekuMochizuki.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.RestrictedAccess.Knighthood.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.TheLastPage.ARForest.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.SuperUniverseKnighthoodRemix.Knighthood.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.LavenderLeaffeatLexi.VauBoy.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Abiogenesis.Juggernaut.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.ColorfulFlavor.Cansol.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.Contortion.PTB10.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "altIllustration.MilK.morimoriatsushi.0.0"
+        },
+        {
+            "amount": 1,
+            "itemAssetId": "illustration.PuppetShow.MeatyRabbit.0"
         }
     ],
-    "getOwnAchievements": [],
+    "getOwnAchievements": [
+        {
+            "achievementId": "new_gamer",
+            "amount": 1,
+            "targetAmount": 1,
+            "isSubAchievement": false,
+            "getTime": "1145-14-29T01:01:01.001Z"
+        }
+    ],
     "myBest": [
     ],
     "unlockedLevels": [
@@ -1106,6 +1301,7 @@
         "track.Abiogenesis.Juggernaut.0",
         "track.Revenant.Juggernaut.0",
         "track.Antler.Juggernaut.0",
-        "track.Contortion.PTB10.0"
+        "track.Contortion.PTB10.0",
+        "track.BringMeBack.Zekk.0"
     ]
 }
