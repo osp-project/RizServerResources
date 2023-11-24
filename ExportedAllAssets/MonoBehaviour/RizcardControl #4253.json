@@ -1,0 +1,48 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2427687651032302646
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -8501234460252298781
+  },
+  "m_Name": "",
+  "backgroundImage": {
+    "m_FileID": 0,
+    "m_PathID": 2419985724972794934
+  },
+  "backgroundImageFade": {
+    "m_FileID": 0,
+    "m_PathID": -3944647216446897098
+  },
+  "layoutImage": {
+    "m_FileID": 0,
+    "m_PathID": 7066719129970017334
+  },
+  "avatarLoader": {
+    "m_FileID": 0,
+    "m_PathID": 3725195766001501238
+  },
+  "avatarTransform": {
+    "m_FileID": 0,
+    "m_PathID": 2231805867931075638
+  },
+  "usernameText": {
+    "m_FileID": 0,
+    "m_PathID": 4659619121015948342
+  },
+  "bioText": {
+    "m_FileID": 0,
+    "m_PathID": -5100154599949204426
+  },
+  "border": {
+    "m_FileID": 0,
+    "m_PathID": 8589570504880423990
+  },
+  "bgHideAnim": {
+    "m_FileID": 0,
+    "m_PathID": 480013015584801846
+  }
+}

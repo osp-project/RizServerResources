@@ -1,12 +1,12 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -1068558814669676336
+    "m_PathID": 99
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 0,
-    "m_PathID": 350208831926335389
+    "m_PathID": 11
   },
   "m_Name": "",
   "m_Material": {
@@ -14,9 +14,9 @@
     "m_PathID": 0
   },
   "m_Color": {
-    "r": 1.0,
-    "g": 1.0,
-    "b": 1.0,
+    "r": 0.858823538,
+    "g": 0.917647064,
+    "b": 0.933333337,
     "a": 1.0
   },
   "m_RaycastTarget": 1,
@@ -33,8 +33,8 @@
     }
   },
   "m_Sprite": {
-    "m_FileID": 4,
-    "m_PathID": 215798356688058528
+    "m_FileID": 1,
+    "m_PathID": 6461200915613150283
   },
   "m_Type": 0,
   "m_PreserveAspect": 0,

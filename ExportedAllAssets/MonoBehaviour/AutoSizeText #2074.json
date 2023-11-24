@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 43
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 31
+  },
+  "m_Name": "",
+  "sourceText": {
+    "m_FileID": 0,
+    "m_PathID": 264
+  },
+  "targetRect": {
+    "m_FileID": 0,
+    "m_PathID": 190
+  },
+  "direction": 1,
+  "offset": 40.0
+}

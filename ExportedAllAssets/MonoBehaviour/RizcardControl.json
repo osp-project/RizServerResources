@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 8921532087487783120
+    "m_PathID": -3496723693828269761
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -11,30 +11,38 @@
   "m_Name": "",
   "backgroundImage": {
     "m_FileID": 0,
-    "m_PathID": -7572534071737884464
+    "m_PathID": -5369940285791037121
+  },
+  "backgroundImageFade": {
+    "m_FileID": 0,
+    "m_PathID": 2439676814170102079
   },
   "layoutImage": {
     "m_FileID": 0,
-    "m_PathID": 2081830002423980240
+    "m_PathID": 1363146633338329407
   },
-  "avatarImage": {
+  "avatarLoader": {
     "m_FileID": 0,
-    "m_PathID": -1116802171843878704
+    "m_PathID": 305762353920579903
   },
   "avatarTransform": {
     "m_FileID": 0,
-    "m_PathID": -8741896381883129648
+    "m_PathID": 8206573382765943103
   },
   "usernameText": {
     "m_FileID": 0,
-    "m_PathID": -777334089867042608
+    "m_PathID": -7821292463824201409
   },
   "bioText": {
     "m_FileID": 0,
-    "m_PathID": 255515270221422800
+    "m_PathID": 746910431040346431
   },
   "border": {
     "m_FileID": 0,
-    "m_PathID": 7001861904405389520
+    "m_PathID": -108178830678320833
+  },
+  "bgHideAnim": {
+    "m_FileID": 0,
+    "m_PathID": -4203873896798906049
   }
 }

@@ -65,8 +65,8 @@ settings.judgeOffsetHint=*Late 較多時增加，Early 較多時減少
 settings.advancedOffsetConfig=詳細校正設定
 settings.tutorial=觀看教學
 
-player.noRank=暫無
-player.bio=初出茅廬的新手
+player.noRank=無
+player.defaultBio=初來乍到的新手
 
 gameStart.title=輕按以開始
 mainMenu.play=開始
@@ -129,6 +129,7 @@ events.DSEvent.layoutSubtitle={+} 動態效果
 events.DSEvent.purchase=購買
 events.DSEvent.purchased=已購買
 events.DSEvent.desc=*預購結束後，預購特典款式將在商店隨機出現，價格2000Dot。
+events.DSEvent.buyHint=可前往 Disc EX 購買
 events.DSEvent.clickToClose=輕觸空白處關閉
 
 purchase.successTitle=資訊
@@ -146,7 +147,7 @@ purchase.unlocked=已解鎖
 purchase.buyDotsTitle=兌換 Dot
 purchase.buyDotsText=要使用 1 個 Coin 兌換 500 個 Dot 嗎？
 purchase.spendMoneyTitle=使用 {0} 購買
-purchase.spendMoneyText=要使用 {0} 個 {1} 購買嗎？
+purchase.spendMoneyText=要使用 {1} 個 {0} 購買嗎？
 purchase.jumpToBuy=前往購買
 
 collections.shop=商店
@@ -165,11 +166,18 @@ collections.bio=稱號
 collections.bio.emptyHint=無稱號
 collections.bio.countTitle=擁有稱號
 collections.bio.count={0} 個
+collections.bio.setBio=更新個人稱號
 collections.illustration=插畫
 collections.illustration.emptyHint=無插畫
 collections.illustration.dropItemHint=獲得了新的插畫！
+collections.illustration.setAvatar=設定為頭貼
+collections.illustration.setAvatarHint=移動和縮放
+collections.illustration.setAvatarOver=完成
 collections.layout=版式
 collections.layout.emptyHint=無版式
 collections.layout.dropItemHint=獲得了新的版式！
 collections.layoutHint=版式及相關功能將在近期推出{NL}敬請期待！
+collections.layout.makeCard=以此版式開始製卡
+collections.layout.selectBG=選擇Rizcard的背景
+collections.layout.makeCardConfirm=要這樣製作卡片嗎？
 collections.touchToContinue=輕觸螢幕繼續

@@ -11,15 +11,19 @@
   "m_Name": "",
   "backgroundImage": {
     "m_FileID": 0,
-    "m_PathID": 8194674157291763302
+    "m_PathID": 9212512652604929638
+  },
+  "backgroundImageFade": {
+    "m_FileID": 0,
+    "m_PathID": 9038349652310488678
   },
   "layoutImage": {
     "m_FileID": 0,
     "m_PathID": -4567489748090816922
   },
-  "avatarImage": {
+  "avatarLoader": {
     "m_FileID": 0,
-    "m_PathID": 8180180680938681958
+    "m_PathID": -6968202495719508378
   },
   "avatarTransform": {
     "m_FileID": 0,
@@ -36,6 +40,10 @@
   "border": {
     "m_FileID": 0,
     "m_PathID": 7520274099741914726
+  },
+  "bgHideAnim": {
+    "m_FileID": 0,
+    "m_PathID": -8423276228657351066
   },
   "shadowAnimation": {
     "m_FileID": 0,

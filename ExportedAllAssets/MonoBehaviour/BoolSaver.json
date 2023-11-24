@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 39
+    "m_PathID": 40
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -9,6 +9,6 @@
     "m_PathID": 13
   },
   "m_Name": "",
-  "key": "DSEventSceneOpened_p0_{uid}",
+  "key": "DSEventSceneOpened_p1_{uid}",
   "value": 1
 }

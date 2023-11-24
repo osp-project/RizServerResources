@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 10
+    "m_PathID": 51
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -9,7 +9,7 @@
     "m_PathID": 30
   },
   "m_Name": "",
-  "clipKey": "Assets/GameAssets/CRIAsset/rizline_play_button_choice_1.acb",
+  "clipKey": "Assets/GameAssets/CRIAsset/rizline_main_button_BackToMainMenu_1.acb",
   "clipFile": {
     "m_FileID": 0,
     "m_PathID": 0
@@ -20,7 +20,7 @@
   "volume": 1.0,
   "time": 0.0,
   "needClipLength": 0,
-  "playOnAwake": 1,
+  "playOnAwake": 0,
   "fadeInTime": 0.0,
   "fadeOutTime": 0.0,
   "useSyncedTimer": 0,

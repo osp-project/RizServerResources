@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 3
+    "m_PathID": 86
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -14,10 +14,10 @@
     "m_PathID": 0
   },
   "m_Color": {
-    "r": 0.858823538,
-    "g": 0.9647059,
-    "b": 1.0,
-    "a": 0.6392157
+    "r": 0.921568632,
+    "g": 0.968627453,
+    "b": 0.992156863,
+    "a": 1.0
   },
   "m_RaycastTarget": 1,
   "m_RaycastPadding": {
@@ -40,9 +40,9 @@
   "detailTR": -1.0,
   "detailBL": -1.0,
   "detailBR": -1.0,
-  "radius": 100.0,
-  "radiusTL": -1.0,
+  "radius": 0.0,
+  "radiusTL": 34.0,
   "radiusTR": -1.0,
-  "radiusBL": -1.0,
+  "radiusBL": 34.0,
   "radiusBR": -1.0
 }

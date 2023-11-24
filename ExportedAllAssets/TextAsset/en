@@ -66,7 +66,7 @@ settings.advancedOffsetConfig=Advanced offset settings
 settings.tutorial=Watch tutorial
 
 player.noRank=None
-player.bio=Newcomer
+player.defaultBio=Inexperienced Newcomer
 
 gameStart.title=Touch to start
 mainMenu.play=Start
@@ -129,6 +129,7 @@ events.DSEvent.layoutSubtitle={+} Animated
 events.DSEvent.purchase=Buy
 events.DSEvent.purchased=Purchased
 events.DSEvent.desc=*After pre-sale, the special layout may be sold from the shop for 2000 Dots.
+events.DSEvent.buyHint=Available at Disc EX
 events.DSEvent.clickToClose=Tap to close
 
 purchase.successTitle=Notice
@@ -145,8 +146,8 @@ purchase.unlock=Unlock
 purchase.unlocked=Unlocked
 purchase.buyDotsTitle=Exchange for Dots
 purchase.buyDotsText=Exchange 1 Coin for 500 Dots?
-purchase.spendMoneyTitle=Purchase with {0}s
-purchase.spendMoneyText=Are you sure to buy this item with {0} {1}s?
+purchase.spendMoneyTitle={AF:type,count}Purchase with {type}{count>1?s}
+purchase.spendMoneyText={AF:type,count}Are you sure to buy this item with {count} {type}{count>1?s}?
 purchase.jumpToBuy=View
 
 collections.shop=Shop
@@ -165,11 +166,18 @@ collections.bio=Bio
 collections.bio.emptyHint=No tag yet
 collections.bio.countTitle=Tags owned
 collections.bio.count={0}
+collections.bio.setBio=Update personal bio
 collections.illustration=Arts
 collections.illustration.emptyHint=No Art yet
 collections.illustration.dropItemHint=New Art!
+collections.illustration.setAvatar=Set as avatar
+collections.illustration.setAvatarHint=Moving and zooming
+collections.illustration.setAvatarOver=Finish
 collections.layout=Layouts
 collections.layout.emptyHint=No layout yet
 collections.layout.dropItemHint=New layout!
 collections.layoutHint=Layouts and related features{NL}coming soon!
+collections.layout.makeCard=Start with this layout
+collections.layout.selectBG=Choose background for Rizcard
+collections.layout.makeCardConfirm=Sure to make card like this?
 collections.touchToContinue=Tap to continue

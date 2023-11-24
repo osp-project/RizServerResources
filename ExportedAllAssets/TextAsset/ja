@@ -66,7 +66,7 @@ settings.advancedOffsetConfig=タイミング詳細設定
 settings.tutorial=チュートリアルを見る
 
 player.noRank=未定
-player.bio=始めたての新人
+player.defaultBio=来たばかりの新人
 
 gameStart.title=Touch to start
 mainMenu.play=始める
@@ -129,6 +129,7 @@ events.DSEvent.layoutSubtitle={+} アニメーション効果
 events.DSEvent.purchase=購入
 events.DSEvent.purchased=購入済み
 events.DSEvent.desc=*予約期間終了後、特典レイアウトは 2000 Dot の値段でショップにてランダムに再登場します。
+events.DSEvent.buyHint=Disc EX にて購入可能
 events.DSEvent.clickToClose=余白をタップして閉じる
 
 purchase.successTitle=案内
@@ -146,7 +147,7 @@ purchase.unlocked=解禁済み
 purchase.buyDotsTitle=Dot交換
 purchase.buyDotsText=1Coinを使って500Dotと交換しますか？
 purchase.spendMoneyTitle={0} で購入する
-purchase.spendMoneyText={0} {1} で購入しますか？
+purchase.spendMoneyText={1} {0} で購入しますか？
 purchase.jumpToBuy=購入に進む
 
 collections.shop=ショップ
@@ -165,11 +166,18 @@ collections.bio=称号
 collections.bio.emptyHint=称号なし
 collections.bio.countTitle=獲得済み
 collections.bio.count={0} 個
+collections.bio.setBio=個人称号を更新
 collections.illustration=イラスト
 collections.illustration.emptyHint=イラストなし
 collections.illustration.dropItemHint=新しいイラストを解禁！
+collections.illustration.setAvatar=アイコンにする
+collections.illustration.setAvatarHint=移動・拡大縮小
+collections.illustration.setAvatarOver=決定
 collections.layout=レイアウト
 collections.layout.emptyHint=レイアウトなし
 collections.layout.dropItemHint=新しいレイアウトを解禁！
 collections.layoutHint=レイアウトなどは近日中に実装{NL}お楽しみに！
+collections.layout.makeCard=このレイアウトで始める
+collections.layout.selectBG=Rizcardの背景を選んでください
+collections.layout.makeCardConfirm=このカードを作成しますか？
 collections.touchToContinue=タップして次へ
