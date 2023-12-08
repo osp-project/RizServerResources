@@ -11,7 +11,7 @@
   "m_Name": "",
   "targetComponent": {
     "m_FileID": 0,
-    "m_PathID": 127
+    "m_PathID": 0
   },
   "duration": 0.5,
   "delay": 0.0,
@@ -19,21 +19,21 @@
   "curve": {
     "m_Curve": [
       {
-        "time": -0.000900268555,
-        "value": 0.00140380859,
-        "inSlope": 4.85367441,
-        "outSlope": 4.85367441,
+        "time": 0.0,
+        "value": 0.0,
+        "inSlope": 8.71711,
+        "outSlope": 8.71711,
         "weightedMode": 3,
-        "inWeight": 0.333333343,
-        "outWeight": 0.2911688
+        "inWeight": 0.0,
+        "outWeight": 0.105226964
       },
       {
         "time": 1.0,
         "value": 1.0,
-        "inSlope": 0.003862246,
-        "outSlope": 0.003862246,
+        "inSlope": 0.0,
+        "outSlope": 0.0,
         "weightedMode": 3,
-        "inWeight": 0.5164667,
+        "inWeight": 0.848693252,
         "outWeight": 0.0
       }
     ],
@@ -41,17 +41,17 @@
     "m_PostInfinity": 2,
     "m_RotationOrder": 4
   },
-  "tweenType": 1,
+  "tweenType": 12,
   "useOnStart": 0,
   "useOnComplete": 0,
-  "target": 0.0,
+  "target": 6.0,
   "target2": {
     "x": 0.0,
     "y": 0.0
   },
   "target3": {
     "x": 0.0,
-    "y": 313.0,
+    "y": 0.0,
     "z": 0.0
   },
   "targetColor": {
@@ -72,11 +72,33 @@
   },
   "onTween": {
     "m_PersistentCalls": {
-      "m_Calls": []
+      "m_Calls": [
+        {
+          "m_Target": {
+            "m_FileID": 0,
+            "m_PathID": 184
+          },
+          "m_TargetAssemblyTypeName": "Lean.Gui.LeanCircle, LeanGUIShapes",
+          "m_MethodName": "set_Thickness",
+          "m_Mode": 0,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0.0,
+            "m_StringArgument": "",
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
     }
   },
   "nowTime": 0.0,
-  "startValue": 0.0,
+  "startValue": 3.0,
   "startColor": {
     "r": 0.0,
     "g": 0.0,

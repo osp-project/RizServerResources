@@ -5,7 +5,7 @@ system.stayTuned=乞うご期待
 system.updateFailedTitle=アップデート失敗
 system.updateFailedText=アップデートできませんでした。ネットワーク接続を確認してください。
 system.checkForUpdatesFailed=アップデート検証できませんでした
-system.loading=Loading...
+system.loading=ロード中...
 system.quitGameTitle=ゲームを終了する
 system.quitGameText=ゲームを終了してよろしいですか？
 system.sendingRequest=接続中
@@ -68,7 +68,7 @@ settings.tutorial=チュートリアルを見る
 player.noRank=未定
 player.defaultBio=来たばかりの新人
 
-gameStart.title=Touch to start
+gameStart.title=タッチして始める
 mainMenu.play=始める
 mainMenu.multiplayer=マルチプレイ
 mainMenu.shop=ショップ

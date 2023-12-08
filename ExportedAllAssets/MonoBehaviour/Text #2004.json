@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 1
+    "m_PathID": 12
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -14,9 +14,9 @@
     "m_PathID": 0
   },
   "m_Color": {
-    "r": 0.396078467,
-    "g": 0.8431373,
-    "b": 0.988235354,
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
     "a": 1.0
   },
   "m_RaycastTarget": 1,
@@ -34,20 +34,20 @@
   },
   "m_FontData": {
     "m_Font": {
-      "m_FileID": 3,
-      "m_PathID": 723696269728235858
+      "m_FileID": 6,
+      "m_PathID": -2650364783395425384
     },
-    "m_FontSize": 83,
+    "m_FontSize": 32,
     "m_FontStyle": 0,
     "m_BestFit": 0,
-    "m_MinSize": 6,
-    "m_MaxSize": 84,
+    "m_MinSize": 4,
+    "m_MaxSize": 43,
     "m_Alignment": 4,
-    "m_AlignByGeometry": 0,
+    "m_AlignByGeometry": 1,
     "m_RichText": 1,
     "m_HorizontalOverflow": 1,
     "m_VerticalOverflow": 0,
     "m_LineSpacing": 1.0
   },
-  "m_Text": "[buy_count]<size=32>份</size>"
+  "m_Text": ""
 }

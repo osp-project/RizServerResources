@@ -585,6 +585,30 @@
       ],
       "appearType": 0,
       "discName": "Disc EX"
+    },
+    {
+      "id": "Hullbreaker.Maozon.0",
+      "musicId": "Hullbreaker.Maozon.0",
+      "illustrationId": "illustration.Hullbreaker.Maozon.0",
+      "chartIds": [
+        "chart.Hullbreaker.Maozon.0.EZ",
+        "chart.Hullbreaker.Maozon.0.HD",
+        "chart.Hullbreaker.Maozon.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
+    },
+    {
+      "id": "DBirth.Sakuzyo.0",
+      "musicId": "DBirth.Sakuzyo.0",
+      "illustrationId": "illustration.DBirth.Sakuzyo.0",
+      "chartIds": [
+        "chart.DBirth.Sakuzyo.0.EZ",
+        "chart.DBirth.Sakuzyo.0.HD",
+        "chart.DBirth.Sakuzyo.0.IN"
+      ],
+      "appearType": 0,
+      "discName": "Disc EX"
     }
   ],
   "musics": [
@@ -1499,6 +1523,44 @@
         "b": 0.4627451,
         "a": 1.0
       }
+    },
+    {
+      "id": "Hullbreaker.Maozon.0",
+      "musicName": "Hullbreaker",
+      "artist": "Maozon",
+      "previewStartTime": 22.314,
+      "previewOverTime": 42.314,
+      "themeBackgroundColor": {
+        "r": 0.8235294,
+        "g": 0.8235294,
+        "b": 0.8156863,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.482352942,
+        "g": 0.7294118,
+        "b": 0.75686276,
+        "a": 1.0
+      }
+    },
+    {
+      "id": "DBirth.Sakuzyo.0",
+      "musicName": "D-Birth",
+      "artist": "Sakuzyo (Violin: Katali)",
+      "previewStartTime": 91.406,
+      "previewOverTime": 111.406,
+      "themeBackgroundColor": {
+        "r": 0.9490196,
+        "g": 0.956862748,
+        "b": 0.9529412,
+        "a": 1.0
+      },
+      "themeUiColor": {
+        "r": 0.4392157,
+        "g": 0.5568628,
+        "b": 0.6666667,
+        "a": 1.0
+      }
     }
   ],
   "illustrations": [
@@ -1692,6 +1754,14 @@
     },
     {
       "id": "illustration.BringMeBack.Zekk.0",
+      "artist": "山山奇"
+    },
+    {
+      "id": "illustration.Hullbreaker.Maozon.0",
+      "artist": "汉堡"
+    },
+    {
+      "id": "illustration.DBirth.Sakuzyo.0",
       "artist": "山山奇"
     },
     {
@@ -2563,6 +2633,42 @@
       "level": "IN",
       "difficulty": 13.0,
       "designer": "Bring You Dawn"
+    },
+    {
+      "id": "chart.Hullbreaker.Maozon.0.EZ",
+      "level": "EZ",
+      "difficulty": 3.0,
+      "designer": "超坏星"
+    },
+    {
+      "id": "chart.Hullbreaker.Maozon.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "破坏熊"
+    },
+    {
+      "id": "chart.Hullbreaker.Maozon.0.IN",
+      "level": "IN",
+      "difficulty": 12.5,
+      "designer": "破浪者"
+    },
+    {
+      "id": "chart.DBirth.Sakuzyo.0.EZ",
+      "level": "EZ",
+      "difficulty": 5.0,
+      "designer": "H-Kuma"
+    },
+    {
+      "id": "chart.DBirth.Sakuzyo.0.HD",
+      "level": "HD",
+      "difficulty": 9.0,
+      "designer": "E-Shin"
+    },
+    {
+      "id": "chart.DBirth.Sakuzyo.0.IN",
+      "level": "IN",
+      "difficulty": 14.0,
+      "designer": "S-满天星"
     }
   ],
   "difficultyColors": [

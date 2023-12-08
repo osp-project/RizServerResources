@@ -1,40 +1,21 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 40
+    "m_PathID": 17
   },
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 27
+    "m_PathID": 23
   },
   "m_Name": "",
   "backEventTrigger": {
     "m_FileID": 0,
-    "m_PathID": 200
+    "m_PathID": 90
   },
-  "presaleTimeText": {
+  "changePosterAnimator": {
     "m_FileID": 0,
-    "m_PathID": 152
+    "m_PathID": 25
   },
-  "layoutContent": {
-    "m_FileID": 0,
-    "m_PathID": 93
-  },
-  "breathingOverlay": {
-    "m_FileID": 0,
-    "m_PathID": 131
-  },
-  "unlockButton": {
-    "m_FileID": 0,
-    "m_PathID": 46
-  },
-  "unlockedButton": {
-    "m_FileID": 0,
-    "m_PathID": 17
-  },
-  "paymentService": {
-    "m_FileID": 0,
-    "m_PathID": 221
-  }
+  "enterSceneKey": "DSEventSceneOpened_p3_{uid}"
 }

@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -8385853728786730958
+    "m_PathID": 4991244676353297011
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -33,8 +33,8 @@
     }
   },
   "m_Sprite": {
-    "m_FileID": 2,
-    "m_PathID": 215798356688058528
+    "m_FileID": 3,
+    "m_PathID": 2446087115905194334
   },
   "m_Type": 0,
   "m_PreserveAspect": 0,

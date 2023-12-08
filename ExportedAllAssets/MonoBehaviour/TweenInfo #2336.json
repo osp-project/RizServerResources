@@ -1,19 +1,19 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 2012918394410420458
+    "m_PathID": 17
   },
   "m_Enabled": 1,
   "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3400912871967986507
+    "m_FileID": 1,
+    "m_PathID": 14
   },
   "m_Name": "",
   "targetComponent": {
     "m_FileID": 0,
-    "m_PathID": 914676767188699370
+    "m_PathID": 53
   },
-  "duration": 0.5,
+  "duration": 0.3,
   "delay": 0.0,
   "easeType": 0,
   "curve": {

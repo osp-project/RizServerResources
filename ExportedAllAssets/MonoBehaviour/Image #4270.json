@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": -7111713374334024650
+    "m_PathID": 7139335972335656594
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -33,8 +33,8 @@
     }
   },
   "m_Sprite": {
-    "m_FileID": 0,
-    "m_PathID": 0
+    "m_FileID": 2,
+    "m_PathID": 6461200915613150283
   },
   "m_Type": 0,
   "m_PreserveAspect": 0,
@@ -44,5 +44,5 @@
   "m_FillClockwise": 1,
   "m_FillOrigin": 0,
   "m_UseSpriteMesh": 0,
-  "m_PixelsPerUnitMultiplier": 3.2
+  "m_PixelsPerUnitMultiplier": 1.0
 }

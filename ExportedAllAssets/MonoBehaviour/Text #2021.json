@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 13
+    "m_PathID": 22
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -14,9 +14,9 @@
     "m_PathID": 0
   },
   "m_Color": {
-    "r": 0.196078435,
-    "g": 0.196078435,
-    "b": 0.196078435,
+    "r": 0.2509804,
+    "g": 0.8117648,
+    "b": 1.0,
     "a": 1.0
   },
   "m_RaycastTarget": 1,
@@ -37,17 +37,17 @@
       "m_FileID": 3,
       "m_PathID": 723696269728235858
     },
-    "m_FontSize": 28,
+    "m_FontSize": 32,
     "m_FontStyle": 0,
     "m_BestFit": 0,
-    "m_MinSize": 2,
-    "m_MaxSize": 44,
-    "m_Alignment": 0,
-    "m_AlignByGeometry": 0,
+    "m_MinSize": 3,
+    "m_MaxSize": 40,
+    "m_Alignment": 4,
+    "m_AlignByGeometry": 1,
     "m_RichText": 1,
     "m_HorizontalOverflow": 0,
     "m_VerticalOverflow": 0,
     "m_LineSpacing": 1.0
   },
-  "m_Text": "目前我们团队的经济状况十分困难。如果无法提高收入，可能会难以支持游戏持续更新。如果您喜欢我们的游戏，可以购买这首单曲。全球购买每达到10000份，我们会在其后的第一个周五在此处更新一首新的曲目。感谢各位玩家的支持！"
+  "m_Text": "下一首更新 : [date_time]"
 }

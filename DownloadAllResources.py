@@ -2,7 +2,7 @@ import requests
 import os
 import json
 
-res_version = "v1_0_14_905527b610"
+res_version = "v1_0_15_4561e57133"
 
 # 设置请求头，模拟游戏访问
 headers = {

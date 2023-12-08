@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 41
+    "m_PathID": 34
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -15,11 +15,11 @@
   },
   "tracks1": {
     "m_FileID": 0,
-    "m_PathID": 271
+    "m_PathID": 229
   },
   "tracks2": {
     "m_FileID": 0,
-    "m_PathID": 255
+    "m_PathID": 269
   },
   "gap": 285.0,
   "speed": 50.0
